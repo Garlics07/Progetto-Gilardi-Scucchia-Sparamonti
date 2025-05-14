@@ -31,40 +31,6 @@ sport-analytics/
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
-- Python 3.8+
+- Node.js 
 - MongoDB
 - npm or yarn
-
-### Installation
-
-1. Clone the repository
-2. Install frontend dependencies:
-   ```bash
-   cd frontend
-   npm install
-   ```
-3. Install backend dependencies:
-   ```bash
-   cd backend
-   npm install
-   ```
-4. Install data collection dependencies:
-   ```bash
-   cd data-collection
-   pip install -r requirements.txt
-   ```
-
-### Running the Application
-
-1. Start MongoDB service
-2. Start the backend server:
-   ```bash
-   cd backend
-   npm run dev
-   ```
-3. Start the frontend development server:
-   ```bash
-   cd frontend
-   npm start
-   ```
