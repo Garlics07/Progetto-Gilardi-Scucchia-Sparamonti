@@ -12,10 +12,10 @@ A comprehensive sports analytics platform that provides data-driven insights for
 
 ## Tech Stack
 
-- Frontend: React + TypeScript + Tailwind CSS
-- Backend: Node.js + Express + TypeScript
+- Frontend: React + JavaScript + Tailwind CSS
+- Backend: Node.js + Express + JavaScript
 - Database: MongoDB
-- Data Collection: Python
+- Data Collection: ..........
 
 ## Project Structure
 
@@ -23,7 +23,7 @@ A comprehensive sports analytics platform that provides data-driven insights for
 sport-analytics/
 ├── frontend/           # React frontend application
 ├── backend/           # Node.js backend server
-├── data-collection/   # Python scripts for data collection
+├── data-collection/   
 └── docs/             # Project documentation
 ```
 
@@ -68,12 +68,3 @@ sport-analytics/
    cd frontend
    npm start
    ```
-4. Run data collection scripts:
-   ```bash
-   cd data-collection
-   python main.py
-   ```
-
-## API Documentation
-
-The API documentation is available at `/api/docs` when running the backend server.
