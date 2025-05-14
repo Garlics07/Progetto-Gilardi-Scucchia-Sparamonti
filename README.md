@@ -77,7 +77,3 @@ sport-analytics/
 ## API Documentation
 
 The API documentation is available at `/api/docs` when running the backend server.
-
-## License
-
-MIT 
