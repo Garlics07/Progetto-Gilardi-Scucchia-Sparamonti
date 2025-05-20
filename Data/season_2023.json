@@ -1,0 +1,3803 @@
+{
+    "id": "2023",
+    "season_id": "sr:stage:1066641",
+    "description": "Indycar 2023",
+    "total_races": 8,
+    "generated_at": "2025-05-20T20:01:55+00:00",
+    "season_info": {
+        "id": "sr:stage:1066641",
+        "description": "Indycar 2023",
+        "scheduled": "2023-03-03T20:00:00+00:00",
+        "scheduled_end": "2023-09-10T22:00:00+00:00",
+        "type": "season",
+        "category": {
+            "id": "sr:category:453",
+            "name": "Indycar"
+        },
+        "sport": {
+            "id": "sr:sport:129",
+            "name": "Indy Racing"
+        }
+    },
+    "races": [
+        {
+            "id": "1",
+            "stage_id": "sr:stage:1066643",
+            "description": "Grand Prix of St. Petersburg",
+            "scheduled": "2023-03-03T20:00:00+00:00",
+            "scheduled_end": "2023-03-05T19:30:00+00:00",
+            "status": "Closed",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:19653",
+                "name": "Streets of St. Petersburg",
+                "city": "St. Petersburg, FL",
+                "country": "USA",
+                "coordinates": "27.766442,-82.629573",
+                "country_code": "USA",
+                "curves_right": 9,
+                "curves_left": 5,
+                "debut": 1985,
+                "url_official": "http://gpstpete.com/",
+                "length": 2897,
+                "timezone": "America/New_York"
+            },
+            "unique_stage_id": "sr:stage_unique:467",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2025-05-20T20:01:56+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1066643",
+                    "description": "Grand Prix of St. Petersburg",
+                    "scheduled": "2023-03-03T20:00:00+00:00",
+                    "scheduled_end": "2023-03-05T19:30:00+00:00",
+                    "type": "event",
+                    "status": "Closed",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:19653",
+                        "name": "Streets of St. Petersburg",
+                        "city": "St. Petersburg, FL",
+                        "country": "USA",
+                        "coordinates": "27.766442,-82.629573",
+                        "country_code": "USA",
+                        "curves_right": 9,
+                        "curves_left": 5,
+                        "debut": 1985,
+                        "url_official": "http://gpstpete.com/",
+                        "length": 2897,
+                        "timezone": "America/New_York"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1066641",
+                            "description": "Indycar 2023",
+                            "scheduled": "2023-03-03T20:00:00+00:00",
+                            "scheduled_end": "2023-09-10T22:00:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1066645",
+                            "description": "Practice 1",
+                            "scheduled": "2023-03-03T20:00:00+00:00",
+                            "scheduled_end": "2023-03-03T21:15:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1066647",
+                            "description": "Practice 2",
+                            "scheduled": "2023-03-04T15:00:00+00:00",
+                            "scheduled_end": "2023-03-04T16:00:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1066663",
+                            "description": "Qualification",
+                            "scheduled": "2023-03-04T19:15:00+00:00",
+                            "scheduled_end": "2023-03-04T20:30:00+00:00",
+                            "type": "qualifying",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1066673",
+                            "description": "Race",
+                            "scheduled": "2023-03-05T17:20:00+00:00",
+                            "scheduled_end": "2023-03-05T19:30:00+00:00",
+                            "type": "race",
+                            "status": "Closed",
+                            "race_cautions": 5,
+                            "lead_changes": 6,
+                            "lead_drivers": 6,
+                            "caution_laps": 26,
+                            "laps": 100,
+                            "laps_completed": 100,
+                            "single_event": false
+                        }
+                    ],
+                    "competitors": [
+                        {
+                            "id": "sr:competitor:136140",
+                            "name": "Ericsson, Marcus",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 51,
+                                "position": 1,
+                                "car_number": 8
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502754",
+                            "name": "O’Ward, Pato",
+                            "gender": "male",
+                            "nationality": "Mexico",
+                            "country_code": "MEX",
+                            "result": {
+                                "points": 41,
+                                "position": 2,
+                                "car_number": 5
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320091",
+                            "name": "Dixon, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 36,
+                                "position": 3,
+                                "car_number": 9
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:70150",
+                            "name": "Rossi, Alexander",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 32,
+                                "position": 4,
+                                "car_number": 7
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:749737",
+                            "name": "Ilott, Callum",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 30,
+                                "position": 5,
+                                "car_number": 77
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321553",
+                            "name": "Rahal, Graham",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 28,
+                                "position": 6,
+                                "car_number": 15
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321551",
+                            "name": "Power, Will",
+                            "gender": "male",
+                            "nationality": "Australia",
+                            "country_code": "AUS",
+                            "result": {
+                                "points": 26,
+                                "position": 7,
+                                "car_number": 12
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:677077",
+                            "name": "Palou, Alex",
+                            "gender": "male",
+                            "nationality": "Spain",
+                            "country_code": "ESP",
+                            "result": {
+                                "points": 24,
+                                "position": 8,
+                                "car_number": 10
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:826994",
+                            "name": "Lundgaard, Christian",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 22,
+                                "position": 9,
+                                "car_number": 45
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552753",
+                            "name": "Malukas, David",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 21,
+                                "position": 10,
+                                "car_number": 18
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986533",
+                            "name": "Armstrong, Marcus",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 19,
+                                "position": 11,
+                                "car_number": 11
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986535",
+                            "name": "Canapino, Agustin Hugo",
+                            "gender": "male",
+                            "nationality": "Argentina",
+                            "country_code": "ARG",
+                            "result": {
+                                "points": 18,
+                                "position": 12,
+                                "car_number": 78
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:562176",
+                            "name": "McLaughlin, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 20,
+                                "position": 13,
+                                "car_number": 3
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320093",
+                            "name": "Daly, Conor",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 16,
+                                "position": 14,
+                                "car_number": 20
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:687809",
+                            "name": "Kirkwood, Kyle",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 15,
+                                "position": 15,
+                                "car_number": 27
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785846",
+                            "name": "Robb, Sting Ray",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 14,
+                                "position": 16,
+                                "car_number": 51
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321545",
+                            "name": "Newgarden, Josef",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 13,
+                                "position": 17,
+                                "car_number": 2
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:37294",
+                            "name": "Grosjean, Romain",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 14,
+                                "position": 18,
+                                "car_number": 28
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:417085",
+                            "name": "Rosenqvist, Felix",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 11,
+                                "position": 19,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502752",
+                            "name": "Herta, Colton",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 10,
+                                "position": 20,
+                                "car_number": 26
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552747",
+                            "name": "Veekay, Rinus",
+                            "gender": "male",
+                            "nationality": "Netherlands",
+                            "country_code": "NLD",
+                            "result": {
+                                "points": 9,
+                                "position": 21,
+                                "car_number": 21
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:336795",
+                            "name": "Harvey, Jack",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 8,
+                                "position": 22,
+                                "car_number": 30
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321525",
+                            "name": "Castroneves, Helio",
+                            "gender": "male",
+                            "nationality": "Brazil",
+                            "country_code": "BRA",
+                            "result": {
+                                "points": 7,
+                                "position": 23,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:444202",
+                            "name": "Ferrucci, Santino",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 6,
+                                "position": 24,
+                                "car_number": 14
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785838",
+                            "name": "DeFrancesco, Devlin",
+                            "gender": "male",
+                            "nationality": "Canada",
+                            "country_code": "CAN",
+                            "result": {
+                                "points": 5,
+                                "position": 25,
+                                "car_number": 29
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321547",
+                            "name": "Pagenaud, Simon",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 5,
+                                "position": 26,
+                                "car_number": 60
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785842",
+                            "name": "Pedersen, Benjamin",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 5,
+                                "position": 27,
+                                "car_number": 55
+                            }
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:467"
+                }
+            }
+        },
+        {
+            "id": "2",
+            "stage_id": "sr:stage:1067275",
+            "description": "Grand Prix of Texas Race",
+            "scheduled": "2023-04-01T13:00:00+00:00",
+            "scheduled_end": "2023-04-02T18:40:00+00:00",
+            "status": "Closed",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1642",
+                "name": "Texas Motor Speedway",
+                "city": "Fort Worth, TX",
+                "country": "USA",
+                "coordinates": "33.035554,-97.278146",
+                "country_code": "USA",
+                "curves_left": 4,
+                "curves_right": 0,
+                "length": 2320,
+                "url_official": "https://www.texasmotorspeedway.com/",
+                "debut": 1996,
+                "timezone": "America/Chicago"
+            },
+            "unique_stage_id": "sr:stage_unique:479",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2025-05-20T20:01:57+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1067275",
+                    "description": "Grand Prix of Texas Race",
+                    "scheduled": "2023-04-01T13:00:00+00:00",
+                    "scheduled_end": "2023-04-02T18:40:00+00:00",
+                    "type": "event",
+                    "status": "Closed",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:1642",
+                        "name": "Texas Motor Speedway",
+                        "city": "Fort Worth, TX",
+                        "country": "USA",
+                        "coordinates": "33.035554,-97.278146",
+                        "country_code": "USA",
+                        "curves_left": 4,
+                        "curves_right": 0,
+                        "length": 2320,
+                        "url_official": "https://www.texasmotorspeedway.com/",
+                        "debut": 1996,
+                        "timezone": "America/Chicago"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1066641",
+                            "description": "Indycar 2023",
+                            "scheduled": "2023-03-03T20:00:00+00:00",
+                            "scheduled_end": "2023-09-10T22:00:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1067277",
+                            "description": "Practice 1",
+                            "scheduled": "2023-04-01T13:00:00+00:00",
+                            "scheduled_end": "2023-04-01T14:00:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1067295",
+                            "description": "Qualification",
+                            "scheduled": "2023-04-01T16:15:00+00:00",
+                            "scheduled_end": "2023-04-01T17:15:00+00:00",
+                            "type": "qualifying",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1067279",
+                            "description": "Practice 2",
+                            "scheduled": "2023-04-01T18:30:00+00:00",
+                            "scheduled_end": "2023-04-01T19:30:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1067305",
+                            "description": "Race",
+                            "scheduled": "2023-04-02T16:10:00+00:00",
+                            "scheduled_end": "2023-04-02T18:40:00+00:00",
+                            "type": "race",
+                            "status": "Closed",
+                            "race_cautions": 5,
+                            "lead_changes": 26,
+                            "lead_drivers": 8,
+                            "caution_laps": 52,
+                            "laps": 250,
+                            "laps_completed": 250,
+                            "single_event": false
+                        }
+                    ],
+                    "competitors": [
+                        {
+                            "id": "sr:competitor:321545",
+                            "name": "Newgarden, Josef",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 53,
+                                "position": 1,
+                                "car_number": 2
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502754",
+                            "name": "O’Ward, Pato",
+                            "gender": "male",
+                            "nationality": "Mexico",
+                            "country_code": "MEX",
+                            "result": {
+                                "points": 41,
+                                "position": 2,
+                                "car_number": 5
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:677077",
+                            "name": "Palou, Alex",
+                            "gender": "male",
+                            "nationality": "Spain",
+                            "country_code": "ESP",
+                            "result": {
+                                "points": 36,
+                                "position": 3,
+                                "car_number": 10
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552753",
+                            "name": "Malukas, David",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 32,
+                                "position": 4,
+                                "car_number": 18
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320091",
+                            "name": "Dixon, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 31,
+                                "position": 5,
+                                "car_number": 9
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:562176",
+                            "name": "McLaughlin, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 28,
+                                "position": 6,
+                                "car_number": 3
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502752",
+                            "name": "Herta, Colton",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 27,
+                                "position": 7,
+                                "car_number": 26
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:136140",
+                            "name": "Ericsson, Marcus",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 24,
+                                "position": 8,
+                                "car_number": 8
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:749737",
+                            "name": "Ilott, Callum",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 22,
+                                "position": 9,
+                                "car_number": 77
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321525",
+                            "name": "Castroneves, Helio",
+                            "gender": "male",
+                            "nationality": "Brazil",
+                            "country_code": "BRA",
+                            "result": {
+                                "points": 20,
+                                "position": 10,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552747",
+                            "name": "Veekay, Rinus",
+                            "gender": "male",
+                            "nationality": "Netherlands",
+                            "country_code": "NLD",
+                            "result": {
+                                "points": 19,
+                                "position": 11,
+                                "car_number": 21
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986535",
+                            "name": "Canapino, Agustin Hugo",
+                            "gender": "male",
+                            "nationality": "Argentina",
+                            "country_code": "ARG",
+                            "result": {
+                                "points": 18,
+                                "position": 12,
+                                "car_number": 78
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321521",
+                            "name": "Carpenter, Ed",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 17,
+                                "position": 13,
+                                "car_number": 33
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:37294",
+                            "name": "Grosjean, Romain",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 17,
+                                "position": 14,
+                                "car_number": 28
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785842",
+                            "name": "Pedersen, Benjamin",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 15,
+                                "position": 15,
+                                "car_number": 55
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321551",
+                            "name": "Power, Will",
+                            "gender": "male",
+                            "nationality": "Australia",
+                            "country_code": "AUS",
+                            "result": {
+                                "points": 14,
+                                "position": 16,
+                                "car_number": 12
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321547",
+                            "name": "Pagenaud, Simon",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 13,
+                                "position": 17,
+                                "car_number": 60
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:336795",
+                            "name": "Harvey, Jack",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 12,
+                                "position": 18,
+                                "car_number": 30
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:826994",
+                            "name": "Lundgaard, Christian",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 11,
+                                "position": 19,
+                                "car_number": 45
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320093",
+                            "name": "Daly, Conor",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 10,
+                                "position": 20,
+                                "car_number": 20
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:444202",
+                            "name": "Ferrucci, Santino",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 9,
+                                "position": 21,
+                                "car_number": 14
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:70150",
+                            "name": "Rossi, Alexander",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 8,
+                                "position": 22,
+                                "car_number": 7
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785838",
+                            "name": "DeFrancesco, Devlin",
+                            "gender": "male",
+                            "nationality": "Canada",
+                            "country_code": "CAN",
+                            "result": {
+                                "points": 7,
+                                "position": 23,
+                                "car_number": 29
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321553",
+                            "name": "Rahal, Graham",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 6,
+                                "position": 24,
+                                "car_number": 15
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785846",
+                            "name": "Robb, Sting Ray",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 6,
+                                "position": 25,
+                                "car_number": 51
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:417085",
+                            "name": "Rosenqvist, Felix",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 7,
+                                "position": 26,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:687809",
+                            "name": "Kirkwood, Kyle",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 5,
+                                "position": 27,
+                                "car_number": 27
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:4527",
+                            "name": "Sato, Takuma",
+                            "gender": "male",
+                            "nationality": "Japan",
+                            "country_code": "JPN",
+                            "result": {
+                                "points": 5,
+                                "position": 28,
+                                "car_number": 11
+                            }
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:479"
+                }
+            }
+        },
+        {
+            "id": "3",
+            "stage_id": "sr:stage:1067907",
+            "description": "Grand Prix of Long Beach",
+            "scheduled": "2023-04-14T22:00:00+00:00",
+            "scheduled_end": "2023-04-16T21:45:00+00:00",
+            "status": "Closed",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:19641",
+                "name": "Streets of Long Beach",
+                "city": "Long Beach, CA",
+                "country": "USA",
+                "coordinates": "33.766322,-118.192662",
+                "country_code": "USA",
+                "debut": 1975,
+                "curves_left": 6,
+                "curves_right": 5,
+                "url_official": "https://gplb.com/",
+                "length": 3167,
+                "timezone": "America/Los_Angeles"
+            },
+            "unique_stage_id": "sr:stage_unique:469",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2025-05-20T20:01:59+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1067907",
+                    "description": "Grand Prix of Long Beach",
+                    "scheduled": "2023-04-14T22:00:00+00:00",
+                    "scheduled_end": "2023-04-16T21:45:00+00:00",
+                    "type": "event",
+                    "status": "Closed",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:19641",
+                        "name": "Streets of Long Beach",
+                        "city": "Long Beach, CA",
+                        "country": "USA",
+                        "coordinates": "33.766322,-118.192662",
+                        "country_code": "USA",
+                        "debut": 1975,
+                        "curves_left": 6,
+                        "curves_right": 5,
+                        "url_official": "https://gplb.com/",
+                        "length": 3167,
+                        "timezone": "America/Los_Angeles"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1066641",
+                            "description": "Indycar 2023",
+                            "scheduled": "2023-03-03T20:00:00+00:00",
+                            "scheduled_end": "2023-09-10T22:00:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1067909",
+                            "description": "Practice 1",
+                            "scheduled": "2023-04-14T22:00:00+00:00",
+                            "scheduled_end": "2023-04-14T23:15:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1067911",
+                            "description": "Practice 2",
+                            "scheduled": "2023-04-15T15:45:00+00:00",
+                            "scheduled_end": "2023-04-15T16:45:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1067927",
+                            "description": "Qualification",
+                            "scheduled": "2023-04-15T19:05:00+00:00",
+                            "scheduled_end": "2023-04-15T20:20:00+00:00",
+                            "type": "qualifying",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1067937",
+                            "description": "Race",
+                            "scheduled": "2023-04-16T19:30:00+00:00",
+                            "scheduled_end": "2023-04-16T21:45:00+00:00",
+                            "type": "race",
+                            "status": "Closed",
+                            "race_cautions": 2,
+                            "lead_changes": 6,
+                            "lead_drivers": 4,
+                            "caution_laps": 7,
+                            "laps": 85,
+                            "laps_completed": 85,
+                            "single_event": false
+                        }
+                    ],
+                    "competitors": [
+                        {
+                            "id": "sr:competitor:687809",
+                            "name": "Kirkwood, Kyle",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 54,
+                                "position": 1,
+                                "car_number": 27
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:37294",
+                            "name": "Grosjean, Romain",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 40,
+                                "position": 2,
+                                "car_number": 28
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:136140",
+                            "name": "Ericsson, Marcus",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 35,
+                                "position": 3,
+                                "car_number": 8
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502752",
+                            "name": "Herta, Colton",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 32,
+                                "position": 4,
+                                "car_number": 26
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:677077",
+                            "name": "Palou, Alex",
+                            "gender": "male",
+                            "nationality": "Spain",
+                            "country_code": "ESP",
+                            "result": {
+                                "points": 31,
+                                "position": 5,
+                                "car_number": 10
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321551",
+                            "name": "Power, Will",
+                            "gender": "male",
+                            "nationality": "Australia",
+                            "country_code": "AUS",
+                            "result": {
+                                "points": 28,
+                                "position": 6,
+                                "car_number": 12
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:417085",
+                            "name": "Rosenqvist, Felix",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 26,
+                                "position": 7,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986533",
+                            "name": "Armstrong, Marcus",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 24,
+                                "position": 8,
+                                "car_number": 11
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321545",
+                            "name": "Newgarden, Josef",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 23,
+                                "position": 9,
+                                "car_number": 2
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:562176",
+                            "name": "McLaughlin, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 20,
+                                "position": 10,
+                                "car_number": 3
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:444202",
+                            "name": "Ferrucci, Santino",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 19,
+                                "position": 11,
+                                "car_number": 14
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321553",
+                            "name": "Rahal, Graham",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 18,
+                                "position": 12,
+                                "car_number": 15
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:336795",
+                            "name": "Harvey, Jack",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 17,
+                                "position": 13,
+                                "car_number": 30
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:826994",
+                            "name": "Lundgaard, Christian",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 16,
+                                "position": 14,
+                                "car_number": 45
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321547",
+                            "name": "Pagenaud, Simon",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 15,
+                                "position": 15,
+                                "car_number": 60
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785838",
+                            "name": "DeFrancesco, Devlin",
+                            "gender": "male",
+                            "nationality": "Canada",
+                            "country_code": "CAN",
+                            "result": {
+                                "points": 14,
+                                "position": 16,
+                                "car_number": 29
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502754",
+                            "name": "O’Ward, Pato",
+                            "gender": "male",
+                            "nationality": "Mexico",
+                            "country_code": "MEX",
+                            "result": {
+                                "points": 13,
+                                "position": 17,
+                                "car_number": 5
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785846",
+                            "name": "Robb, Sting Ray",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 12,
+                                "position": 18,
+                                "car_number": 51
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:749737",
+                            "name": "Ilott, Callum",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 11,
+                                "position": 19,
+                                "car_number": 77
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552753",
+                            "name": "Malukas, David",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 10,
+                                "position": 20,
+                                "car_number": 18
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321525",
+                            "name": "Castroneves, Helio",
+                            "gender": "male",
+                            "nationality": "Brazil",
+                            "country_code": "BRA",
+                            "result": {
+                                "points": 9,
+                                "position": 21,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:70150",
+                            "name": "Rossi, Alexander",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 8,
+                                "position": 22,
+                                "car_number": 7
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320093",
+                            "name": "Daly, Conor",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 7,
+                                "position": 23,
+                                "car_number": 20
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785842",
+                            "name": "Pedersen, Benjamin",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 6,
+                                "position": 24,
+                                "car_number": 55
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986535",
+                            "name": "Canapino, Agustin Hugo",
+                            "gender": "male",
+                            "nationality": "Argentina",
+                            "country_code": "ARG",
+                            "result": {
+                                "points": 6,
+                                "position": 25,
+                                "car_number": 78
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552747",
+                            "name": "Veekay, Rinus",
+                            "gender": "male",
+                            "nationality": "Netherlands",
+                            "country_code": "NLD",
+                            "result": {
+                                "points": 5,
+                                "position": 26,
+                                "car_number": 21
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320091",
+                            "name": "Dixon, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 5,
+                                "position": 27,
+                                "car_number": 9
+                            }
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:469"
+                }
+            }
+        },
+        {
+            "id": "4",
+            "stage_id": "sr:stage:1068539",
+            "description": "Grand Prix of Alabama",
+            "scheduled": "2023-04-28T20:40:00+00:00",
+            "scheduled_end": "2023-04-30T21:30:00+00:00",
+            "status": "Closed",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:51719",
+                "name": "Barber Motorsports Park",
+                "city": "Birmingham, AL",
+                "country": "USA",
+                "coordinates": "33.532634,-86.618567",
+                "country_code": "USA",
+                "debut": 2003,
+                "length": 3808,
+                "url_official": "https://barberracingevents.com/",
+                "timezone": "America/Chicago"
+            },
+            "unique_stage_id": "sr:stage_unique:471",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2025-05-20T20:02:01+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1068539",
+                    "description": "Grand Prix of Alabama",
+                    "scheduled": "2023-04-28T20:40:00+00:00",
+                    "scheduled_end": "2023-04-30T21:30:00+00:00",
+                    "type": "event",
+                    "status": "Closed",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:51719",
+                        "name": "Barber Motorsports Park",
+                        "city": "Birmingham, AL",
+                        "country": "USA",
+                        "coordinates": "33.532634,-86.618567",
+                        "country_code": "USA",
+                        "debut": 2003,
+                        "length": 3808,
+                        "url_official": "https://barberracingevents.com/",
+                        "timezone": "America/Chicago"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1066641",
+                            "description": "Indycar 2023",
+                            "scheduled": "2023-03-03T20:00:00+00:00",
+                            "scheduled_end": "2023-09-10T22:00:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1068541",
+                            "description": "Practice 1",
+                            "scheduled": "2023-04-28T19:40:00+00:00",
+                            "scheduled_end": "2023-04-28T20:55:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1068543",
+                            "description": "Practice 2",
+                            "scheduled": "2023-04-29T16:00:00+00:00",
+                            "scheduled_end": "2023-04-29T17:00:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1068559",
+                            "description": "Qualification",
+                            "scheduled": "2023-04-29T19:00:00+00:00",
+                            "scheduled_end": "2023-04-29T20:30:00+00:00",
+                            "type": "qualifying",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1068569",
+                            "description": "Race",
+                            "scheduled": "2023-04-30T19:15:00+00:00",
+                            "scheduled_end": "2023-04-30T21:30:00+00:00",
+                            "type": "race",
+                            "status": "Closed",
+                            "race_cautions": 1,
+                            "lead_changes": 7,
+                            "lead_drivers": 4,
+                            "caution_laps": 3,
+                            "laps": 90,
+                            "laps_completed": 90,
+                            "single_event": false
+                        }
+                    ],
+                    "competitors": [
+                        {
+                            "id": "sr:competitor:562176",
+                            "name": "McLaughlin, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 51,
+                                "position": 1,
+                                "car_number": 3
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:37294",
+                            "name": "Grosjean, Romain",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 44,
+                                "position": 2,
+                                "car_number": 28
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321551",
+                            "name": "Power, Will",
+                            "gender": "male",
+                            "nationality": "Australia",
+                            "country_code": "AUS",
+                            "result": {
+                                "points": 36,
+                                "position": 3,
+                                "car_number": 12
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502754",
+                            "name": "O’Ward, Pato",
+                            "gender": "male",
+                            "nationality": "Mexico",
+                            "country_code": "MEX",
+                            "result": {
+                                "points": 32,
+                                "position": 4,
+                                "car_number": 5
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:677077",
+                            "name": "Palou, Alex",
+                            "gender": "male",
+                            "nationality": "Spain",
+                            "country_code": "ESP",
+                            "result": {
+                                "points": 30,
+                                "position": 5,
+                                "car_number": 10
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:826994",
+                            "name": "Lundgaard, Christian",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 28,
+                                "position": 6,
+                                "car_number": 45
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320091",
+                            "name": "Dixon, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 26,
+                                "position": 7,
+                                "car_number": 9
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:70150",
+                            "name": "Rossi, Alexander",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 24,
+                                "position": 8,
+                                "car_number": 7
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:417085",
+                            "name": "Rosenqvist, Felix",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 22,
+                                "position": 9,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:136140",
+                            "name": "Ericsson, Marcus",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 20,
+                                "position": 10,
+                                "car_number": 8
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986533",
+                            "name": "Armstrong, Marcus",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 19,
+                                "position": 11,
+                                "car_number": 11
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:687809",
+                            "name": "Kirkwood, Kyle",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 18,
+                                "position": 12,
+                                "car_number": 27
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:749737",
+                            "name": "Ilott, Callum",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 17,
+                                "position": 13,
+                                "car_number": 77
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502752",
+                            "name": "Herta, Colton",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 16,
+                                "position": 14,
+                                "car_number": 26
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321545",
+                            "name": "Newgarden, Josef",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 16,
+                                "position": 15,
+                                "car_number": 2
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552747",
+                            "name": "Veekay, Rinus",
+                            "gender": "male",
+                            "nationality": "Netherlands",
+                            "country_code": "NLD",
+                            "result": {
+                                "points": 14,
+                                "position": 16,
+                                "car_number": 21
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321553",
+                            "name": "Rahal, Graham",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 13,
+                                "position": 17,
+                                "car_number": 15
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321547",
+                            "name": "Pagenaud, Simon",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 12,
+                                "position": 18,
+                                "car_number": 60
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552753",
+                            "name": "Malukas, David",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 11,
+                                "position": 19,
+                                "car_number": 18
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:444202",
+                            "name": "Ferrucci, Santino",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 10,
+                                "position": 20,
+                                "car_number": 14
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321525",
+                            "name": "Castroneves, Helio",
+                            "gender": "male",
+                            "nationality": "Brazil",
+                            "country_code": "BRA",
+                            "result": {
+                                "points": 9,
+                                "position": 21,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785842",
+                            "name": "Pedersen, Benjamin",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 8,
+                                "position": 22,
+                                "car_number": 55
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785838",
+                            "name": "DeFrancesco, Devlin",
+                            "gender": "male",
+                            "nationality": "Canada",
+                            "country_code": "CAN",
+                            "result": {
+                                "points": 7,
+                                "position": 23,
+                                "car_number": 29
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:336795",
+                            "name": "Harvey, Jack",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 6,
+                                "position": 24,
+                                "car_number": 30
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320093",
+                            "name": "Daly, Conor",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 5,
+                                "position": 25,
+                                "car_number": 20
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986535",
+                            "name": "Canapino, Agustin Hugo",
+                            "gender": "male",
+                            "nationality": "Argentina",
+                            "country_code": "ARG",
+                            "result": {
+                                "points": 5,
+                                "position": 26,
+                                "car_number": 78
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785846",
+                            "name": "Robb, Sting Ray",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 5,
+                                "position": 27,
+                                "car_number": 51
+                            }
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:471"
+                }
+            }
+        },
+        {
+            "id": "5",
+            "stage_id": "sr:stage:1069171",
+            "description": "Grand Prix of Indianapolis 1",
+            "scheduled": "2023-05-12T13:30:00+00:00",
+            "scheduled_end": "2023-05-13T22:00:00+00:00",
+            "status": "Closed",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:56718",
+                "name": "Indianapolis Motor Speedway Road Course",
+                "capacity": 400000,
+                "city": "Indianapolis, IN",
+                "country": "USA",
+                "coordinates": "39.798761,-86.233282",
+                "country_code": "USA",
+                "debut": 1909,
+                "length": 4023,
+                "url_official": "https://www.indianapolismotorspeedway.com/",
+                "timezone": "America/Indiana/Indianapolis"
+            },
+            "unique_stage_id": null,
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2025-05-20T20:02:02+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1069171",
+                    "description": "Grand Prix of Indianapolis 1",
+                    "scheduled": "2023-05-12T13:30:00+00:00",
+                    "scheduled_end": "2023-05-13T22:00:00+00:00",
+                    "type": "event",
+                    "status": "Closed",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:56718",
+                        "name": "Indianapolis Motor Speedway Road Course",
+                        "capacity": 400000,
+                        "city": "Indianapolis, IN",
+                        "country": "USA",
+                        "coordinates": "39.798761,-86.233282",
+                        "country_code": "USA",
+                        "debut": 1909,
+                        "length": 4023,
+                        "url_official": "https://www.indianapolismotorspeedway.com/",
+                        "timezone": "America/Indiana/Indianapolis"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1066641",
+                            "description": "Indycar 2023",
+                            "scheduled": "2023-03-03T20:00:00+00:00",
+                            "scheduled_end": "2023-09-10T22:00:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1069173",
+                            "description": "Practice 1",
+                            "scheduled": "2023-05-12T13:30:00+00:00",
+                            "scheduled_end": "2023-05-12T14:45:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069175",
+                            "description": "Practice 2",
+                            "scheduled": "2023-05-12T17:00:00+00:00",
+                            "scheduled_end": "2023-05-12T18:00:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069191",
+                            "description": "Qualification",
+                            "scheduled": "2023-05-12T20:00:00+00:00",
+                            "scheduled_end": "2023-05-12T21:15:00+00:00",
+                            "type": "qualifying",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069201",
+                            "description": "Race",
+                            "scheduled": "2023-05-13T19:30:00+00:00",
+                            "scheduled_end": "2023-05-13T22:00:00+00:00",
+                            "type": "race",
+                            "status": "Closed",
+                            "race_cautions": 1,
+                            "lead_changes": 12,
+                            "lead_drivers": 8,
+                            "caution_laps": 3,
+                            "laps": 85,
+                            "laps_completed": 85,
+                            "single_event": false
+                        }
+                    ],
+                    "competitors": [
+                        {
+                            "id": "sr:competitor:677077",
+                            "name": "Palou, Alex",
+                            "gender": "male",
+                            "nationality": "Spain",
+                            "country_code": "ESP",
+                            "result": {
+                                "points": 53,
+                                "position": 1,
+                                "car_number": 10
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502754",
+                            "name": "O’Ward, Pato",
+                            "gender": "male",
+                            "nationality": "Mexico",
+                            "country_code": "MEX",
+                            "result": {
+                                "points": 41,
+                                "position": 2,
+                                "car_number": 5
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:70150",
+                            "name": "Rossi, Alexander",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 36,
+                                "position": 3,
+                                "car_number": 7
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:826994",
+                            "name": "Lundgaard, Christian",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 34,
+                                "position": 4,
+                                "car_number": 45
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:417085",
+                            "name": "Rosenqvist, Felix",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 31,
+                                "position": 5,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320091",
+                            "name": "Dixon, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 29,
+                                "position": 6,
+                                "car_number": 9
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321545",
+                            "name": "Newgarden, Josef",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 26,
+                                "position": 7,
+                                "car_number": 2
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:136140",
+                            "name": "Ericsson, Marcus",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 25,
+                                "position": 8,
+                                "car_number": 8
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502752",
+                            "name": "Herta, Colton",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 22,
+                                "position": 9,
+                                "car_number": 26
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321553",
+                            "name": "Rahal, Graham",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 21,
+                                "position": 10,
+                                "car_number": 15
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:37294",
+                            "name": "Grosjean, Romain",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 19,
+                                "position": 11,
+                                "car_number": 28
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321551",
+                            "name": "Power, Will",
+                            "gender": "male",
+                            "nationality": "Australia",
+                            "country_code": "AUS",
+                            "result": {
+                                "points": 18,
+                                "position": 12,
+                                "car_number": 12
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552747",
+                            "name": "Veekay, Rinus",
+                            "gender": "male",
+                            "nationality": "Netherlands",
+                            "country_code": "NLD",
+                            "result": {
+                                "points": 17,
+                                "position": 13,
+                                "car_number": 21
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:687809",
+                            "name": "Kirkwood, Kyle",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 16,
+                                "position": 14,
+                                "car_number": 27
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986533",
+                            "name": "Armstrong, Marcus",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 15,
+                                "position": 15,
+                                "car_number": 11
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:562176",
+                            "name": "McLaughlin, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 14,
+                                "position": 16,
+                                "car_number": 3
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785838",
+                            "name": "DeFrancesco, Devlin",
+                            "gender": "male",
+                            "nationality": "Canada",
+                            "country_code": "CAN",
+                            "result": {
+                                "points": 13,
+                                "position": 17,
+                                "car_number": 29
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:749737",
+                            "name": "Ilott, Callum",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 12,
+                                "position": 18,
+                                "car_number": 77
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320093",
+                            "name": "Daly, Conor",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 11,
+                                "position": 19,
+                                "car_number": 20
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:336795",
+                            "name": "Harvey, Jack",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 10,
+                                "position": 20,
+                                "car_number": 30
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986535",
+                            "name": "Canapino, Agustin Hugo",
+                            "gender": "male",
+                            "nationality": "Argentina",
+                            "country_code": "ARG",
+                            "result": {
+                                "points": 9,
+                                "position": 21,
+                                "car_number": 78
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321525",
+                            "name": "Castroneves, Helio",
+                            "gender": "male",
+                            "nationality": "Brazil",
+                            "country_code": "BRA",
+                            "result": {
+                                "points": 8,
+                                "position": 22,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:444202",
+                            "name": "Ferrucci, Santino",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 7,
+                                "position": 23,
+                                "car_number": 14
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785842",
+                            "name": "Pedersen, Benjamin",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 6,
+                                "position": 24,
+                                "car_number": 55
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321547",
+                            "name": "Pagenaud, Simon",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 5,
+                                "position": 25,
+                                "car_number": 60
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552753",
+                            "name": "Malukas, David",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 5,
+                                "position": 26,
+                                "car_number": 18
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785846",
+                            "name": "Robb, Sting Ray",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 5,
+                                "position": 27,
+                                "car_number": 51
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "6",
+            "stage_id": "sr:stage:1069803",
+            "description": "Indianapolis 500",
+            "scheduled": "2023-05-17T16:00:00+00:00",
+            "scheduled_end": "2023-05-28T20:00:00+00:00",
+            "status": "Closed",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1624",
+                "name": "Indianapolis Motor Speedway",
+                "city": "Indianapolis, IN",
+                "country": "USA",
+                "coordinates": "39.798482,-86.231202",
+                "country_code": "USA",
+                "curves_left": 4,
+                "curves_right": 0,
+                "url_official": "http://www.indianapolismotorspeedway.com/",
+                "debut": 1911,
+                "length": 4023,
+                "timezone": "America/Indiana/Indianapolis"
+            },
+            "unique_stage_id": "sr:stage_unique:475",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2025-05-20T20:02:04+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1069803",
+                    "description": "Indianapolis 500",
+                    "scheduled": "2023-05-17T16:00:00+00:00",
+                    "scheduled_end": "2023-05-28T20:00:00+00:00",
+                    "type": "event",
+                    "status": "Closed",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:1624",
+                        "name": "Indianapolis Motor Speedway",
+                        "city": "Indianapolis, IN",
+                        "country": "USA",
+                        "coordinates": "39.798482,-86.231202",
+                        "country_code": "USA",
+                        "curves_left": 4,
+                        "curves_right": 0,
+                        "url_official": "http://www.indianapolismotorspeedway.com/",
+                        "debut": 1911,
+                        "length": 4023,
+                        "timezone": "America/Indiana/Indianapolis"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1066641",
+                            "description": "Indycar 2023",
+                            "scheduled": "2023-03-03T20:00:00+00:00",
+                            "scheduled_end": "2023-09-10T22:00:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1069805",
+                            "description": "Practice 1",
+                            "scheduled": "2023-05-16T13:00:00+00:00",
+                            "scheduled_end": "2023-05-16T15:15:00+00:00",
+                            "type": "practice",
+                            "status": "Cancelled",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069807",
+                            "description": "Practice 2",
+                            "scheduled": "2023-05-16T19:00:00+00:00",
+                            "scheduled_end": "2023-05-16T22:00:00+00:00",
+                            "type": "practice",
+                            "status": "Cancelled",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069809",
+                            "description": "Practice 3",
+                            "scheduled": "2023-05-17T16:00:00+00:00",
+                            "scheduled_end": "2023-05-17T22:00:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069811",
+                            "description": "Practice 4",
+                            "scheduled": "2023-05-18T16:00:00+00:00",
+                            "scheduled_end": "2023-05-18T22:00:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069813",
+                            "description": "Practice 5",
+                            "scheduled": "2023-05-19T16:00:00+00:00",
+                            "scheduled_end": "2023-05-19T22:00:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069815",
+                            "description": "Practice 6",
+                            "scheduled": "2023-05-20T12:30:00+00:00",
+                            "scheduled_end": "2023-05-20T13:30:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069823",
+                            "description": "Qualification",
+                            "scheduled": "2023-05-20T15:00:00+00:00",
+                            "scheduled_end": "2023-05-21T22:00:00+00:00",
+                            "type": "qualifying",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069817",
+                            "description": "Practice 7",
+                            "scheduled": "2023-05-21T15:30:00+00:00",
+                            "scheduled_end": "2023-05-21T17:30:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069819",
+                            "description": "Practice 8",
+                            "scheduled": "2023-05-22T17:00:00+00:00",
+                            "scheduled_end": "2023-05-22T19:00:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069821",
+                            "description": "Practice 9",
+                            "scheduled": "2023-05-26T15:00:00+00:00",
+                            "scheduled_end": "2023-05-26T17:00:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1069833",
+                            "description": "Race",
+                            "scheduled": "2023-05-28T16:30:00+00:00",
+                            "scheduled_end": "2023-05-28T20:00:00+00:00",
+                            "type": "race",
+                            "status": "Closed",
+                            "race_cautions": 5,
+                            "lead_changes": 52,
+                            "lead_drivers": 14,
+                            "caution_laps": 27,
+                            "laps": 200,
+                            "laps_completed": 200,
+                            "single_event": false
+                        }
+                    ],
+                    "competitors": [
+                        {
+                            "id": "sr:competitor:321545",
+                            "name": "Newgarden, Josef",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 51,
+                                "position": 1,
+                                "car_number": 2
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:136140",
+                            "name": "Ericsson, Marcus",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 44,
+                                "position": 2,
+                                "car_number": 8
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:444202",
+                            "name": "Ferrucci, Santino",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 45,
+                                "position": 3,
+                                "car_number": 14
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:677077",
+                            "name": "Palou, Alex",
+                            "gender": "male",
+                            "nationality": "Spain",
+                            "country_code": "ESP",
+                            "result": {
+                                "points": 45,
+                                "position": 4,
+                                "car_number": 10
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:70150",
+                            "name": "Rossi, Alexander",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 37,
+                                "position": 5,
+                                "car_number": 7
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320091",
+                            "name": "Dixon, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 35,
+                                "position": 6,
+                                "car_number": 9
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:4527",
+                            "name": "Sato, Takuma",
+                            "gender": "male",
+                            "nationality": "Japan",
+                            "country_code": "JPN",
+                            "result": {
+                                "points": 32,
+                                "position": 7,
+                                "car_number": 11
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320093",
+                            "name": "Daly, Conor",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 24,
+                                "position": 8,
+                                "car_number": 20
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502752",
+                            "name": "Herta, Colton",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 23,
+                                "position": 9,
+                                "car_number": 26
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552747",
+                            "name": "Veekay, Rinus",
+                            "gender": "male",
+                            "nationality": "Netherlands",
+                            "country_code": "NLD",
+                            "result": {
+                                "points": 32,
+                                "position": 10,
+                                "car_number": 21
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321533",
+                            "name": "Hunter-Reay, Ryan",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 20,
+                                "position": 11,
+                                "car_number": 20
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:749737",
+                            "name": "Ilott, Callum",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 19,
+                                "position": 12,
+                                "car_number": 77
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785838",
+                            "name": "DeFrancesco, Devlin",
+                            "gender": "male",
+                            "nationality": "Canada",
+                            "country_code": "CAN",
+                            "result": {
+                                "points": 17,
+                                "position": 13,
+                                "car_number": 29
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:562176",
+                            "name": "McLaughlin, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 16,
+                                "position": 14,
+                                "car_number": 3
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321525",
+                            "name": "Castroneves, Helio",
+                            "gender": "male",
+                            "nationality": "Brazil",
+                            "country_code": "BRA",
+                            "result": {
+                                "points": 16,
+                                "position": 15,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321535",
+                            "name": "Kanaan, Tony",
+                            "gender": "male",
+                            "nationality": "Brazil",
+                            "country_code": "BRA",
+                            "result": {
+                                "points": 18,
+                                "position": 16,
+                                "car_number": 66
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320089",
+                            "name": "Andretti, Marco",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 13,
+                                "position": 17,
+                                "car_number": 98
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:336795",
+                            "name": "Harvey, Jack",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 12,
+                                "position": 18,
+                                "car_number": 30
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:826994",
+                            "name": "Lundgaard, Christian",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 11,
+                                "position": 19,
+                                "car_number": 45
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321521",
+                            "name": "Carpenter, Ed",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 10,
+                                "position": 20,
+                                "car_number": 33
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785842",
+                            "name": "Pedersen, Benjamin",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 11,
+                                "position": 21,
+                                "car_number": 55
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321553",
+                            "name": "Rahal, Graham",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 8,
+                                "position": 22,
+                                "car_number": 15
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321551",
+                            "name": "Power, Will",
+                            "gender": "male",
+                            "nationality": "Australia",
+                            "country_code": "AUS",
+                            "result": {
+                                "points": 9,
+                                "position": 23,
+                                "car_number": 12
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502754",
+                            "name": "O’Ward, Pato",
+                            "gender": "male",
+                            "nationality": "Mexico",
+                            "country_code": "MEX",
+                            "result": {
+                                "points": 17,
+                                "position": 24,
+                                "car_number": 5
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321547",
+                            "name": "Pagenaud, Simon",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 5,
+                                "position": 25,
+                                "car_number": 60
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986535",
+                            "name": "Canapino, Agustin Hugo",
+                            "gender": "male",
+                            "nationality": "Argentina",
+                            "country_code": "ARG",
+                            "result": {
+                                "points": 5,
+                                "position": 26,
+                                "car_number": 78
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:417085",
+                            "name": "Rosenqvist, Felix",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 16,
+                                "position": 27,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:687809",
+                            "name": "Kirkwood, Kyle",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 5,
+                                "position": 28,
+                                "car_number": 27
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552753",
+                            "name": "Malukas, David",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 5,
+                                "position": 29,
+                                "car_number": 18
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:37294",
+                            "name": "Grosjean, Romain",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 5,
+                                "position": 30,
+                                "car_number": 28
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785846",
+                            "name": "Robb, Sting Ray",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 5,
+                                "position": 31,
+                                "car_number": 51
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:613424",
+                            "name": "Enerson, Richard Clayton",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 5,
+                                "position": 32,
+                                "car_number": 50
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:1013767",
+                            "name": "Legge, Katherine",
+                            "gender": "female",
+                            "nationality": "Great Britain",
+                            "country_code": "GBR",
+                            "result": {
+                                "points": 5,
+                                "position": 33,
+                                "car_number": 44
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:414875",
+                            "name": "Wilson, Stefan",
+                            "gender": "male",
+                            "nationality": "Great Britain",
+                            "country_code": "GBR"
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:475"
+                }
+            }
+        },
+        {
+            "id": "7",
+            "stage_id": "sr:stage:1070435",
+            "description": "Detroit Grand Prix",
+            "scheduled": "2023-06-02T19:00:00+00:00",
+            "scheduled_end": "2023-06-04T22:00:00+00:00",
+            "status": "Closed",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:68905",
+                "name": "Detroit Street Circuit",
+                "city": "Detroit, MI",
+                "country": "USA",
+                "coordinates": "42.30808,-83.095932",
+                "country_code": "USA",
+                "length": 2647,
+                "timezone": "America/Detroit"
+            },
+            "unique_stage_id": "sr:stage_unique:477",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2025-05-20T20:02:06+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1070435",
+                    "description": "Detroit Grand Prix",
+                    "scheduled": "2023-06-02T19:00:00+00:00",
+                    "scheduled_end": "2023-06-04T22:00:00+00:00",
+                    "type": "event",
+                    "status": "Closed",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:68905",
+                        "name": "Detroit Street Circuit",
+                        "city": "Detroit, MI",
+                        "country": "USA",
+                        "coordinates": "42.30808,-83.095932",
+                        "country_code": "USA",
+                        "length": 2647,
+                        "timezone": "America/Detroit"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1066641",
+                            "description": "Indycar 2023",
+                            "scheduled": "2023-03-03T20:00:00+00:00",
+                            "scheduled_end": "2023-09-10T22:00:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1070437",
+                            "description": "Practice 1",
+                            "scheduled": "2023-06-02T19:00:00+00:00",
+                            "scheduled_end": "2023-06-02T20:30:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1070439",
+                            "description": "Practice 2",
+                            "scheduled": "2023-06-03T13:05:00+00:00",
+                            "scheduled_end": "2023-06-03T14:05:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1070455",
+                            "description": "Qualification",
+                            "scheduled": "2023-06-03T17:15:00+00:00",
+                            "scheduled_end": "2023-06-03T18:45:00+00:00",
+                            "type": "qualifying",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1070465",
+                            "description": "Race",
+                            "scheduled": "2023-06-04T19:00:00+00:00",
+                            "scheduled_end": "2023-06-04T22:00:00+00:00",
+                            "type": "race",
+                            "status": "Closed",
+                            "race_cautions": 7,
+                            "lead_changes": 10,
+                            "lead_drivers": 7,
+                            "caution_laps": 32,
+                            "laps": 100,
+                            "laps_completed": 100,
+                            "single_event": false
+                        }
+                    ],
+                    "competitors": [
+                        {
+                            "id": "sr:competitor:677077",
+                            "name": "Palou, Alex",
+                            "gender": "male",
+                            "nationality": "Spain",
+                            "country_code": "ESP",
+                            "result": {
+                                "points": 54,
+                                "position": 1,
+                                "car_number": 10
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321551",
+                            "name": "Power, Will",
+                            "gender": "male",
+                            "nationality": "Australia",
+                            "country_code": "AUS",
+                            "result": {
+                                "points": 41,
+                                "position": 2,
+                                "car_number": 12
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:417085",
+                            "name": "Rosenqvist, Felix",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 35,
+                                "position": 3,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320091",
+                            "name": "Dixon, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 32,
+                                "position": 4,
+                                "car_number": 9
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:70150",
+                            "name": "Rossi, Alexander",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 31,
+                                "position": 5,
+                                "car_number": 7
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:687809",
+                            "name": "Kirkwood, Kyle",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 29,
+                                "position": 6,
+                                "car_number": 27
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:562176",
+                            "name": "McLaughlin, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 26,
+                                "position": 7,
+                                "car_number": 3
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986533",
+                            "name": "Armstrong, Marcus",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 24,
+                                "position": 8,
+                                "car_number": 11
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:136140",
+                            "name": "Ericsson, Marcus",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 23,
+                                "position": 9,
+                                "car_number": 8
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321545",
+                            "name": "Newgarden, Josef",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 21,
+                                "position": 10,
+                                "car_number": 2
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502752",
+                            "name": "Herta, Colton",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 19,
+                                "position": 11,
+                                "car_number": 26
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785838",
+                            "name": "DeFrancesco, Devlin",
+                            "gender": "male",
+                            "nationality": "Canada",
+                            "country_code": "CAN",
+                            "result": {
+                                "points": 18,
+                                "position": 12,
+                                "car_number": 29
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321547",
+                            "name": "Pagenaud, Simon",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 17,
+                                "position": 13,
+                                "car_number": 60
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986535",
+                            "name": "Canapino, Agustin Hugo",
+                            "gender": "male",
+                            "nationality": "Argentina",
+                            "country_code": "ARG",
+                            "result": {
+                                "points": 16,
+                                "position": 14,
+                                "car_number": 78
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320093",
+                            "name": "Daly, Conor",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 15,
+                                "position": 15,
+                                "car_number": 20
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:826994",
+                            "name": "Lundgaard, Christian",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 14,
+                                "position": 16,
+                                "car_number": 45
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:336795",
+                            "name": "Harvey, Jack",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 13,
+                                "position": 17,
+                                "car_number": 30
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552747",
+                            "name": "Veekay, Rinus",
+                            "gender": "male",
+                            "nationality": "Netherlands",
+                            "country_code": "NLD",
+                            "result": {
+                                "points": 12,
+                                "position": 18,
+                                "car_number": 21
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321525",
+                            "name": "Castroneves, Helio",
+                            "gender": "male",
+                            "nationality": "Brazil",
+                            "country_code": "BRA",
+                            "result": {
+                                "points": 11,
+                                "position": 19,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785842",
+                            "name": "Pedersen, Benjamin",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 10,
+                                "position": 20,
+                                "car_number": 55
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:444202",
+                            "name": "Ferrucci, Santino",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 9,
+                                "position": 21,
+                                "car_number": 14
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785846",
+                            "name": "Robb, Sting Ray",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 8,
+                                "position": 22,
+                                "car_number": 51
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552753",
+                            "name": "Malukas, David",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 7,
+                                "position": 23,
+                                "car_number": 18
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:37294",
+                            "name": "Grosjean, Romain",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 6,
+                                "position": 24,
+                                "car_number": 28
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321553",
+                            "name": "Rahal, Graham",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 5,
+                                "position": 25,
+                                "car_number": 15
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502754",
+                            "name": "O’Ward, Pato",
+                            "gender": "male",
+                            "nationality": "Mexico",
+                            "country_code": "MEX",
+                            "result": {
+                                "points": 6,
+                                "position": 26,
+                                "car_number": 5
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:749737",
+                            "name": "Ilott, Callum",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 5,
+                                "position": 27,
+                                "car_number": 77
+                            }
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:477"
+                }
+            }
+        },
+        {
+            "id": "8",
+            "stage_id": "sr:stage:1071067",
+            "description": "Road America Grand Prix",
+            "scheduled": "2023-06-16T20:00:00+00:00",
+            "scheduled_end": "2023-06-18T19:45:00+00:00",
+            "status": "Closed",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:19647",
+                "name": "Road America",
+                "city": "Elkhart Lake, WI",
+                "country": "USA",
+                "coordinates": "43.797591,-87.993238",
+                "country_code": "USA",
+                "url_official": "https://www.roadamerica.com/",
+                "curves_left": 5,
+                "curves_right": 9,
+                "length": 6515,
+                "debut": 1955,
+                "timezone": "America/Indiana/Indianapolis"
+            },
+            "unique_stage_id": "sr:stage_unique:481",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2025-05-20T20:02:07+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1071067",
+                    "description": "Road America Grand Prix",
+                    "scheduled": "2023-06-16T20:00:00+00:00",
+                    "scheduled_end": "2023-06-18T19:45:00+00:00",
+                    "type": "event",
+                    "status": "Closed",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:19647",
+                        "name": "Road America",
+                        "city": "Elkhart Lake, WI",
+                        "country": "USA",
+                        "coordinates": "43.797591,-87.993238",
+                        "country_code": "USA",
+                        "url_official": "https://www.roadamerica.com/",
+                        "curves_left": 5,
+                        "curves_right": 9,
+                        "length": 6515,
+                        "debut": 1955,
+                        "timezone": "America/Indiana/Indianapolis"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1066641",
+                            "description": "Indycar 2023",
+                            "scheduled": "2023-03-03T20:00:00+00:00",
+                            "scheduled_end": "2023-09-10T22:00:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1071069",
+                            "description": "Practice 1",
+                            "scheduled": "2023-06-16T20:00:00+00:00",
+                            "scheduled_end": "2023-06-16T21:15:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1071071",
+                            "description": "Practice 2",
+                            "scheduled": "2023-06-17T14:55:00+00:00",
+                            "scheduled_end": "2023-06-17T15:55:00+00:00",
+                            "type": "practice",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1071087",
+                            "description": "Qualification",
+                            "scheduled": "2023-06-17T17:55:00+00:00",
+                            "scheduled_end": "2023-06-17T19:25:00+00:00",
+                            "type": "qualifying",
+                            "status": "Closed",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1071097",
+                            "description": "Race",
+                            "scheduled": "2023-06-18T17:15:00+00:00",
+                            "scheduled_end": "2023-06-18T19:45:00+00:00",
+                            "type": "race",
+                            "status": "Closed",
+                            "race_cautions": 4,
+                            "lead_changes": 9,
+                            "lead_drivers": 4,
+                            "caution_laps": 10,
+                            "laps": 55,
+                            "laps_completed": 55,
+                            "single_event": false
+                        }
+                    ],
+                    "competitors": [
+                        {
+                            "id": "sr:competitor:677077",
+                            "name": "Palou, Alex",
+                            "gender": "male",
+                            "nationality": "Spain",
+                            "country_code": "ESP",
+                            "result": {
+                                "points": 51,
+                                "position": 1,
+                                "car_number": 10
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321545",
+                            "name": "Newgarden, Josef",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 40,
+                                "position": 2,
+                                "car_number": 2
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502754",
+                            "name": "O’Ward, Pato",
+                            "gender": "male",
+                            "nationality": "Mexico",
+                            "country_code": "MEX",
+                            "result": {
+                                "points": 35,
+                                "position": 3,
+                                "car_number": 5
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:320091",
+                            "name": "Dixon, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 32,
+                                "position": 4,
+                                "car_number": 9
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:502752",
+                            "name": "Herta, Colton",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 34,
+                                "position": 5,
+                                "car_number": 26
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:136140",
+                            "name": "Ericsson, Marcus",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 28,
+                                "position": 6,
+                                "car_number": 8
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:826994",
+                            "name": "Lundgaard, Christian",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 26,
+                                "position": 7,
+                                "car_number": 45
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:562176",
+                            "name": "McLaughlin, Scott",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 24,
+                                "position": 8,
+                                "car_number": 3
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:687809",
+                            "name": "Kirkwood, Kyle",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 22,
+                                "position": 9,
+                                "car_number": 27
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:70150",
+                            "name": "Rossi, Alexander",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 20,
+                                "position": 10,
+                                "car_number": 7
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321553",
+                            "name": "Rahal, Graham",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 19,
+                                "position": 11,
+                                "car_number": 15
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552747",
+                            "name": "Veekay, Rinus",
+                            "gender": "male",
+                            "nationality": "Netherlands",
+                            "country_code": "NLD",
+                            "result": {
+                                "points": 18,
+                                "position": 12,
+                                "car_number": 21
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321551",
+                            "name": "Power, Will",
+                            "gender": "male",
+                            "nationality": "Australia",
+                            "country_code": "AUS",
+                            "result": {
+                                "points": 18,
+                                "position": 13,
+                                "car_number": 12
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321547",
+                            "name": "Pagenaud, Simon",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 16,
+                                "position": 14,
+                                "car_number": 60
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321525",
+                            "name": "Castroneves, Helio",
+                            "gender": "male",
+                            "nationality": "Brazil",
+                            "country_code": "BRA",
+                            "result": {
+                                "points": 15,
+                                "position": 15,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:444202",
+                            "name": "Ferrucci, Santino",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 14,
+                                "position": 16,
+                                "car_number": 14
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:321533",
+                            "name": "Hunter-Reay, Ryan",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 13,
+                                "position": 17,
+                                "car_number": 20
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:749737",
+                            "name": "Ilott, Callum",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 12,
+                                "position": 18,
+                                "car_number": 77
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986535",
+                            "name": "Canapino, Agustin Hugo",
+                            "gender": "male",
+                            "nationality": "Argentina",
+                            "country_code": "ARG",
+                            "result": {
+                                "points": 11,
+                                "position": 19,
+                                "car_number": 78
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:417085",
+                            "name": "Rosenqvist, Felix",
+                            "gender": "male",
+                            "nationality": "Sweden",
+                            "country_code": "SWE",
+                            "result": {
+                                "points": 10,
+                                "position": 20,
+                                "car_number": 6
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785842",
+                            "name": "Pedersen, Benjamin",
+                            "gender": "male",
+                            "nationality": "Denmark",
+                            "country_code": "DNK",
+                            "result": {
+                                "points": 9,
+                                "position": 21,
+                                "car_number": 55
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785846",
+                            "name": "Robb, Sting Ray",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 8,
+                                "position": 22,
+                                "car_number": 51
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:785838",
+                            "name": "DeFrancesco, Devlin",
+                            "gender": "male",
+                            "nationality": "Canada",
+                            "country_code": "CAN",
+                            "result": {
+                                "points": 7,
+                                "position": 23,
+                                "car_number": 29
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:986533",
+                            "name": "Armstrong, Marcus",
+                            "gender": "male",
+                            "nationality": "New Zealand",
+                            "country_code": "NZL",
+                            "result": {
+                                "points": 7,
+                                "position": 24,
+                                "car_number": 11
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:37294",
+                            "name": "Grosjean, Romain",
+                            "gender": "male",
+                            "nationality": "France",
+                            "country_code": "FRA",
+                            "result": {
+                                "points": 5,
+                                "position": 25,
+                                "car_number": 28
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:336795",
+                            "name": "Harvey, Jack",
+                            "gender": "male",
+                            "nationality": "England",
+                            "country_code": "ENG",
+                            "result": {
+                                "points": 5,
+                                "position": 26,
+                                "car_number": 30
+                            }
+                        },
+                        {
+                            "id": "sr:competitor:552753",
+                            "name": "Malukas, David",
+                            "gender": "male",
+                            "nationality": "USA",
+                            "country_code": "USA",
+                            "result": {
+                                "points": 5,
+                                "position": 27,
+                                "car_number": 18
+                            }
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:481"
+                }
+            }
+        }
+    ]
+}
