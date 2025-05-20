@@ -56,7 +56,6 @@ const StatItem = styled.div`
 interface FavoriteDriverProps {
   name?: string;
   probability?: number;
-  team?: string;
   wins?: number;
   podiums?: number;
 }
@@ -64,7 +63,6 @@ interface FavoriteDriverProps {
 const FavoriteDriver: React.FC<FavoriteDriverProps> = ({
   name,
   probability,
-  team,
   wins,
   podiums
 }) => {
@@ -76,7 +74,6 @@ const FavoriteDriver: React.FC<FavoriteDriverProps> = ({
       </DriverImage>
       <DriverInfo>
         <DriverName>{name || 'Nome Pilota'}</DriverName>
-        <p>{team || 'Team in arrivo...'}</p>
         <WinProbability>
           {probability ? `${probability}% probabilità di vittoria` : 'Probabilità in arrivo...'}
         </WinProbability>

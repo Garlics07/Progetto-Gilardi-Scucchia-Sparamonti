@@ -38,10 +38,9 @@ const DriverPoints = styled.p`
 interface LeaderDriverProps {
   name?: string;
   points?: number;
-  team?: string;
 }
 
-const LeaderDriver: React.FC<LeaderDriverProps> = ({ name, points, team }) => {
+const LeaderDriver: React.FC<LeaderDriverProps> = ({ name, points}) => {
   return (
     <DriverContainer>
       <DriverImage>
@@ -51,7 +50,6 @@ const LeaderDriver: React.FC<LeaderDriverProps> = ({ name, points, team }) => {
       <DriverInfo>
         <DriverName>{name || 'Nome Pilota'}</DriverName>
         <DriverPoints>{points ? `${points} punti` : 'Punti in arrivo...'}</DriverPoints>
-        <p>{team || 'Team in arrivo...'}</p>
       </DriverInfo>
     </DriverContainer>
   );
