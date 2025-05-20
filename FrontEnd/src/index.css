@@ -1,0 +1,142 @@
+:root {
+  --racing-red: #ff0000;
+  --racing-black: #000000;
+  --racing-gray: #2c2c2c;
+  --racing-accent: #ffd700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, var(--racing-black), var(--racing-gray));
+  color: white;
+  min-height: 100vh;
+}
+
+/* Effetto di velocità per i bottoni */
+button {
+  background: var(--racing-red);
+  color: white;
+  border: 2px solid var(--racing-accent);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px var(--racing-red);
+}
+
+button::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transform: rotate(45deg);
+  transition: 0.5s;
+}
+
+button:hover::after {
+  left: 100%;
+}
+
+/* Stile per i contenitori */
+.container {
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid var(--racing-accent);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+}
+
+/* Stile per gli input */
+input {
+  background: var(--racing-gray);
+  border: 2px solid var(--racing-accent);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px var(--racing-red);
+}
+
+/* Stile per i titoli */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--racing-red);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Effetto di movimento per le card */
+.card {
+  background: var(--racing-gray);
+  border: 1px solid var(--racing-accent);
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3);
+}
+
+/* Stile per le tabelle */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: var(--racing-gray);
+  border: 2px solid var(--racing-accent);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--racing-accent);
+}
+
+th {
+  background: var(--racing-red);
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Animazione di caricamento */
+@keyframes racing-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.loading {
+  animation: racing-pulse 1s infinite;
+}
