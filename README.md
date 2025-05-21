@@ -83,6 +83,9 @@ npm install
 npm i nodemon -D
 npm i express
 npm i cors
+npm i dotenv
+npm i mongoclient
+npm i mongodb
 ```
 
 4. Install Python dependencies:
