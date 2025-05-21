@@ -9,7 +9,8 @@ from dotenv import load_dotenv
 
 # Carica le variabili d'ambiente dal file .env nella root
 root_dir = Path(__file__).parent.parent
-load_dotenv(root_dir / ".env")
+load_dotenv(root_dir / "BackEnd/.env")
+
 
 def connect_to_mongodb(connection_string=None):
     """

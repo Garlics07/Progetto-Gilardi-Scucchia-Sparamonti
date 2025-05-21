@@ -7,7 +7,8 @@ from dotenv import load_dotenv
 
 # Carica le variabili d'ambiente dal file .env nella root
 root_dir = Path(__file__).parent.parent.parent
-load_dotenv(root_dir / ".env")
+load_dotenv(root_dir / "BackEnd/.env")
+
 
 # Configurazione API
 BASE_URL = os.getenv("SPORTRADAR_BASE_URL", "https://api.sportradar.com/indycar/trial/v2/en")

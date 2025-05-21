@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
+import { useNavigate } from 'react-router-dom';
 
 const Container = styled.div`
   padding: 2rem;
@@ -81,6 +82,44 @@ const PodiumsCell = styled(TableCell)`
   font-weight: bold;
 `;
 
+const SortableHeader = styled(TableHeaderCell)`
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 2rem;
+
+  &:hover {
+    background: var(--racing-hover);
+  }
+
+  &::after {
+    content: '↕';
+    position: absolute;
+    right: 0.5rem;
+    opacity: 0.5;
+  }
+
+  &.asc::after {
+    content: '↑';
+    opacity: 1;
+  }
+
+  &.desc::after {
+    content: '↓';
+    opacity: 1;
+  }
+`;
+
+const ClickableTableRow = styled(TableRow)`
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: var(--racing-hover);
+    transform: translateX(5px);
+  }
+`;
+
 interface Driver {
   _id: string;
   nome: string;
@@ -89,12 +128,19 @@ interface Driver {
   vittorie: number;
   podi: number;
   gare_disputate: number;
+  championshipPosition?: number;
 }
 
+type SortField = 'position' | 'nome' | 'numero_auto' | 'punti_totali' | 'vittorie' | 'podi' | 'gare_disputate';
+type SortDirection = 'asc' | 'desc';
+
 const DriversPage: React.FC = () => {
+  const navigate = useNavigate();
   const [drivers, setDrivers] = useState<Driver[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [sortField, setSortField] = useState<SortField>('punti_totali');
+  const [sortDirection, setSortDirection] = useState<SortDirection>('desc');
 
   useEffect(() => {
     const fetchDrivers = async () => {
@@ -104,7 +150,11 @@ const DriversPage: React.FC = () => {
           throw new Error('Errore nel recupero dei dati');
         }
         const data = await response.json();
-        setDrivers(data);
+        const driversWithPosition = data.map((driver: Driver, index: number) => ({
+          ...driver,
+          championshipPosition: index + 1
+        }));
+        setDrivers(driversWithPosition);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Errore sconosciuto');
       } finally {
@@ -114,6 +164,40 @@ const DriversPage: React.FC = () => {
 
     fetchDrivers();
   }, []);
+
+  const handleSort = (field: SortField) => {
+    if (field === sortField) {
+      setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
+    } else {
+      setSortField(field);
+      setSortDirection('desc');
+    }
+  };
+
+  const getSortedDrivers = () => {
+    return [...drivers].sort((a, b) => {
+      let comparison = 0;
+      
+      if (sortField === 'position') {
+        comparison = (a.championshipPosition || 0) - (b.championshipPosition || 0);
+      } else {
+        const valueA = a[sortField];
+        const valueB = b[sortField];
+        
+        if (typeof valueA === 'string' && typeof valueB === 'string') {
+          comparison = valueA.localeCompare(valueB);
+        } else {
+          comparison = (valueA as number) - (valueB as number);
+        }
+      }
+
+      return sortDirection === 'asc' ? comparison : -comparison;
+    });
+  };
+
+  const handleRowClick = (driverId: string) => {
+    navigate(`/drivers/${driverId}`);
+  };
 
   if (loading) {
     return (
@@ -133,33 +217,73 @@ const DriversPage: React.FC = () => {
     );
   }
 
+  const sortedDrivers = getSortedDrivers();
+
   return (
     <Container>
-      <Title>Classifica Piloti IndyCar</Title>
+      <Title>Overall Piloti IndyCar</Title>
       <TableContainer>
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHeaderCell>Pos</TableHeaderCell>
-              <TableHeaderCell>Pilota</TableHeaderCell>
-              <TableHeaderCell>N°</TableHeaderCell>
-              <TableHeaderCell>Punti</TableHeaderCell>
-              <TableHeaderCell>Vittorie</TableHeaderCell>
-              <TableHeaderCell>Podi</TableHeaderCell>
-              <TableHeaderCell>Gare</TableHeaderCell>
+              <SortableHeader 
+                onClick={() => handleSort('position')}
+                className={sortField === 'position' ? sortDirection : ''}
+              >
+                Pos
+              </SortableHeader>
+              <SortableHeader 
+                onClick={() => handleSort('nome')}
+                className={sortField === 'nome' ? sortDirection : ''}
+              >
+                Pilota
+              </SortableHeader>
+              <SortableHeader 
+                onClick={() => handleSort('numero_auto')}
+                className={sortField === 'numero_auto' ? sortDirection : ''}
+              >
+                N°
+              </SortableHeader>
+              <SortableHeader 
+                onClick={() => handleSort('punti_totali')}
+                className={sortField === 'punti_totali' ? sortDirection : ''}
+              >
+                Punti
+              </SortableHeader>
+              <SortableHeader 
+                onClick={() => handleSort('vittorie')}
+                className={sortField === 'vittorie' ? sortDirection : ''}
+              >
+                Vittorie
+              </SortableHeader>
+              <SortableHeader 
+                onClick={() => handleSort('podi')}
+                className={sortField === 'podi' ? sortDirection : ''}
+              >
+                Podi
+              </SortableHeader>
+              <SortableHeader 
+                onClick={() => handleSort('gare_disputate')}
+                className={sortField === 'gare_disputate' ? sortDirection : ''}
+              >
+                Gare
+              </SortableHeader>
             </TableRow>
           </TableHeader>
           <tbody>
-            {drivers.map((driver, index) => (
-              <TableRow key={driver._id}>
-                <PositionCell>{index + 1}</PositionCell>
+            {sortedDrivers.map((driver) => (
+              <ClickableTableRow 
+                key={driver._id} 
+                onClick={() => handleRowClick(driver._id)}
+              >
+                <PositionCell>{driver.championshipPosition}</PositionCell>
                 <TableCell>{driver.nome}</TableCell>
                 <TableCell>{driver.numero_auto}</TableCell>
                 <PointsCell>{driver.punti_totali}</PointsCell>
                 <WinsCell>{driver.vittorie}</WinsCell>
                 <PodiumsCell>{driver.podi}</PodiumsCell>
                 <TableCell>{driver.gare_disputate}</TableCell>
-              </TableRow>
+              </ClickableTableRow>
             ))}
           </tbody>
         </Table>

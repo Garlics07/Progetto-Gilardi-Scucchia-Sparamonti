@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import DriversPage from './pages/DriversPage';
 import CalendarPage from './pages/CalendarPage';
+import DriverDetailsPage from './pages/DriverDetailsPage';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/drivers" element={<DriversPage />} />
+          <Route path="/drivers/:driverId" element={<DriverDetailsPage />} />
           <Route path="/calendar" element={<CalendarPage />} />
         </Routes>
       </div>
