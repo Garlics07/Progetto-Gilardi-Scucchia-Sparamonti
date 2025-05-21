@@ -24,6 +24,8 @@ sport-analytics/
 ├── FrontEnd/          # Applicazione React frontend
 ├── BackEnd/          # Server Node.js backend
 ├── Data/             # Script Python per l'estrazione dei dati e l'inserimento in MongoDB
+│   ├── extracted/    # Directory dove vengono salvati i file JSON estratti
+│   └── mongodb/      # Directory per i file JSON adattati per MongoDB
 ├── documentation/    # Documentazione del progetto
 └── requirements.txt  # Dipendenze Python
 ```
@@ -71,6 +73,29 @@ pip install -r requirements.txt
 1. Configurare il file `.env` nel backend con le credenziali del database
 2. Assicurarsi che MongoDB sia in esecuzione
 3. Avviare i servizi necessari
+
+## Connessioni e API
+
+### Database MongoDB
+Il progetto utilizza MongoDB Atlas come database cloud. La connessione è configurata nel file `Data/mongodb_adapter.py`:
+
+```python
+connection_string = "mongodb+srv://marcogilardi:Garlics2007@cluster0.fixb6bi.mongodb.net/"
+```
+
+### API SportRadar
+Il progetto utilizza l'API di SportRadar per la raccolta dei dati sportivi. Le credenziali API sono configurate nel file `Data/api_config.py`:
+
+```python
+API_KEY = "Gm4DxN7Erj41awJRh7BldXmEqDl0AYef0dfHlSaF"
+BASE_URL = "https://api.sportradar.com/indycar/trial/v1/en"
+```
+
+Per ottenere una chiave API:
+1. Registrarsi su [SportRadar Developer Portal](https://developer.sportradar.com/)
+2. Sottoscrivere il piano Trial per IndyCar
+3. Generare una nuova chiave API
+4. Inserire la chiave nel file di configurazione
 
 ## Avvio del Progetto
 

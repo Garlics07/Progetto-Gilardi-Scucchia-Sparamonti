@@ -1,0 +1,56 @@
+[
+    {
+        "id": "2025",
+        "year": "2025",
+        "description": "Indycar 2025",
+        "season_id": "sr:stage:1203305"
+    },
+    {
+        "id": "2024",
+        "year": "2024",
+        "description": "Indycar 2024",
+        "season_id": "sr:stage:1122936"
+    },
+    {
+        "id": "2023",
+        "year": "2023",
+        "description": "Indycar 2023",
+        "season_id": "sr:stage:1066641"
+    },
+    {
+        "id": "2022",
+        "year": "2022",
+        "description": "Indycar 2022",
+        "season_id": "sr:stage:948353"
+    },
+    {
+        "id": "2021",
+        "year": "2021",
+        "description": "Indycar 2021",
+        "season_id": "sr:stage:660732"
+    },
+    {
+        "id": "2020",
+        "year": "2020",
+        "description": "Indycar 2020",
+        "season_id": "sr:stage:576235"
+    },
+    {
+        "id": "2019",
+        "year": "2019",
+        "description": "Indycar 2019",
+        "season_id": "sr:stage:453905"
+    },
+    {
+        "id": "2018",
+        "year": "2018",
+        "description": "Indycar 2018",
+        "season_id": "sr:stage:348851"
+    },
+    {
+        "id": "2017",
+        "year": "2017",
+        "description": "Indycar 2017",
+        "season_id": "sr:stage:295691"
+    }
+]

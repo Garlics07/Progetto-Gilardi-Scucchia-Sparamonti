@@ -2,16 +2,23 @@ import requests
 import json
 from pathlib import Path
 import time
+import os
+from dotenv import load_dotenv
+
+# Carica le variabili d'ambiente dal file .env nella root
+root_dir = Path(__file__).parent.parent.parent
+load_dotenv(root_dir / ".env")
 
 # Configurazione API
-BASE_URL = "https://api.sportradar.com/indycar/trial/v2/en"
+BASE_URL = os.getenv("SPORTRADAR_BASE_URL", "https://api.sportradar.com/indycar/trial/v2/en")
+API_KEY = os.getenv("SPORTRADAR_API_KEY")
 
-# Crea la directory per i dati
-Path("data").mkdir(parents=True, exist_ok=True)
+# Crea la directory per i dati estratti
+Path("Data/extracted").mkdir(parents=True, exist_ok=True)
 
 HEADERS = {
     "accept": "application/json",
-    "x-api-key": "Gm4DxN7Erj41awJRh7BldXmEqDl0AYef0dfHlSaF"
+    "x-api-key": API_KEY
 }
 
 def load_seasons():
@@ -19,7 +26,7 @@ def load_seasons():
     Carica la lista delle stagioni dal file JSON
     """
     try:
-        with open("data/seasons.json", "r", encoding="utf-8") as f:
+        with open("Data/extracted/seasons.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception as e:
         print(f"✗ Errore nel caricamento delle stagioni: {e}")
@@ -169,7 +176,7 @@ def save_season_races(year, season_id, description, races_data, season_summary):
     """
     Salva i dati delle gare di una stagione in un file separato
     """
-    filename = f"data/season_{year}.json"
+    filename = f"Data/extracted/season_{year}.json"
     try:
         output_data = {
             "id": year,
