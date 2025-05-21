@@ -1,6 +1,6 @@
 import express from "express"
 import cors from "cors"
-import {connessioneDb, getAll, getById} from "./db.js"
+import {connessioneDb, getAll} from "./db.js"
 
 const app = express()
 
@@ -9,9 +9,20 @@ app.use(express.json())
 
 let db
 
-app.get("/", async(req, res) => {
-    res.send("home")
+//All Pilot
+
+app.get("/AllPilot", async(req, res) => {
+    const data = await getAll(db, "Pilot")
+    res.send(data)
 })
+
+//Calendar
+
+app.get("/Calendar", async(req, res) => {
+    const data = await getAll(db, "Calendar")
+    res.send(data)
+})
+
 
 app.listen(3000, async() => {
     try {
