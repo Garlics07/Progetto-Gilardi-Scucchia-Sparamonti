@@ -1,0 +1,1530 @@
+[{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4116"
+  },
+  "driver_id": "sr:competitor:8101",
+  "name": "Bourdais, Sebastien",
+  "gender": "male",
+  "nationality": "France",
+  "country_code": "FRA",
+  "car_number": 18,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4117"
+  },
+  "driver_id": "sr:competitor:321547",
+  "name": "Pagenaud, Simon",
+  "gender": "male",
+  "nationality": "France",
+  "country_code": "FRA",
+  "car_number": 1,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4118"
+  },
+  "driver_id": "sr:competitor:320091",
+  "name": "Dixon, Scott",
+  "gender": "male",
+  "nationality": "New Zealand",
+  "country_code": "NZL",
+  "car_number": 9,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4119"
+  },
+  "driver_id": "sr:competitor:321533",
+  "name": "Hunter-Reay, Ryan",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 28,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd411a"
+  },
+  "driver_id": "sr:competitor:4527",
+  "name": "Sato, Takuma",
+  "gender": "male",
+  "nationality": "Japan",
+  "country_code": "JPN",
+  "car_number": 26,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd411b"
+  },
+  "driver_id": "sr:competitor:321525",
+  "name": "Castroneves, Helio",
+  "gender": "male",
+  "nationality": "Brazil",
+  "country_code": "BRA",
+  "car_number": 3,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd411c"
+  },
+  "driver_id": "sr:competitor:320089",
+  "name": "Andretti, Marco",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 27,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd411d"
+  },
+  "driver_id": "sr:competitor:321545",
+  "name": "Newgarden, Josef",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 2,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd411e"
+  },
+  "driver_id": "sr:competitor:321529",
+  "name": "Hinchcliffe, James",
+  "gender": "male",
+  "nationality": "Canada",
+  "country_code": "CAN",
+  "car_number": 5,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd411f"
+  },
+  "driver_id": "sr:competitor:321557",
+  "name": "Jones, Ed",
+  "gender": "male",
+  "nationality": "United Arab Emirates",
+  "country_code": "ARE",
+  "car_number": 19,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4120"
+  },
+  "driver_id": "sr:competitor:70150",
+  "name": "Rossi, Alexander",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 98,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4121"
+  },
+  "driver_id": "sr:competitor:321535",
+  "name": "Kanaan, Tony",
+  "gender": "male",
+  "nationality": "Brazil",
+  "country_code": "BRA",
+  "car_number": 10,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4122"
+  },
+  "driver_id": "sr:competitor:321527",
+  "name": "Hildebrand, John R",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 21,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4123"
+  },
+  "driver_id": "sr:competitor:321559",
+  "name": "Aleshin, Mikhail",
+  "gender": "male",
+  "nationality": "Russia",
+  "country_code": "RUS",
+  "car_number": 7,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4124"
+  },
+  "driver_id": "sr:competitor:320093",
+  "name": "Daly, Conor",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 4,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4125"
+  },
+  "driver_id": "sr:competitor:84105",
+  "name": "Chilton, Max",
+  "gender": "male",
+  "nationality": "Great Britain",
+  "country_code": "GBR",
+  "car_number": 8,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4126"
+  },
+  "driver_id": "sr:competitor:321553",
+  "name": "Rahal, Graham",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 15,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4127"
+  },
+  "driver_id": "sr:competitor:321551",
+  "name": "Power, Will",
+  "gender": "male",
+  "nationality": "Australia",
+  "country_code": "AUS",
+  "car_number": 83,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4128"
+  },
+  "driver_id": "sr:competitor:321539",
+  "name": "Kimball, Charlie",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 12,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4129"
+  },
+  "driver_id": "sr:competitor:321549",
+  "name": "Pigot, Spencer",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 20,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd412a"
+  },
+  "driver_id": "sr:competitor:321543",
+  "name": "Munoz, Carlos",
+  "gender": "male",
+  "nationality": "Colombia",
+  "country_code": "COL",
+  "car_number": 21,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd412b"
+  },
+  "driver_id": "sr:competitor:330587",
+  "name": "Veach, Zach",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 21,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd412c"
+  },
+  "driver_id": "sr:competitor:321521",
+  "name": "Carpenter, Ed",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 20,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd412d"
+  },
+  "driver_id": "sr:competitor:4523",
+  "name": "Montoya, Juan Pablo",
+  "gender": "male",
+  "nationality": "Colombia",
+  "country_code": "COL",
+  "car_number": 22,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd412e"
+  },
+  "driver_id": "sr:competitor:336801",
+  "name": "Chaves, Gabby",
+  "gender": "male",
+  "nationality": "Colombia",
+  "country_code": "COL",
+  "car_number": 88,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd412f"
+  },
+  "driver_id": "sr:competitor:336797",
+  "name": "Saavedra, Sebastian",
+  "gender": "male",
+  "nationality": "Colombia",
+  "country_code": "COL",
+  "car_number": 17,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4130"
+  },
+  "driver_id": "sr:competitor:336803",
+  "name": "Mann, Pippa",
+  "gender": "female",
+  "nationality": "Great Britain",
+  "country_code": "GBR",
+  "car_number": 63,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4131"
+  },
+  "driver_id": "sr:competitor:338423",
+  "name": "Davison, James",
+  "gender": "male",
+  "nationality": "Australia",
+  "country_code": "AUS",
+  "car_number": 18,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4132"
+  },
+  "driver_id": "sr:competitor:321555",
+  "name": "Servia, Oriol",
+  "gender": "male",
+  "nationality": "Spain",
+  "country_code": "ESP",
+  "car_number": 16,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4133"
+  },
+  "driver_id": "sr:competitor:4521",
+  "name": "Alonso, Fernando",
+  "gender": "male",
+  "nationality": "Spain",
+  "country_code": "ESP",
+  "car_number": 29,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4134"
+  },
+  "driver_id": "sr:competitor:321537",
+  "name": "Karam, Sage",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 24,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4135"
+  },
+  "driver_id": "sr:competitor:336799",
+  "name": "Lazier, Buddy",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 44,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4136"
+  },
+  "driver_id": "sr:competitor:336795",
+  "name": "Harvey, Jack",
+  "gender": "male",
+  "nationality": "England",
+  "country_code": "ENG",
+  "car_number": 50,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4137"
+  },
+  "driver_id": "sr:competitor:321531",
+  "name": "Howard, Jay",
+  "gender": "male",
+  "nationality": "Great Britain",
+  "country_code": "GBR",
+  "car_number": 77,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4138"
+  },
+  "driver_id": "sr:competitor:83579",
+  "name": "Gutierrez, Esteban",
+  "gender": "male",
+  "nationality": "Mexico",
+  "country_code": "MEX",
+  "car_number": 18,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4139"
+  },
+  "driver_id": "sr:competitor:342722",
+  "name": "Vautier, Tristan",
+  "gender": "male",
+  "nationality": "France",
+  "country_code": "FRA",
+  "car_number": 18,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd413a"
+  },
+  "driver_id": "sr:competitor:60188",
+  "name": "Wickens, Robert",
+  "gender": "male",
+  "nationality": "Canada",
+  "country_code": "CAN",
+  "car_number": 7,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd413b"
+  },
+  "driver_id": "sr:competitor:377802",
+  "name": "Claman Demelo, Zachary",
+  "gender": "male",
+  "nationality": "Canada",
+  "country_code": "CAN",
+  "car_number": 13,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd413c"
+  },
+  "driver_id": "sr:competitor:294254",
+  "name": "King, Jordan",
+  "gender": "male",
+  "nationality": "Great Britain",
+  "country_code": "GBR",
+  "car_number": 20,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd413d"
+  },
+  "driver_id": "sr:competitor:414867",
+  "name": "Binder, Rene",
+  "gender": "male",
+  "nationality": "Austria",
+  "country_code": "AUT",
+  "car_number": 32,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd413e"
+  },
+  "driver_id": "sr:competitor:414873",
+  "name": "Leist, Matheus",
+  "gender": "male",
+  "nationality": "Brazil",
+  "country_code": "BRA",
+  "car_number": 4,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd413f"
+  },
+  "driver_id": "sr:competitor:414871",
+  "name": "Kaiser, Kyle",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 32,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4140"
+  },
+  "driver_id": "sr:competitor:414869",
+  "name": "Fittipaldi, Pietro",
+  "gender": "male",
+  "nationality": "Brazil",
+  "country_code": "BRA",
+  "car_number": 19,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4141"
+  },
+  "driver_id": "sr:competitor:414875",
+  "name": "Wilson, Stefan",
+  "gender": "male",
+  "nationality": "Great Britain",
+  "country_code": "GBR",
+  "car_number": 25,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4142"
+  },
+  "driver_id": "sr:competitor:64872",
+  "name": "Patrick, Danica",
+  "gender": "female",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 13,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4143"
+  },
+  "driver_id": "sr:competitor:444202",
+  "name": "Ferrucci, Santino",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 19,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4144"
+  },
+  "driver_id": "sr:competitor:250237",
+  "name": "Celis Jr., Alfonso",
+  "gender": "male",
+  "nationality": "Mexico",
+  "country_code": "MEX",
+  "car_number": 32,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4145"
+  },
+  "driver_id": "sr:competitor:502754",
+  "name": "O’Ward, Pato",
+  "gender": "male",
+  "nationality": "Mexico",
+  "country_code": "MEX",
+  "car_number": 27,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4146"
+  },
+  "driver_id": "sr:competitor:502752",
+  "name": "Herta, Colton",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 98,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4147"
+  },
+  "driver_id": "sr:competitor:417085",
+  "name": "Rosenqvist, Felix",
+  "gender": "male",
+  "nationality": "Sweden",
+  "country_code": "SWE",
+  "car_number": 10,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4148"
+  },
+  "driver_id": "sr:competitor:541327",
+  "name": "Hanley, Ben",
+  "gender": "male",
+  "nationality": "Great Britain",
+  "country_code": "GBR",
+  "car_number": 81,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4149"
+  },
+  "driver_id": "sr:competitor:136140",
+  "name": "Ericsson, Marcus",
+  "gender": "male",
+  "nationality": "Sweden",
+  "country_code": "SWE",
+  "car_number": 7,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd414a"
+  },
+  "driver_id": "sr:competitor:613424",
+  "name": "Enerson, Richard Clayton",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 31,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd414b"
+  },
+  "driver_id": "sr:competitor:552755",
+  "name": "Askew, Oliver",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 7,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd414c"
+  },
+  "driver_id": "sr:competitor:552747",
+  "name": "Veekay, Rinus",
+  "gender": "male",
+  "nationality": "Netherlands",
+  "country_code": "NLD",
+  "car_number": 21,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd414d"
+  },
+  "driver_id": "sr:competitor:677077",
+  "name": "Palou, Alex",
+  "gender": "male",
+  "nationality": "Spain",
+  "country_code": "ESP",
+  "car_number": 55,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd414e"
+  },
+  "driver_id": "sr:competitor:552773",
+  "name": "Kellett, Dalton",
+  "gender": "male",
+  "nationality": "Canada",
+  "country_code": "CAN",
+  "car_number": 14,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd414f"
+  },
+  "driver_id": "sr:competitor:562176",
+  "name": "McLaughlin, Scott",
+  "gender": "male",
+  "nationality": "New Zealand",
+  "country_code": "NZL",
+  "car_number": 3,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4150"
+  },
+  "driver_id": "sr:competitor:37294",
+  "name": "Grosjean, Romain",
+  "gender": "male",
+  "nationality": "France",
+  "country_code": "FRA",
+  "car_number": 51,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4151"
+  },
+  "driver_id": "sr:competitor:39995",
+  "name": "Johnson, Jimmie",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 48,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4152"
+  },
+  "driver_id": "sr:competitor:492894",
+  "name": "de Silvestro, Simona",
+  "gender": "female",
+  "nationality": "Switzerland",
+  "country_code": "CHE",
+  "car_number": 16,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4153"
+  },
+  "driver_id": "sr:competitor:319523",
+  "name": "Ware, Cody",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 52,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4154"
+  },
+  "driver_id": "sr:competitor:135592",
+  "name": "Magnussen, Kevin",
+  "gender": "male",
+  "nationality": "Denmark",
+  "country_code": "DNK",
+  "car_number": 7,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4155"
+  },
+  "driver_id": "sr:competitor:552767",
+  "name": "Norman, Ryan",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 52,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4156"
+  },
+  "driver_id": "sr:competitor:826994",
+  "name": "Lundgaard, Christian",
+  "gender": "male",
+  "nationality": "Denmark",
+  "country_code": "DNK",
+  "car_number": 45,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4157"
+  },
+  "driver_id": "sr:competitor:749737",
+  "name": "Ilott, Callum",
+  "gender": "male",
+  "nationality": "England",
+  "country_code": "ENG",
+  "car_number": 77,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4158"
+  },
+  "driver_id": "sr:competitor:687809",
+  "name": "Kirkwood, Kyle",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 14,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4159"
+  },
+  "driver_id": "sr:competitor:785838",
+  "name": "DeFrancesco, Devlin",
+  "gender": "male",
+  "nationality": "Canada",
+  "country_code": "CAN",
+  "car_number": 29,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd415a"
+  },
+  "driver_id": "sr:competitor:568779",
+  "name": "Calderon, Tatiana",
+  "gender": "female",
+  "nationality": "Colombia",
+  "country_code": "COL",
+  "car_number": 11,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd415b"
+  },
+  "driver_id": "sr:competitor:552753",
+  "name": "Malukas, David",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 18,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd415c"
+  },
+  "driver_id": "sr:competitor:986533",
+  "name": "Armstrong, Marcus",
+  "gender": "male",
+  "nationality": "New Zealand",
+  "country_code": "NZL",
+  "car_number": 11,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd415d"
+  },
+  "driver_id": "sr:competitor:986535",
+  "name": "Canapino, Agustin Hugo",
+  "gender": "male",
+  "nationality": "Argentina",
+  "country_code": "ARG",
+  "car_number": 78,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd415e"
+  },
+  "driver_id": "sr:competitor:785846",
+  "name": "Robb, Sting Ray",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 51,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd415f"
+  },
+  "driver_id": "sr:competitor:785842",
+  "name": "Pedersen, Benjamin",
+  "gender": "male",
+  "nationality": "Denmark",
+  "country_code": "DNK",
+  "car_number": 55,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4160"
+  },
+  "driver_id": "sr:competitor:1013767",
+  "name": "Legge, Katherine",
+  "gender": "female",
+  "nationality": "Great Britain",
+  "country_code": "GBR",
+  "car_number": 44,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4161"
+  },
+  "driver_id": "sr:competitor:202487",
+  "name": "Blomqvist, Tom",
+  "gender": "male",
+  "nationality": "Great Britain",
+  "country_code": "GBR",
+  "car_number": 60,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4162"
+  },
+  "driver_id": "sr:competitor:785840",
+  "name": "Lundqvist, Linus",
+  "gender": "male",
+  "nationality": "Sweden",
+  "country_code": "SWE",
+  "car_number": 60,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4163"
+  },
+  "driver_id": "sr:competitor:901859",
+  "name": "Vips, Juri",
+  "gender": "male",
+  "nationality": "Estonia",
+  "country_code": "EST",
+  "car_number": 30,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4164"
+  },
+  "driver_id": "sr:competitor:877887",
+  "name": "Simpson, Kyffin",
+  "gender": "male",
+  "nationality": "Cayman Islands",
+  "country_code": "CYM",
+  "car_number": 4,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4165"
+  },
+  "driver_id": "sr:competitor:877883",
+  "name": "Rasmussen, Christian",
+  "gender": "male",
+  "nationality": "Denmark",
+  "country_code": "DNK",
+  "car_number": 20,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4166"
+  },
+  "driver_id": "sr:competitor:45046",
+  "name": "Braun, Colin",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 51,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4167"
+  },
+  "driver_id": "sr:competitor:956805",
+  "name": "Pourchaire, Theo",
+  "gender": "male",
+  "nationality": "France",
+  "country_code": "FRA",
+  "car_number": 6,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4168"
+  },
+  "driver_id": "sr:competitor:940963",
+  "name": "Siegel, Nolan",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 18,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4169"
+  },
+  "driver_id": "sr:competitor:568789",
+  "name": "Ghiotto, Luca",
+  "gender": "male",
+  "nationality": "Italy",
+  "country_code": "ITA",
+  "car_number": 51,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd416a"
+  },
+  "driver_id": "sr:competitor:1101333",
+  "name": "Larson, Kyle",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 17,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd416b"
+  },
+  "driver_id": "sr:competitor:552751",
+  "name": "Sowery, Toby",
+  "gender": "male",
+  "nationality": "Great Britain",
+  "country_code": "GBR",
+  "car_number": 51,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd416c"
+  },
+  "driver_id": "sr:competitor:877881",
+  "name": "McElrea, Hunter",
+  "gender": "male",
+  "nationality": "New Zealand",
+  "country_code": "NZL",
+  "car_number": 18,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd416d"
+  },
+  "driver_id": "sr:competitor:1220803",
+  "name": "Shwartzman, Robert",
+  "gender": "male",
+  "nationality": "Israel",
+  "country_code": "ISR",
+  "car_number": 83,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd416e"
+  },
+  "driver_id": "sr:competitor:877875",
+  "name": "Abel, Jacob",
+  "gender": "male",
+  "nationality": "USA",
+  "country_code": "USA",
+  "car_number": 51,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd416f"
+  },
+  "driver_id": "sr:competitor:986537",
+  "name": "Foster, Louis",
+  "gender": "male",
+  "nationality": "England",
+  "country_code": "ENG",
+  "car_number": 45,
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.802Z"
+  }
+}]

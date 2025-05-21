@@ -1,0 +1,279 @@
+[{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd406c"
+  },
+  "year": "2017",
+  "season_id": "sr:stage:295691",
+  "description": "Indycar 2017",
+  "total_races": 17,
+  "generated_at": "2025-05-21T08:44:16+00:00",
+  "season_info": {
+    "id": "sr:stage:295691",
+    "description": "Indycar 2017",
+    "scheduled": "2017-03-09T23:00:00+00:00",
+    "scheduled_end": "2017-09-18T00:30:00+00:00",
+    "type": "season",
+    "category": {
+      "id": "sr:category:453",
+      "name": "Indycar"
+    },
+    "sport": {
+      "id": "sr:sport:129",
+      "name": "Indy Racing"
+    }
+  },
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.780Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.780Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd407e"
+  },
+  "year": "2018",
+  "season_id": "sr:stage:348851",
+  "description": "Indycar 2018",
+  "total_races": 17,
+  "generated_at": "2025-05-21T08:43:42+00:00",
+  "season_info": {
+    "id": "sr:stage:348851",
+    "description": "Indycar 2018",
+    "scheduled": "2018-03-09T16:05:00+00:00",
+    "scheduled_end": "2018-09-17T01:00:00+00:00",
+    "type": "season",
+    "category": {
+      "id": "sr:category:453",
+      "name": "Indycar"
+    },
+    "sport": {
+      "id": "sr:sport:129",
+      "name": "Indy Racing"
+    }
+  },
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.782Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.782Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4090"
+  },
+  "year": "2019",
+  "season_id": "sr:stage:453905",
+  "description": "Indycar 2019",
+  "total_races": 17,
+  "generated_at": "2025-05-21T08:43:08+00:00",
+  "season_info": {
+    "id": "sr:stage:453905",
+    "description": "Indycar 2019",
+    "scheduled": "2019-03-08T15:45:00+00:00",
+    "scheduled_end": "2019-09-23T01:00:00+00:00",
+    "type": "season",
+    "category": {
+      "id": "sr:category:453",
+      "name": "Indycar"
+    },
+    "sport": {
+      "id": "sr:sport:129",
+      "name": "Indy Racing"
+    }
+  },
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.784Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.784Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd40a2"
+  },
+  "year": "2020",
+  "season_id": "sr:stage:576235",
+  "description": "Indycar 2020",
+  "total_races": 25,
+  "generated_at": "2025-05-21T08:42:17+00:00",
+  "season_info": {
+    "id": "sr:stage:576235",
+    "description": "Indycar 2020",
+    "scheduled": "2020-06-04T00:00:00+00:00",
+    "scheduled_end": "2020-10-25T23:00:00+00:00",
+    "type": "season",
+    "category": {
+      "id": "sr:category:453",
+      "name": "Indycar"
+    },
+    "sport": {
+      "id": "sr:sport:129",
+      "name": "Indy Racing"
+    }
+  },
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.786Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.786Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd40bc"
+  },
+  "year": "2021",
+  "season_id": "sr:stage:660732",
+  "description": "Indycar 2021",
+  "total_races": 17,
+  "generated_at": "2025-05-21T08:41:43+00:00",
+  "season_info": {
+    "id": "sr:stage:660732",
+    "description": "Indycar 2021",
+    "scheduled": "2021-04-17T15:00:00+00:00",
+    "scheduled_end": "2021-09-26T23:00:00+00:00",
+    "type": "season",
+    "category": {
+      "id": "sr:category:453",
+      "name": "Indycar"
+    },
+    "sport": {
+      "id": "sr:sport:129",
+      "name": "Indy Racing"
+    }
+  },
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.788Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.788Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd40ce"
+  },
+  "year": "2022",
+  "season_id": "sr:stage:948353",
+  "description": "Indycar 2022",
+  "total_races": 17,
+  "generated_at": "2025-05-21T08:41:08+00:00",
+  "season_info": {
+    "id": "sr:stage:948353",
+    "description": "Indycar 2022",
+    "scheduled": "2022-02-25T19:05:00+00:00",
+    "scheduled_end": "2022-09-11T22:00:00+00:00",
+    "type": "season",
+    "category": {
+      "id": "sr:category:453",
+      "name": "Indycar"
+    },
+    "sport": {
+      "id": "sr:sport:129",
+      "name": "Indy Racing"
+    }
+  },
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.791Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.791Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd40e0"
+  },
+  "year": "2023",
+  "season_id": "sr:stage:1066641",
+  "description": "Indycar 2023",
+  "total_races": 17,
+  "generated_at": "2025-05-21T08:40:33+00:00",
+  "season_info": {
+    "id": "sr:stage:1066641",
+    "description": "Indycar 2023",
+    "scheduled": "2023-03-03T20:00:00+00:00",
+    "scheduled_end": "2023-09-10T22:00:00+00:00",
+    "type": "season",
+    "category": {
+      "id": "sr:category:453",
+      "name": "Indycar"
+    },
+    "sport": {
+      "id": "sr:sport:129",
+      "name": "Indy Racing"
+    }
+  },
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.793Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.793Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd40f2"
+  },
+  "year": "2024",
+  "season_id": "sr:stage:1122936",
+  "description": "Indycar 2024",
+  "total_races": 17,
+  "generated_at": "2025-05-21T08:39:58+00:00",
+  "season_info": {
+    "id": "sr:stage:1122936",
+    "description": "Indycar 2024",
+    "scheduled": "2024-03-10T20:00:00+00:00",
+    "scheduled_end": "2024-09-15T19:00:00+00:00",
+    "type": "season",
+    "category": {
+      "id": "sr:category:453",
+      "name": "Indycar"
+    },
+    "sport": {
+      "id": "sr:sport:129",
+      "name": "Indy Racing"
+    }
+  },
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.795Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.795Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682d9273b2ba6377a4dd4104"
+  },
+  "year": "2025",
+  "season_id": "sr:stage:1203305",
+  "description": "Indycar 2025",
+  "total_races": 17,
+  "generated_at": "2025-05-21T08:39:25+00:00",
+  "season_info": {
+    "id": "sr:stage:1203305",
+    "description": "Indycar 2025",
+    "scheduled": "2025-02-28T19:45:00+00:00",
+    "scheduled_end": "2025-08-31T21:00:00+00:00",
+    "type": "season",
+    "category": {
+      "id": "sr:category:453",
+      "name": "Indycar"
+    },
+    "sport": {
+      "id": "sr:sport:129",
+      "name": "Indy Racing"
+    }
+  },
+  "created_at": {
+    "$date": "2025-05-21T08:44:35.796Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-21T08:44:35.796Z"
+  }
+}]

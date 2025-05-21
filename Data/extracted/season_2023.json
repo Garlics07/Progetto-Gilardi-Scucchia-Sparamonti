@@ -3,7 +3,7 @@
     "season_id": "sr:stage:1066641",
     "description": "Indycar 2023",
     "total_races": 17,
-    "generated_at": "2025-05-21T06:42:14+00:00",
+    "generated_at": "2025-05-21T08:40:33+00:00",
     "season_info": {
         "id": "sr:stage:1066641",
         "description": "Indycar 2023",
@@ -51,7 +51,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:14+00:00",
+                "generated_at": "2025-05-21T08:40:34+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1066643",
@@ -506,7 +506,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:16+00:00",
+                "generated_at": "2025-05-21T08:40:36+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1067275",
@@ -973,7 +973,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:18+00:00",
+                "generated_at": "2025-05-21T08:40:38+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1067907",
@@ -1426,7 +1426,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:20+00:00",
+                "generated_at": "2025-05-21T08:40:40+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1068539",
@@ -1878,7 +1878,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:21+00:00",
+                "generated_at": "2025-05-21T08:40:42+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1069171",
@@ -2331,7 +2331,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:23+00:00",
+                "generated_at": "2025-05-21T08:40:44+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1069803",
@@ -2924,7 +2924,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:25+00:00",
+                "generated_at": "2025-05-21T08:40:45+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1070435",
@@ -3375,7 +3375,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:27+00:00",
+                "generated_at": "2025-05-21T08:40:47+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1071067",
@@ -3830,7 +3830,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:28+00:00",
+                "generated_at": "2025-05-21T08:40:49+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1071699",
@@ -4285,7 +4285,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:30+00:00",
+                "generated_at": "2025-05-21T08:40:51+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1072331",
@@ -4741,7 +4741,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:32+00:00",
+                "generated_at": "2025-05-21T08:40:53+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1072963",
@@ -5201,7 +5201,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:34+00:00",
+                "generated_at": "2025-05-21T08:40:55+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1073595",
@@ -5647,7 +5647,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:35+00:00",
+                "generated_at": "2025-05-21T08:40:57+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1074227",
@@ -6106,7 +6106,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:37+00:00",
+                "generated_at": "2025-05-21T08:40:58+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1074859",
@@ -6560,7 +6560,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:39+00:00",
+                "generated_at": "2025-05-21T08:41:00+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1075491",
@@ -7037,7 +7037,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:40+00:00",
+                "generated_at": "2025-05-21T08:41:02+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1076123",
@@ -7501,7 +7501,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T06:42:42+00:00",
+                "generated_at": "2025-05-21T08:41:04+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1076755",
