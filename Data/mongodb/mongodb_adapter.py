@@ -4,20 +4,11 @@ from datetime import datetime
 from bson import ObjectId
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, BulkWriteError
-import os
-from dotenv import load_dotenv
 
-# Carica le variabili d'ambiente dal file .env nella root
-root_dir = Path(__file__).parent.parent
-load_dotenv(root_dir / ".env")
-
-def connect_to_mongodb(connection_string=None):
+def connect_to_mongodb(connection_string="mongodb+srv://marcogilardi:Garlics2007@cluster0.fixb6bi.mongodb.net/"):
     """
     Stabilisce la connessione con MongoDB
     """
-    if connection_string is None:
-        connection_string = os.getenv("MONGODB_CONNECTION_STRING")
-    
     try:
         client = MongoClient(connection_string)
         # Verifica la connessione
@@ -121,6 +112,9 @@ def adapt_driver_data(driver_data):
     """
     Adatta i dati del pilota al formato MongoDB
     """
+    # Se non ci sono gare, lascia la lista vuota
+    races = driver_data.get("races", [])
+    total_races = driver_data.get("total_races", len(races))
     return {
         "_id": ObjectId(),  # Genera un nuovo ObjectId
         "driver_id": driver_data["id"],
@@ -128,7 +122,8 @@ def adapt_driver_data(driver_data):
         "gender": driver_data.get("gender"),
         "nationality": driver_data.get("nationality"),
         "country_code": driver_data.get("country_code"),
-        "car_number": driver_data.get("car_number"),
+        "total_races": total_races,
+        "races": races,
         "created_at": datetime.utcnow(),
         "updated_at": datetime.utcnow()
     }
@@ -176,7 +171,7 @@ def create_mongodb_collections():
     
     # Carica i dati delle stagioni
     print("\n1. Caricamento dati stagioni...")
-    season_files = sorted(Path("Data/extracted").glob("season_*.json"))
+    season_files = sorted(Path("Data").glob("season_*.json"))
     for file in season_files:
         season = load_json_file(file)
         if season:
@@ -187,14 +182,35 @@ def create_mongodb_collections():
     
     # Carica i dati dei piloti
     print("2. Caricamento dati piloti...")
-    drivers_file = Path("Data/extracted/drivers.json")
+    drivers_file = Path("Data/drivers.json")
     if drivers_file.exists():
         drivers = load_json_file(drivers_file)
         if drivers:
             drivers_data = [adapt_driver_data(driver) for driver in drivers]
     
+    # Salva i dati adattati in file JSON
+    print("\n3. Salvataggio dati adattati in file...")
+    try:
+        # Crea la directory per i dati MongoDB
+        Path("Data/mongodb").mkdir(parents=True, exist_ok=True)
+        
+        # Salva le collezioni
+        collections = {
+            "seasons": seasons_data,
+            "races": races_data,
+            "drivers": drivers_data
+        }
+        
+        for collection_name, data in collections.items():
+            filename = f"Data/mongodb/{collection_name}.json"
+            with open(filename, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=4, ensure_ascii=False, default=str)
+            print(f"✓ Salvata collezione {collection_name} con {len(data)} documenti")
+    except Exception as e:
+        print(f"✗ Errore durante il salvataggio dei file: {e}")
+    
     # Carica i dati in MongoDB
-    print("\n3. Caricamento dati in MongoDB...")
+    print("\n4. Caricamento dati in MongoDB...")
     save_to_mongodb(db, "seasons", seasons_data)
     save_to_mongodb(db, "races", races_data)
     save_to_mongodb(db, "drivers", drivers_data)

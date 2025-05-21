@@ -3,16 +3,23 @@ import json
 from pathlib import Path
 import re
 import time
+import os
+from dotenv import load_dotenv
+
+# Carica le variabili d'ambiente dal file .env nella root
+root_dir = Path(__file__).parent.parent.parent
+load_dotenv(root_dir / ".env")
 
 # Configurazione API
-BASE_URL = "https://api.sportradar.com/indycar/trial/v2/en"
+BASE_URL = os.getenv("SPORTRADAR_BASE_URL", "https://api.sportradar.com/indycar/trial/v2/en")
+API_KEY = os.getenv("SPORTRADAR_API_KEY")
 
-# Crea la directory per i dati
-Path("data").mkdir(parents=True, exist_ok=True)
+# Crea la directory per i dati estratti
+Path("Data/extracted").mkdir(parents=True, exist_ok=True)
 
 HEADERS = {
     "accept": "application/json",
-    "x-api-key": "Gm4DxN7Erj41awJRh7BldXmEqDl0AYef0dfHlSaF"
+    "x-api-key": API_KEY
 }
 
 def fetch_data(url: str, retry_count=3, delay=1):
@@ -96,9 +103,9 @@ def save_seasons_list(seasons):
         })
     
     try:
-        with open("data/seasons.json", "w", encoding="utf-8") as f:
+        with open("Data/extracted/seasons.json", "w", encoding="utf-8") as f:
             json.dump(seasons_data, f, indent=4, ensure_ascii=False)
-        print("✓ Lista stagioni salvata in seasons.json")
+        print("✓ Lista stagioni salvata in Data/extracted/seasons.json")
     except IOError as e:
         print(f"✗ Errore durante il salvataggio di seasons.json: {e}")
 

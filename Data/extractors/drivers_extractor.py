@@ -5,17 +5,18 @@ from collections import defaultdict
 
 class DriversExtractor:
     def __init__(self):
-        self.data_dir = Path("data")
-        self.output_file = self.data_dir / "drivers.json"
+        # Usa il percorso assoluto della directory corrente
+        self.data_dir = Path(__file__).parent.parent
+        self.output_file = self.data_dir / "extracted" / "drivers.json"
         self.drivers_by_id = defaultdict(dict)
 
     def load_season_files(self) -> List[Dict[str, Any]]:
-        """Carica tutti i file delle stagioni dalla cartella data"""
-        print("\nRicerca file stagioni in data/...")
-        season_files = sorted(self.data_dir.glob("season_*.json"))
+        """Carica tutti i file delle stagioni dalla cartella Data/extracted"""
+        print("\nRicerca file stagioni in", self.data_dir / "extracted", "...")
+        season_files = sorted((self.data_dir / "extracted").glob("season_*.json"))
         
         if not season_files:
-            print("! Nessun file stagione trovato nella cartella data/")
+            print("! Nessun file stagione trovato nella cartella", self.data_dir / "extracted")
             return []
         
         print(f"Trovati {len(season_files)} file stagioni")
@@ -27,7 +28,6 @@ class DriversExtractor:
                     data = json.load(f)
                     seasons_data.append(data)
                 print(f"✓ Caricato {file.name}")
-                # Debug: mostra la struttura del file
                 print(f"  - Anno: {data.get('id')}")
                 print(f"  - Numero gare: {len(data.get('races', []))}")
             except Exception as e:
@@ -44,6 +44,10 @@ class DriversExtractor:
             "nationality": competitor.get("nationality"),
             "country_code": competitor.get("country_code")
         }
+        
+        # Aggiungi il numero della macchina se presente
+        if "result" in competitor and "car_number" in competitor["result"]:
+            driver_info["car_number"] = competitor["result"]["car_number"]
         
         # Debug: mostra i dati estratti
         print(f"  Estrazione pilota: {driver_info['name']} (ID: {driver_info['id']})")
@@ -77,13 +81,18 @@ class DriversExtractor:
             print(f"  ID: {race.get('id')}")
             print(f"  Descrizione: {race.get('description')}")
             
-            # Cerca i piloti in complete_details.competitors
+            # Cerca i piloti in complete_details.stage.competitors
             complete_details = race.get("complete_details", {})
             if not complete_details:
                 print("  ! Nessun complete_details trovato")
                 continue
                 
-            competitors = complete_details.get("competitors", [])
+            stage = complete_details.get("stage", {})
+            if not stage:
+                print("  ! Nessun stage trovato in complete_details")
+                continue
+                
+            competitors = stage.get("competitors", [])
             print(f"  Trovati {len(competitors)} piloti")
             
             if not competitors:
@@ -98,6 +107,7 @@ class DriversExtractor:
         """Salva i dati dei piloti in un file JSON"""
         try:
             self.data_dir.mkdir(parents=True, exist_ok=True)
+            (self.data_dir / "extracted").mkdir(parents=True, exist_ok=True)
             
             final_drivers = list(self.drivers_by_id.values())
             if not final_drivers:
