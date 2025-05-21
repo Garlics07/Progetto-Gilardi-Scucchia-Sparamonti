@@ -1,126 +1,185 @@
-# Piattaforma SportAnalytics
+# Sports Analytics Platform
 
-Una piattaforma completa di analisi sportiva che fornisce approfondimenti basati sui dati per allenatori, analisti e appassionati.
+A comprehensive sports analytics platform that provides data-driven insights for coaches, analysts, and enthusiasts.
 
-## Caratteristiche Principali
+## Key Features
 
-- Visualizzazione in tempo reale dei dati sportivi
-- Analisi delle prestazioni dei giocatori
-- Algoritmi di previsione delle partite
-- Raccolta automatizzata dei dati da varie fonti
-- Dashboard interattiva per l'esplorazione dei dati
+- Real-time sports data visualization
+- Player performance analysis
+- Match prediction algorithms
+- Automated data collection from multiple sources
+- Interactive dashboard for data exploration
 
-## Stack Tecnologico
+## Technology Stack
 
 - Frontend: React + TypeScript
 - Backend: Node.js + Express
-- Database: MongoDB
-- Raccolta Dati: Python
+- Database: MongoDB Atlas
+- Data Collection: Python
 
-## Struttura del Progetto
+## Project Structure
 
 ```
-sport-analytics/
-├── FrontEnd/          # Applicazione React frontend
-├── BackEnd/          # Server Node.js backend
-├── Data/             # Script Python per l'estrazione dei dati e l'inserimento in MongoDB
-│   ├── extracted/    # Directory dove vengono salvati i file JSON estratti
-│   └── mongodb/      # Directory per i file JSON adattati per MongoDB
-├── documentation/    # Documentazione del progetto
-└── requirements.txt  # Dipendenze Python
+sports-analytics/
+├── FrontEnd/          # React frontend application
+│   ├── src/          # Source code
+│   ├── public/       # Static files
+│   └── package.json  # Frontend dependencies
+│
+├── BackEnd/          # Node.js backend server
+│   ├── src/          # Source code
+│   ├── routes/       # API routes
+│   ├── models/       # Database models
+│   └── package.json  # Backend dependencies
+│
+├── Data/             # Python data extraction and processing
+│   ├── extractors/   # Data extraction modules
+│   │   ├── seasons_extractor.py  # Extracts season data
+│   │   ├── races_extractor.py    # Extracts race data
+│   │   └── drivers_extractor.py  # Extracts driver data
+│   ├── extracted/    # Directory for extracted JSON files
+│   ├── mongodb/      # Directory for MongoDB-adapted JSON files
+│   ├── mongodb_adapter.py  # MongoDB connection and data adaptation
+│   └── main.py       # Main script to run all extractors
+│
+├── documentation/    # Project documentation
+├── .env             # Environment variables
+└── requirements.txt  # Python dependencies
 ```
 
-## Requisiti di Sistema
+## System Requirements
 
-### Prerequisiti
+### Prerequisites
 
-- Node.js (versione LTS consigliata)
+- Node.js (LTS version recommended)
 - MongoDB
 - Python 3.x
-- npm o yarn
+- npm or yarn
 
-### Dipendenze Python
+### Python Dependencies
 - requests==2.31.0
 - pymongo==4.6.1
 - python-dateutil==2.8.2
+- python-dotenv==1.0.0
 
-## Installazione
+## Installation
 
-1. Clonare il repository:
+1. Clone the repository:
 ```bash
-git clone [URL_REPOSITORY]
+git clone [REPOSITORY_URL]
 ```
 
-2. Installare le dipendenze frontend:
+2. Install frontend dependencies:
 ```bash
 cd FrontEnd
 npm install
 ```
 
-3. Installare le dipendenze backend:
+3. Install backend dependencies:
 ```bash
 cd BackEnd
 npm install
 ```
 
-4. Installare le dipendenze Python:
+4. Install Python dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Configurazione
+## Configuration
 
-1. Configurare il file `.env` nel backend con le credenziali del database
-2. Assicurarsi che MongoDB sia in esecuzione
-3. Avviare i servizi necessari
+1. Create a `.env` file in the root directory with the following variables:
+```env
+# SportRadar API Configuration
+SPORTRADAR_API_KEY=your_api_key_here
+SPORTRADAR_BASE_URL=https://api.sportradar.com/indycar/trial/v2/en
 
-## Connessioni e API
-
-### Database MongoDB
-Il progetto utilizza MongoDB Atlas come database cloud. La connessione è configurata nel file `Data/mongodb_adapter.py`:
-
-```python
-connection_string = "mongodb+srv://marcogilardi:Garlics2007@cluster0.fixb6bi.mongodb.net/"
+# MongoDB Configuration
+MONGODB_CONNECTION_STRING=your_mongodb_connection_string
 ```
 
-### API SportRadar
-Il progetto utilizza l'API di SportRadar per la raccolta dei dati sportivi. Le credenziali API sono configurate nel file `Data/api_config.py`:
+2. Ensure MongoDB is running
+3. Start the required services
 
-```python
-API_KEY = "Gm4DxN7Erj41awJRh7BldXmEqDl0AYef0dfHlSaF"
-BASE_URL = "https://api.sportradar.com/indycar/trial/v1/en"
+## Data Collection and Processing
+
+### Data Extraction Process
+The `Data` folder contains Python scripts that handle data collection and processing:
+
+1. **Seasons Extractor** (`seasons_extractor.py`):
+   - Fetches available seasons from SportRadar API
+   - Filters seasons between 2017-2025
+   - Saves season data to `Data/extracted/seasons.json`
+
+2. **Races Extractor** (`races_extractor.py`):
+   - Processes each season to extract race information
+   - Fetches detailed race data from SportRadar API
+   - Saves race data to `Data/extracted/season_{year}.json`
+
+3. **Drivers Extractor** (`drivers_extractor.py`):
+   - Extracts driver information from race data
+   - Consolidates driver data across seasons
+   - Saves driver data to `Data/extracted/drivers.json`
+
+4. **MongoDB Adapter** (`mongodb_adapter.py`):
+   - Connects to MongoDB Atlas
+   - Transforms JSON data for MongoDB storage
+   - Creates necessary indexes for efficient querying
+   - Loads data into MongoDB collections
+
+### Running Data Collection
+To run the data collection process:
+
+```bash
+cd Data
+python main.py [option]
+
+Options:
+    all     - Run all extractors and load data into MongoDB
+    seasons - Run only the seasons extractor
+    races   - Run only the races extractor
+    drivers - Run only the drivers extractor
+    mongodb - Load extracted data into MongoDB
 ```
 
-Per ottenere una chiave API:
-1. Registrarsi su [SportRadar Developer Portal](https://developer.sportradar.com/)
-2. Sottoscrivere il piano Trial per IndyCar
-3. Generare una nuova chiave API
-4. Inserire la chiave nel file di configurazione
+## Frontend and Backend
 
-## Avvio del Progetto
+### Frontend (React + TypeScript)
+- Modern, responsive user interface
+- Real-time data visualization
+- Interactive charts and graphs
+- Performance analysis tools
 
-1. Avviare il backend:
+### Backend (Node.js + Express)
+- RESTful API endpoints
+- Data processing and aggregation
+- MongoDB integration
+- Authentication and authorization
+
+## Starting the Project
+
+1. Start the backend:
 ```bash
 cd BackEnd
 npm start
 ```
 
-2. Avviare il frontend:
+2. Start the frontend:
 ```bash
 cd FrontEnd
 npm start
 ```
 
-3. Avviare lo script di raccolta dati:
+3. Run data collection (if needed):
 ```bash
 cd Data
-python main.py
+python main.py all
 ```
 
-## Contribuire
+## Contributing
 
-Le pull request sono benvenute. Per modifiche importanti, aprire prima un issue per discutere cosa vorreste cambiare.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Licenza
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
