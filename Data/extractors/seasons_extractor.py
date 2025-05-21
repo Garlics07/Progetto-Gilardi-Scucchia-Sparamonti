@@ -12,7 +12,7 @@ Path("data").mkdir(parents=True, exist_ok=True)
 
 HEADERS = {
     "accept": "application/json",
-    "x-api-key": "8PwbpLISJWyjSTcWi16EqZEnYqaMaqKZMEm6PYSV"
+    "x-api-key": "Gm4DxN7Erj41awJRh7BldXmEqDl0AYef0dfHlSaF"
 }
 
 def fetch_data(url: str, retry_count=3, delay=1):
