@@ -9,7 +9,7 @@ const HomeContainer = styled.div`
   padding: 2rem;
   gap: 2rem;
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--racing-black), var(--racing-gray));
+  background: linear-gradient(135deg, var(--racing-light-bg), var(--racing-card-bg));
 `;
 
 const LeftSection = styled.div`
@@ -27,25 +27,26 @@ const RightSection = styled.div`
 `;
 
 const Card = styled.div`
-  background: rgba(0, 0, 0, 0.8);
-  border: 1px solid var(--racing-accent);
+  background: var(--racing-card-bg);
+  border: 1px solid var(--racing-border);
   border-radius: 10px;
   padding: 1.5rem;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
-  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  color: var(--racing-text);
   transition: transform 0.3s ease;
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-color: var(--racing-gray);
   }
 
   h2 {
-    color: var(--racing-red);
+    color: var(--racing-black);
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   }
 `;
 
@@ -60,7 +61,8 @@ const DriverItem = styled.div`
   align-items: center;
   gap: 1rem;
   padding: 0.5rem;
-  border-bottom: 1px solid var(--racing-accent);
+  border-bottom: 1px solid var(--racing-border);
+  color: var(--racing-text);
   
   &:last-child {
     border-bottom: none;
@@ -69,16 +71,17 @@ const DriverItem = styled.div`
 
 const DriverRank = styled.span`
   font-weight: bold;
-  color: var(--racing-red);
+  color: var(--racing-gray);
   min-width: 2rem;
 `;
 
 const DriverName = styled.span`
   flex: 1;
+  color: var(--racing-text);
 `;
 
 const DriverWins = styled.span`
-  color: var(--racing-accent);
+  color: var(--racing-text-light);
   font-weight: bold;
 `;
 

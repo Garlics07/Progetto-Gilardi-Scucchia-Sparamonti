@@ -1,8 +1,15 @@
 :root {
-  --racing-red: #ff0000;
-  --racing-black: #000000;
-  --racing-gray: #2c2c2c;
-  --racing-accent: #ffd700;
+  --racing-red: #e63946;
+  --racing-black: #1d3557;
+  --racing-gray: #457b9d;
+  --racing-accent: #f1faee;
+  --racing-light-bg: #f8f9fa;
+  --racing-card-bg: #ffffff;
+  --racing-text: #2b2d42;
+  --racing-text-light: #6c757d;
+  --racing-border: #dee2e6;
+  --racing-hover: #e9ecef;
+  --racing-stripe: linear-gradient(45deg, transparent 45%, var(--racing-red) 45%, var(--racing-red) 55%, transparent 55%);
 }
 
 * {
@@ -13,16 +20,29 @@
 
 body {
   font-family: 'Orbitron', sans-serif;
-  background: linear-gradient(135deg, var(--racing-black), var(--racing-gray));
-  color: white;
+  background: linear-gradient(135deg, var(--racing-light-bg), #ffffff);
+  color: var(--racing-text);
   min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--racing-stripe);
+  background-size: 20px 20px;
+  z-index: 1000;
 }
 
 /* Effetto di velocità per i bottoni */
 button {
-  background: var(--racing-red);
-  color: white;
-  border: 2px solid var(--racing-accent);
+  background: var(--racing-gray);
+  color: var(--racing-accent);
+  border: 2px solid var(--racing-border);
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: bold;
@@ -30,98 +50,153 @@ button {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  letter-spacing: 1px;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+button:hover::before {
+  left: 100%;
 }
 
 button:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px var(--racing-red);
-}
-
-button::after {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    rgba(255, 255, 255, 0.1),
-    transparent
-  );
-  transform: rotate(45deg);
-  transition: 0.5s;
-}
-
-button:hover::after {
-  left: 100%;
+  background: var(--racing-black);
+  box-shadow: 0 0 15px rgba(69, 123, 157, 0.3);
+  border-color: var(--racing-red);
 }
 
 /* Stile per i contenitori */
 .container {
-  background: rgba(0, 0, 0, 0.8);
-  border: 1px solid var(--racing-accent);
+  background: var(--racing-card-bg);
+  border: 1px solid var(--racing-border);
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  color: var(--racing-text);
+  position: relative;
+  overflow: hidden;
 }
 
-/* Stile per gli input */
-input {
-  background: var(--racing-gray);
-  border: 2px solid var(--racing-accent);
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
+.container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: var(--racing-stripe);
+  background-size: 10px 10px;
+  opacity: 0.1;
 }
 
-input:focus {
-  outline: none;
-  box-shadow: 0 0 10px var(--racing-red);
-}
-
-/* Stile per i titoli */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--racing-red);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-/* Effetto di movimento per le card */
+/* Stile per le card */
 .card {
-  background: var(--racing-gray);
-  border: 1px solid var(--racing-accent);
+  background: var(--racing-card-bg);
+  border: 1px solid var(--racing-border);
   border-radius: 8px;
   padding: 15px;
+  transition: all 0.3s ease;
+  color: var(--racing-text);
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--racing-red);
+  transform: scaleX(0);
+  transform-origin: left;
   transition: transform 0.3s ease;
+}
+
+.card:hover::before {
+  transform: scaleX(1);
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-color: var(--racing-gray);
+}
+
+/* Stile per i titoli */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--racing-black);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: inline-block;
+}
+
+h1::after, h2::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--racing-stripe);
+  background-size: 10px 10px;
 }
 
 /* Stile per le tabelle */
 table {
   border-collapse: collapse;
   width: 100%;
-  background: var(--racing-gray);
-  border: 2px solid var(--racing-accent);
+  background: var(--racing-card-bg);
+  border: 2px solid var(--racing-border);
+  position: relative;
+}
+
+table::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--racing-stripe);
+  background-size: 15px 15px;
+  opacity: 0.5;
 }
 
 th, td {
   padding: 12px;
   text-align: left;
-  border-bottom: 1px solid var(--racing-accent);
+  border-bottom: 1px solid var(--racing-border);
+  position: relative;
 }
 
 th {
-  background: var(--racing-red);
-  color: white;
+  background: var(--racing-gray);
+  color: var(--racing-accent);
   text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+tr:hover td {
+  background: var(--racing-hover);
 }
 
 /* Animazione di caricamento */
@@ -137,6 +212,58 @@ th {
   }
 }
 
+@keyframes racing-stripe {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 20px 0;
+  }
+}
+
 .loading {
   animation: racing-pulse 1s infinite;
+  position: relative;
+}
+
+.loading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--racing-stripe);
+  background-size: 10px 10px;
+  animation: racing-stripe 0.5s linear infinite;
+}
+
+/* Stile per gli input */
+input {
+  background: var(--racing-accent);
+  border: 2px solid var(--racing-border);
+  color: var(--racing-text);
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--racing-gray);
+  box-shadow: 0 0 10px rgba(69, 123, 157, 0.2);
+  background: white;
+}
+
+input:focus::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--racing-stripe);
+  background-size: 10px 10px;
+  animation: racing-stripe 0.5s linear infinite;
 }

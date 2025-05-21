@@ -4,29 +4,18 @@ Una piattaforma completa di analisi sportiva che fornisce approfondimenti basati
 
 ## Caratteristiche Principali
 
-- Visualizzazione in tempo reale dei dati sportivi
-- Analisi delle prestazioni dei giocatori
-- Algoritmi di previsione delle partite
+- Visualizzazione dei dati sportivi
+- Analisi delle prestazioni dei piloti
+- Algoritmi di previsione delle gare
 - Raccolta automatizzata dei dati da varie fonti
 - Dashboard interattiva per l'esplorazione dei dati
 
 ## Stack Tecnologico
 
-- Frontend: React + TypeScript
+- Frontend: React Vite
 - Backend: Node.js + Express
 - Database: MongoDB
 - Raccolta Dati: Python
-
-## Struttura del Progetto
-
-```
-sport-analytics/
-├── FrontEnd/          # Applicazione React frontend
-├── BackEnd/          # Server Node.js backend
-├── Data/             # Script Python per l'estrazione dei dati e l'inserimento in MongoDB
-├── documentation/    # Documentazione del progetto
-└── requirements.txt  # Dipendenze Python
-```
 
 ## Requisiti di Sistema
 
@@ -35,7 +24,7 @@ sport-analytics/
 - Node.js (versione LTS consigliata)
 - MongoDB
 - Python 3.x
-- npm o yarn
+- npm
 
 ### Dipendenze Python
 - requests==2.31.0
@@ -53,12 +42,16 @@ git clone [URL_REPOSITORY]
 ```bash
 cd FrontEnd
 npm install
+npm install react-router-dom
 ```
 
 3. Installare le dipendenze backend:
 ```bash
 cd BackEnd
 npm install
+npm i nodemon -D
+npm i express
+npm i cors
 ```
 
 4. Installare le dipendenze Python:
@@ -83,7 +76,7 @@ npm start
 2. Avviare il frontend:
 ```bash
 cd FrontEnd
-npm start
+npm run dev
 ```
 
 3. Avviare lo script di raccolta dati:
@@ -91,11 +84,5 @@ npm start
 cd Data
 python main.py
 ```
-
-## Contribuire
-
-Le pull request sono benvenute. Per modifiche importanti, aprire prima un issue per discutere cosa vorreste cambiare.
-
-## Licenza
 
 [MIT](https://choosealicense.com/licenses/mit/)
