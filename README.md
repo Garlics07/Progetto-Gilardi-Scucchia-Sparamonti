@@ -54,7 +54,7 @@ sports-analytics/
 - Node.js (LTS version recommended)
 - MongoDB
 - Python 3.x
-- npm or yarn
+- npm
 
 ### Python Dependencies
 - requests==2.31.0
