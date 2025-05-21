@@ -1,6 +1,8 @@
 import express from "express"
 import cors from "cors"
-import {connessioneDb, getAll} from "./db.js"
+import { connessioneDb } from "./db.js"
+import driversRouter from "./routes/drivers.js"
+import calendarRouter from "./routes/calendar.js"
 
 const app = express()
 
@@ -9,20 +11,9 @@ app.use(express.json())
 
 let db
 
-//All Pilot
-
-app.get("/AllPilot", async(req, res) => {
-    const data = await getAll(db, "Pilot")
-    res.send(data)
-})
-
-//Calendar
-
-app.get("/Calendar", async(req, res) => {
-    const data = await getAll(db, "Calendar")
-    res.send(data)
-})
-
+// Usa i router
+app.use("/drivers", driversRouter)
+app.use("/calendar", calendarRouter)
 
 app.listen(3000, async() => {
     try {
