@@ -289,6 +289,7 @@ const getStatusText = (status: string) => {
     case 'Finished':
       return 'Finita';
     case 'Closed':
+    case 'Cancelled':
       return 'Cancellata';
     case 'Scheduled':
       return 'Da Fare';
@@ -344,7 +345,7 @@ const CalendarPage: React.FC = () => {
     { value: 'Open', label: 'In Corso' },
     { value: 'Scheduled', label: 'Da Fare' },
     { value: 'Finished', label: 'Finita' },
-    { value: 'Closed', label: 'Cancellata' }
+    { value: 'Cancelled', label: 'Cancellata' },
   ];
 
   // Filtra le gare in base ai criteri selezionati
@@ -355,7 +356,8 @@ const CalendarPage: React.FC = () => {
       const monthMatch = selectedMonth === 'tutti' || 
         new Date(race.scheduled).getMonth() + 1 === parseInt(selectedMonth);
       
-      const statusMatch = selectedStatus === 'tutti' || race.status === selectedStatus;
+      const statusMatch = selectedStatus === 'tutti' || 
+        (selectedStatus === 'Cancelled' ? (race.status === 'Cancelled' || race.status === 'Closed') : race.status === selectedStatus);
       
       const venueMatch = !venueFilter || 
         race.venue.name.toLowerCase().includes(venueFilter.toLowerCase());

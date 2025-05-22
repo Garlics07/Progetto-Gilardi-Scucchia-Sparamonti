@@ -21,7 +21,7 @@ const Title = styled.h1`
 
 const HeaderContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
 `;
@@ -407,7 +407,6 @@ const DriverDetailsPage: React.FC = () => {
       <Container>
         <Title>Dettagli Pilota</Title>
         <p>Errore: {error || 'Pilota non trovato'}</p>
-        <BackButton onClick={() => navigate('/drivers')}>Torna alla Classifica</BackButton>
       </Container>
     );
   }
@@ -415,11 +414,7 @@ const DriverDetailsPage: React.FC = () => {
   return (
     <Container>
       <HeaderContainer>
-        <BackButton onClick={() => navigate('/drivers')}>
-          ← Torna alla Classifica
-        </BackButton>
         <Title>{driverDetails?.nome || 'Dettagli Pilota'}</Title>
-        <div style={{ width: '120px' }} />
       </HeaderContainer>
       
       {loading ? (

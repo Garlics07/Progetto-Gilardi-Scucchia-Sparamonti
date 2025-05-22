@@ -1,32 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useNavigate } from 'react-router-dom';
 
 const FavoriteContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-`;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  padding: 1rem;
 
-const DriverImage = styled.div`
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background-color: #e0e0e0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1rem;
+  &:hover {
+    transform: translateY(-5px);
+  }
 `;
 
 const DriverInfo = styled.div`
   text-align: center;
+  width: 100%;
 `;
 
 const DriverName = styled.h3`
   margin: 0;
-  color: #333;
-  font-size: 1.3rem;
+  color: var(--racing-text);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 `;
 
 const WinProbability = styled.div`
@@ -44,13 +44,28 @@ const DriverStats = styled.div`
   gap: 1rem;
   width: 100%;
   margin-top: 1rem;
+  padding: 1rem;
+  background: var(--racing-light-bg);
+  border-radius: 8px;
 `;
 
 const StatItem = styled.div`
-  background-color: #f5f5f5;
-  padding: 0.5rem;
-  border-radius: 5px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+`;
+
+const StatValue = styled.span`
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--racing-text);
+`;
+
+const StatLabel = styled.span`
+  font-size: 0.9rem;
+  color: var(--racing-text-light);
+  text-transform: uppercase;
 `;
 
 interface FavoriteDriverProps {
@@ -58,20 +73,26 @@ interface FavoriteDriverProps {
   probability?: number;
   wins?: number;
   podiums?: number;
+  driverId?: string;
 }
 
 const FavoriteDriver: React.FC<FavoriteDriverProps> = ({
   name,
   probability,
   wins,
-  podiums
+  podiums,
+  driverId
 }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    if (driverId) {
+      navigate(`/drivers/${driverId}`);
+    }
+  };
+
   return (
-    <FavoriteContainer>
-      <DriverImage>
-        {/* Qui andrà l'immagine del pilota */}
-        <span>Foto Pilota</span>
-      </DriverImage>
+    <FavoriteContainer onClick={handleClick}>
       <DriverInfo>
         <DriverName>{name || 'Nome Pilota'}</DriverName>
         <WinProbability>
@@ -80,12 +101,12 @@ const FavoriteDriver: React.FC<FavoriteDriverProps> = ({
       </DriverInfo>
       <DriverStats>
         <StatItem>
-          <h4>Vittorie</h4>
-          <p>{wins || '0'}</p>
+          <StatValue>{wins || 0}</StatValue>
+          <StatLabel>Vittorie</StatLabel>
         </StatItem>
         <StatItem>
-          <h4>Podio</h4>
-          <p>{podiums || '0'}</p>
+          <StatValue>{podiums || 0}</StatValue>
+          <StatLabel>Podi</StatLabel>
         </StatItem>
       </DriverStats>
     </FavoriteContainer>

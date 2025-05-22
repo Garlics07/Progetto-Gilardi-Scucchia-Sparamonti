@@ -10,7 +10,7 @@ const determineRaceStatus = (race) => {
     const scheduledEnd = new Date(race.scheduled_end);
 
     // Se la gara è già stata completata o cancellata, mantieni il suo stato originale
-    if (race.status === 'Finished' || race.status === 'Cancelled') {
+    if (race.status === 'Finished' || race.status === 'Cancelled' || race.status === 'Closed') {
         return race.status;
     }
 
