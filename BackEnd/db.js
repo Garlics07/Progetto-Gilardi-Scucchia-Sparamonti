@@ -3,11 +3,6 @@ import {MongoClient} from "mongodb"
 
 dotenv.config()
 
-export async function getAll(db, nomeCollezione){
-    const data = await db.collection(nomeCollezione).find().toArray()
-    return data
-}
-
 export async function connessioneDb(){
     const uri = process.env.MONGODB_URI
     const client = new MongoClient(uri)

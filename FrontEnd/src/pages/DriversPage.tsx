@@ -120,6 +120,40 @@ const ClickableTableRow = styled(TableRow)`
   }
 `;
 
+const SeasonSelector = styled.div`
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+`;
+
+const Select = styled.select`
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--racing-border);
+  background: var(--racing-card-bg);
+  color: var(--racing-text);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: var(--racing-gray);
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--racing-black);
+  }
+`;
+
+const Label = styled.label`
+  color: var(--racing-text);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+`;
+
 interface Driver {
   _id: string;
   nome: string;
@@ -141,11 +175,13 @@ const DriversPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [sortField, setSortField] = useState<SortField>('punti_totali');
   const [sortDirection, setSortDirection] = useState<SortDirection>('desc');
+  const [selectedSeason, setSelectedSeason] = useState('2025');
 
   useEffect(() => {
     const fetchDrivers = async () => {
       try {
-        const response = await fetch('http://localhost:3000/drivers');
+        setLoading(true);
+        const response = await fetch(`http://localhost:3000/drivers?season=${selectedSeason}`);
         if (!response.ok) {
           throw new Error('Errore nel recupero dei dati');
         }
@@ -163,7 +199,7 @@ const DriversPage: React.FC = () => {
     };
 
     fetchDrivers();
-  }, []);
+  }, [selectedSeason]);
 
   const handleSort = (field: SortField) => {
     if (field === sortField) {
@@ -221,7 +257,21 @@ const DriversPage: React.FC = () => {
 
   return (
     <Container>
-      <Title>Overall Piloti IndyCar</Title>
+      <Title>Classifica Piloti IndyCar</Title>
+      <SeasonSelector>
+        <Label>Stagione:</Label>
+        <Select 
+          value={selectedSeason} 
+          onChange={(e) => setSelectedSeason(e.target.value)}
+        >
+          <option value="all">Classifica Generale</option>
+          {Array.from({ length: 9 }, (_, i) => 2025 - i).map((year) => (
+            <option key={year} value={year.toString()}>
+              {year}
+            </option>
+          ))}
+        </Select>
+      </SeasonSelector>
       <TableContainer>
         <Table>
           <TableHeader>

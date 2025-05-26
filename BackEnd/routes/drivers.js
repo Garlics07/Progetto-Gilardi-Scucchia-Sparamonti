@@ -8,11 +8,20 @@ router.get('/', async (req, res) => {
     try {
         const db = await connessioneDb();
         const collection = db.collection('races');
+        const season = req.query.season;
 
-        const drivers = await collection.aggregate([
+        const pipeline = [
             // Unwind dell'array dei piloti per ogni gara
             { $unwind: "$drivers" },
+        ];
+
+        // Aggiungi il filtro per stagione solo se specificata
+        if (season && season !== 'all') {
+            pipeline.unshift({ $match: { season_year: season } });
+        }
             
+        // Aggiungi il resto della pipeline
+        pipeline.push(
             // Raggruppa per pilota
             {
                 $group: {
@@ -43,7 +52,9 @@ router.get('/', async (req, res) => {
             
             // Ordina per punti totali in ordine decrescente
             { $sort: { punti_totali: -1 } }
-        ]).toArray();
+        );
+
+        const drivers = await collection.aggregate(pipeline).toArray();
 
         res.json(drivers);
     } catch (error) {
