@@ -1,9 +1,9 @@
-import os
 import sys
 from pathlib import Path
 
 # Aggiungi la directory corrente al path per importare i moduli
-current_dir = Path(__file__).parent
+current_dir = Path(__file__).resolve().parent
+extracted_dir = current_dir / "extracted"
 sys.path.append(str(current_dir))
 
 from extractors.seasons_extractor import main as extract_seasons
@@ -22,7 +22,7 @@ def run_all_extractors():
     extract_seasons()
     
     # Verifica se il file delle stagioni è stato creato
-    if not Path("Data/extracted/seasons.json").exists():
+    if not (extracted_dir / "seasons.json").exists():
         print("✗ Estrazione stagioni fallita. Uscita.")
         return
     
@@ -31,7 +31,7 @@ def run_all_extractors():
     extract_races()
     
     # Verifica se sono stati creati i file delle gare
-    season_files = list(Path("Data/extracted").glob("season_*.json"))
+    season_files = list(extracted_dir.glob("season_*.json"))
     if not season_files:
         print("✗ Estrazione gare fallita. Uscita.")
         return
@@ -68,7 +68,7 @@ Esempio:
 
 def main():
     # Crea la directory data se non esiste
-    Path("Data/extracted").mkdir(parents=True, exist_ok=True)
+    extracted_dir.mkdir(parents=True, exist_ok=True)
     
     # Gestione degli argomenti da linea di comando
     if len(sys.argv) != 2 or sys.argv[1] == "help":

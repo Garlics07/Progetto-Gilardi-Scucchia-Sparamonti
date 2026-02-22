@@ -1,0 +1,2149 @@
+{
+    "id": "2026",
+    "season_id": "sr:stage:1329747",
+    "description": "Indycar 2026",
+    "total_races": 18,
+    "generated_at": "2026-02-22T23:33:53+00:00",
+    "season_info": {
+        "id": "sr:stage:1329747",
+        "description": "Indycar 2026",
+        "scheduled": "2026-02-27T20:00:00+00:00",
+        "scheduled_end": "2026-09-06T19:30:00+00:00",
+        "type": "season",
+        "category": {
+            "id": "sr:category:453",
+            "name": "Indycar"
+        },
+        "sport": {
+            "id": "sr:sport:129",
+            "name": "Indy Racing"
+        }
+    },
+    "races": [
+        {
+            "id": "1",
+            "stage_id": "sr:stage:1329749",
+            "description": "Grand Prix of St. Petersburg",
+            "scheduled": "2026-02-27T18:30:00+00:00",
+            "scheduled_end": "2026-03-01T18:00:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:19653",
+                "name": "Streets of St. Petersburg",
+                "city": "St. Petersburg, FL",
+                "country": "USA",
+                "coordinates": "27.766442,-82.629573",
+                "country_code": "USA",
+                "curves_right": 9,
+                "curves_left": 5,
+                "debut": 1985,
+                "url_official": "http://gpstpete.com/",
+                "length": 2897,
+                "timezone": "America/New_York",
+                "state": "FL"
+            },
+            "unique_stage_id": "sr:stage_unique:467",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:33:54+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1329749",
+                    "description": "Grand Prix of St. Petersburg",
+                    "scheduled": "2026-02-27T18:30:00+00:00",
+                    "scheduled_end": "2026-03-01T18:00:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:19653",
+                        "name": "Streets of St. Petersburg",
+                        "city": "St. Petersburg, FL",
+                        "country": "USA",
+                        "coordinates": "27.766442,-82.629573",
+                        "country_code": "USA",
+                        "curves_right": 9,
+                        "curves_left": 5,
+                        "debut": 1985,
+                        "url_official": "http://gpstpete.com/",
+                        "length": 2897,
+                        "timezone": "America/New_York",
+                        "state": "FL"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1329751",
+                            "description": "Practice 1",
+                            "scheduled": "2026-02-27T18:30:00+00:00",
+                            "scheduled_end": "2026-02-27T20:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1329753",
+                            "description": "Practice 2",
+                            "scheduled": "2026-02-28T14:30:00+00:00",
+                            "scheduled_end": "2026-02-28T16:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1329769",
+                            "description": "Qualification",
+                            "scheduled": "2026-02-28T21:30:00+00:00",
+                            "scheduled_end": "2026-02-28T23:00:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1329771",
+                            "description": "Race",
+                            "scheduled": "2026-03-01T17:00:00+00:00",
+                            "scheduled_end": "2026-03-01T18:00:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "laps": 100,
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:467"
+                }
+            }
+        },
+        {
+            "id": "2",
+            "stage_id": "sr:stage:1330381",
+            "description": "Grand Prix of Phoenix",
+            "scheduled": "2026-03-06T15:00:00+00:00",
+            "scheduled_end": "2026-03-07T21:00:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1637",
+                "name": "Phoenix Raceway",
+                "capacity": 42000,
+                "city": "Avondale, AZ",
+                "country": "USA",
+                "coordinates": "33.375645,-112.313458",
+                "country_code": "USA",
+                "timezone": "UTC",
+                "state": "AZ"
+            },
+            "unique_stage_id": "sr:stage_unique:473",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:33:56+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1330381",
+                    "description": "Grand Prix of Phoenix",
+                    "scheduled": "2026-03-06T15:00:00+00:00",
+                    "scheduled_end": "2026-03-07T21:00:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:1637",
+                        "name": "Phoenix Raceway",
+                        "capacity": 42000,
+                        "city": "Avondale, AZ",
+                        "country": "USA",
+                        "coordinates": "33.375645,-112.313458",
+                        "country_code": "USA",
+                        "timezone": "UTC",
+                        "state": "AZ"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1330383",
+                            "description": "Practice 1",
+                            "scheduled": "2026-03-06T15:00:00+00:00",
+                            "scheduled_end": "2026-03-06T16:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1330401",
+                            "description": "Qualification",
+                            "scheduled": "2026-03-06T19:00:00+00:00",
+                            "scheduled_end": "2026-03-06T21:00:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1330385",
+                            "description": "Practice 2",
+                            "scheduled": "2026-03-06T21:30:00+00:00",
+                            "scheduled_end": "2026-03-06T22:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1330387",
+                            "description": "Practice 3",
+                            "scheduled": "2026-03-06T22:00:00+00:00",
+                            "scheduled_end": "2026-03-06T23:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1330403",
+                            "description": "Race",
+                            "scheduled": "2026-03-07T20:00:00+00:00",
+                            "scheduled_end": "2026-03-07T21:00:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "laps": 250,
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:473"
+                }
+            }
+        },
+        {
+            "id": "3",
+            "stage_id": "sr:stage:1331013",
+            "description": "Grand Prix of Arlington",
+            "scheduled": "2026-03-13T20:00:00+00:00",
+            "scheduled_end": "2026-03-15T17:30:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:84149",
+                "name": "Streets of Arlington",
+                "city": "Arlington, TX",
+                "country": "USA",
+                "country_code": "USA",
+                "timezone": "America/Chicago",
+                "state": "TX"
+            },
+            "unique_stage_id": null,
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:33:58+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1331013",
+                    "description": "Grand Prix of Arlington",
+                    "scheduled": "2026-03-13T20:00:00+00:00",
+                    "scheduled_end": "2026-03-15T17:30:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:84149",
+                        "name": "Streets of Arlington",
+                        "city": "Arlington, TX",
+                        "country": "USA",
+                        "country_code": "USA",
+                        "timezone": "America/Chicago",
+                        "state": "TX"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1331015",
+                            "description": "Practice 1",
+                            "scheduled": "2026-03-13T20:00:00+00:00",
+                            "scheduled_end": "2026-03-13T21:20:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1331017",
+                            "description": "Practice 2",
+                            "scheduled": "2026-03-14T13:30:00+00:00",
+                            "scheduled_end": "2026-03-14T14:50:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1331033",
+                            "description": "Qualification",
+                            "scheduled": "2026-03-14T18:30:00+00:00",
+                            "scheduled_end": "2026-03-14T19:00:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1331035",
+                            "description": "Race",
+                            "scheduled": "2026-03-15T16:30:00+00:00",
+                            "scheduled_end": "2026-03-15T17:30:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "laps": 70,
+                            "single_event": false
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "4",
+            "stage_id": "sr:stage:1331645",
+            "description": "Grand Prix of Alabama",
+            "scheduled": "2026-03-27T19:30:00+00:00",
+            "scheduled_end": "2026-03-29T18:00:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:51719",
+                "name": "Barber Motorsports Park",
+                "city": "Birmingham, AL",
+                "country": "USA",
+                "coordinates": "33.532634,-86.618567",
+                "country_code": "USA",
+                "debut": 2003,
+                "length": 3808,
+                "url_official": "https://barberracingevents.com/",
+                "timezone": "America/Chicago",
+                "state": "AL"
+            },
+            "unique_stage_id": "sr:stage_unique:471",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:00+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1331645",
+                    "description": "Grand Prix of Alabama",
+                    "scheduled": "2026-03-27T19:30:00+00:00",
+                    "scheduled_end": "2026-03-29T18:00:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:51719",
+                        "name": "Barber Motorsports Park",
+                        "city": "Birmingham, AL",
+                        "country": "USA",
+                        "coordinates": "33.532634,-86.618567",
+                        "country_code": "USA",
+                        "debut": 2003,
+                        "length": 3808,
+                        "url_official": "https://barberracingevents.com/",
+                        "timezone": "America/Chicago",
+                        "state": "AL"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1331647",
+                            "description": "Practice 1",
+                            "scheduled": "2026-03-27T19:30:00+00:00",
+                            "scheduled_end": "2026-03-27T20:30:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1331649",
+                            "description": "Practice 2",
+                            "scheduled": "2026-03-28T15:00:00+00:00",
+                            "scheduled_end": "2026-03-28T16:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1331665",
+                            "description": "Qualification",
+                            "scheduled": "2026-03-28T18:30:00+00:00",
+                            "scheduled_end": "2026-03-28T19:00:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1331667",
+                            "description": "Race",
+                            "scheduled": "2026-03-29T17:00:00+00:00",
+                            "scheduled_end": "2026-03-29T18:00:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "laps": 90,
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:471"
+                }
+            }
+        },
+        {
+            "id": "5",
+            "stage_id": "sr:stage:1332277",
+            "description": "Grand Prix of Long Beach",
+            "scheduled": "2026-04-17T22:00:00+00:00",
+            "scheduled_end": "2026-04-19T22:30:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:19641",
+                "name": "Streets of Long Beach",
+                "city": "Long Beach, CA",
+                "country": "USA",
+                "coordinates": "33.766322,-118.192662",
+                "country_code": "USA",
+                "debut": 1975,
+                "curves_left": 6,
+                "curves_right": 5,
+                "url_official": "https://gplb.com/",
+                "length": 3167,
+                "timezone": "America/Los_Angeles",
+                "state": "CA"
+            },
+            "unique_stage_id": "sr:stage_unique:469",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:02+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1332277",
+                    "description": "Grand Prix of Long Beach",
+                    "scheduled": "2026-04-17T22:00:00+00:00",
+                    "scheduled_end": "2026-04-19T22:30:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:19641",
+                        "name": "Streets of Long Beach",
+                        "city": "Long Beach, CA",
+                        "country": "USA",
+                        "coordinates": "33.766322,-118.192662",
+                        "country_code": "USA",
+                        "debut": 1975,
+                        "curves_left": 6,
+                        "curves_right": 5,
+                        "url_official": "https://gplb.com/",
+                        "length": 3167,
+                        "timezone": "America/Los_Angeles",
+                        "state": "CA"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1332279",
+                            "description": "Practice 1",
+                            "scheduled": "2026-04-17T22:00:00+00:00",
+                            "scheduled_end": "2026-04-17T23:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1332281",
+                            "description": "Practice 2",
+                            "scheduled": "2026-04-18T17:30:00+00:00",
+                            "scheduled_end": "2026-04-18T18:30:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1332297",
+                            "description": "Qualification",
+                            "scheduled": "2026-04-18T22:30:00+00:00",
+                            "scheduled_end": "2026-04-18T23:00:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1332299",
+                            "description": "Race",
+                            "scheduled": "2026-04-19T21:30:00+00:00",
+                            "scheduled_end": "2026-04-19T22:30:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "laps": 90,
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:469"
+                }
+            }
+        },
+        {
+            "id": "6",
+            "stage_id": "sr:stage:1332909",
+            "description": "Grand Prix of Indianapolis",
+            "scheduled": "2026-05-08T13:30:00+00:00",
+            "scheduled_end": "2026-05-09T21:30:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:56718",
+                "name": "Indianapolis Motor Speedway Road Course",
+                "capacity": 400000,
+                "city": "Indianapolis, IN",
+                "country": "USA",
+                "coordinates": "39.798761,-86.233282",
+                "country_code": "USA",
+                "debut": 1909,
+                "length": 4023,
+                "url_official": "https://www.indianapolismotorspeedway.com/",
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "IN"
+            },
+            "unique_stage_id": "sr:stage_unique:497",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:04+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1332909",
+                    "description": "Grand Prix of Indianapolis",
+                    "scheduled": "2026-05-08T13:30:00+00:00",
+                    "scheduled_end": "2026-05-09T21:30:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:56718",
+                        "name": "Indianapolis Motor Speedway Road Course",
+                        "capacity": 400000,
+                        "city": "Indianapolis, IN",
+                        "country": "USA",
+                        "coordinates": "39.798761,-86.233282",
+                        "country_code": "USA",
+                        "debut": 1909,
+                        "length": 4023,
+                        "url_official": "https://www.indianapolismotorspeedway.com/",
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "IN"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1332911",
+                            "description": "Practice 1",
+                            "scheduled": "2026-05-08T13:30:00+00:00",
+                            "scheduled_end": "2026-05-08T14:50:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1332913",
+                            "description": "Practice 2",
+                            "scheduled": "2026-05-08T17:00:00+00:00",
+                            "scheduled_end": "2026-05-08T18:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1332929",
+                            "description": "Qualification",
+                            "scheduled": "2026-05-08T20:30:00+00:00",
+                            "scheduled_end": "2026-05-08T22:00:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1332931",
+                            "description": "Race",
+                            "scheduled": "2026-05-09T20:30:00+00:00",
+                            "scheduled_end": "2026-05-09T21:30:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:497"
+                }
+            }
+        },
+        {
+            "id": "7",
+            "stage_id": "sr:stage:1333541",
+            "description": "Indianapolis 500",
+            "scheduled": "2026-05-12T18:15:00+00:00",
+            "scheduled_end": "2026-05-24T15:00:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1624",
+                "name": "Indianapolis Motor Speedway",
+                "city": "Indianapolis, IN",
+                "country": "USA",
+                "coordinates": "39.798482,-86.231202",
+                "country_code": "USA",
+                "curves_left": 4,
+                "curves_right": 0,
+                "url_official": "http://www.indianapolismotorspeedway.com/",
+                "debut": 1911,
+                "length": 4023,
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "IN"
+            },
+            "unique_stage_id": "sr:stage_unique:475",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:06+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1333541",
+                    "description": "Indianapolis 500",
+                    "scheduled": "2026-05-12T18:15:00+00:00",
+                    "scheduled_end": "2026-05-24T15:00:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:1624",
+                        "name": "Indianapolis Motor Speedway",
+                        "city": "Indianapolis, IN",
+                        "country": "USA",
+                        "coordinates": "39.798482,-86.231202",
+                        "country_code": "USA",
+                        "curves_left": 4,
+                        "curves_right": 0,
+                        "url_official": "http://www.indianapolismotorspeedway.com/",
+                        "debut": 1911,
+                        "length": 4023,
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "IN"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1333543",
+                            "description": "Practice 1",
+                            "scheduled": "2026-05-12T18:15:00+00:00",
+                            "scheduled_end": "2026-05-22T22:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1333545",
+                            "description": "Practice 2",
+                            "scheduled": "2026-05-13T16:00:00+00:00",
+                            "scheduled_end": "2026-05-23T22:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1333547",
+                            "description": "Practice 3",
+                            "scheduled": "2026-05-14T16:00:00+00:00",
+                            "scheduled_end": "2026-05-24T22:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1333549",
+                            "description": "Practice 4",
+                            "scheduled": "2026-05-15T16:00:00+00:00",
+                            "scheduled_end": "2026-05-25T22:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1333551",
+                            "description": "Practice 5",
+                            "scheduled": "2026-05-16T12:30:00+00:00",
+                            "scheduled_end": "2026-05-26T13:30:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1333561",
+                            "description": "Qualification",
+                            "scheduled": "2026-05-16T15:00:00+00:00",
+                            "scheduled_end": "2026-05-16T22:50:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1333553",
+                            "description": "Practice 6",
+                            "scheduled": "2026-05-17T17:00:00+00:00",
+                            "scheduled_end": "2026-05-27T19:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1333555",
+                            "description": "Practice 7",
+                            "scheduled": "2026-05-18T17:00:00+00:00",
+                            "scheduled_end": "2026-05-28T19:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1333557",
+                            "description": "Practice 8",
+                            "scheduled": "2026-05-22T15:00:00+00:00",
+                            "scheduled_end": "2026-05-22T17:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1333563",
+                            "description": "Race",
+                            "scheduled": "2026-05-24T14:00:00+00:00",
+                            "scheduled_end": "2026-05-24T15:00:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:475"
+                }
+            }
+        },
+        {
+            "id": "8",
+            "stage_id": "sr:stage:1334173",
+            "description": "Detroit Grand Prix",
+            "scheduled": "2026-05-29T19:00:00+00:00",
+            "scheduled_end": "2026-05-31T17:30:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:68905",
+                "name": "Detroit Street Circuit",
+                "city": "Detroit, MI",
+                "country": "USA",
+                "coordinates": "42.30808,-83.095932",
+                "country_code": "USA",
+                "length": 2647,
+                "timezone": "America/Detroit",
+                "state": "MI"
+            },
+            "unique_stage_id": "sr:stage_unique:477",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:08+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1334173",
+                    "description": "Detroit Grand Prix",
+                    "scheduled": "2026-05-29T19:00:00+00:00",
+                    "scheduled_end": "2026-05-31T17:30:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:68905",
+                        "name": "Detroit Street Circuit",
+                        "city": "Detroit, MI",
+                        "country": "USA",
+                        "coordinates": "42.30808,-83.095932",
+                        "country_code": "USA",
+                        "length": 2647,
+                        "timezone": "America/Detroit",
+                        "state": "MI"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1334175",
+                            "description": "Practice 1",
+                            "scheduled": "2026-05-29T19:00:00+00:00",
+                            "scheduled_end": "2026-05-29T20:25:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1334177",
+                            "description": "Practice 2",
+                            "scheduled": "2026-05-30T13:00:00+00:00",
+                            "scheduled_end": "2026-05-30T14:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1334193",
+                            "description": "Qualification",
+                            "scheduled": "2026-05-30T16:00:00+00:00",
+                            "scheduled_end": "2026-05-30T17:50:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1334195",
+                            "description": "Race",
+                            "scheduled": "2026-05-31T16:30:00+00:00",
+                            "scheduled_end": "2026-05-31T17:30:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:477"
+                }
+            }
+        },
+        {
+            "id": "9",
+            "stage_id": "sr:stage:1334805",
+            "description": "Grand Prix of Madison",
+            "scheduled": "2026-06-06T19:15:00+00:00",
+            "scheduled_end": "2026-06-08T02:00:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1630",
+                "name": "World Wide Technology Raceway at Gateway",
+                "capacity": 78000,
+                "city": "Madison, IL",
+                "country": "USA",
+                "coordinates": "38.64791,-90.137346",
+                "country_code": "USA",
+                "length": 2012,
+                "curves_left": 4,
+                "curves_right": 0,
+                "url_official": "http://www.gatewaymsp.com/",
+                "debut": 1997,
+                "timezone": "America/Chicago",
+                "state": "IL"
+            },
+            "unique_stage_id": "sr:stage_unique:491",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:10+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1334805",
+                    "description": "Grand Prix of Madison",
+                    "scheduled": "2026-06-06T19:15:00+00:00",
+                    "scheduled_end": "2026-06-08T02:00:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:1630",
+                        "name": "World Wide Technology Raceway at Gateway",
+                        "capacity": 78000,
+                        "city": "Madison, IL",
+                        "country": "USA",
+                        "coordinates": "38.64791,-90.137346",
+                        "country_code": "USA",
+                        "length": 2012,
+                        "curves_left": 4,
+                        "curves_right": 0,
+                        "url_official": "http://www.gatewaymsp.com/",
+                        "debut": 1997,
+                        "timezone": "America/Chicago",
+                        "state": "IL"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1334807",
+                            "description": "Practice 1",
+                            "scheduled": "2026-06-06T19:15:00+00:00",
+                            "scheduled_end": "2026-06-06T20:15:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1334825",
+                            "description": "Qualification",
+                            "scheduled": "2026-06-06T23:00:00+00:00",
+                            "scheduled_end": "2026-06-06T23:45:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1334827",
+                            "description": "Race",
+                            "scheduled": "2026-06-08T01:00:00+00:00",
+                            "scheduled_end": "2026-06-08T02:00:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:491"
+                }
+            }
+        },
+        {
+            "id": "10",
+            "stage_id": "sr:stage:1335437",
+            "description": "Road America Grand Prix",
+            "scheduled": "2026-06-19T20:30:00+00:00",
+            "scheduled_end": "2026-06-21T19:00:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:19647",
+                "name": "Road America",
+                "city": "Elkhart Lake, WI",
+                "country": "USA",
+                "coordinates": "43.797591,-87.993238",
+                "country_code": "USA",
+                "url_official": "https://www.roadamerica.com/",
+                "curves_left": 5,
+                "curves_right": 9,
+                "length": 6515,
+                "debut": 1955,
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "WI"
+            },
+            "unique_stage_id": "sr:stage_unique:481",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:12+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1335437",
+                    "description": "Road America Grand Prix",
+                    "scheduled": "2026-06-19T20:30:00+00:00",
+                    "scheduled_end": "2026-06-21T19:00:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:19647",
+                        "name": "Road America",
+                        "city": "Elkhart Lake, WI",
+                        "country": "USA",
+                        "coordinates": "43.797591,-87.993238",
+                        "country_code": "USA",
+                        "url_official": "https://www.roadamerica.com/",
+                        "curves_left": 5,
+                        "curves_right": 9,
+                        "length": 6515,
+                        "debut": 1955,
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "WI"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1335439",
+                            "description": "Practice 1",
+                            "scheduled": "2026-06-19T20:30:00+00:00",
+                            "scheduled_end": "2026-06-19T21:45:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1335441",
+                            "description": "Practice 2",
+                            "scheduled": "2026-06-20T15:00:00+00:00",
+                            "scheduled_end": "2026-06-20T16:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1335457",
+                            "description": "Qualification",
+                            "scheduled": "2026-06-20T18:30:00+00:00",
+                            "scheduled_end": "2026-06-20T20:55:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1335459",
+                            "description": "Race",
+                            "scheduled": "2026-06-21T18:00:00+00:00",
+                            "scheduled_end": "2026-06-21T19:00:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:481"
+                }
+            }
+        },
+        {
+            "id": "11",
+            "stage_id": "sr:stage:1336069",
+            "description": "Grand Prix of Lexington",
+            "scheduled": "2026-07-03T20:30:00+00:00",
+            "scheduled_end": "2026-07-05T17:30:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:19651",
+                "name": "Mid-Ohio Sports Car Course",
+                "city": "Lexington, OH",
+                "country": "USA",
+                "coordinates": "40.688992,-82.635663",
+                "country_code": "USA",
+                "url_official": "http://www.midohio.com/",
+                "curves_left": 5,
+                "curves_right": 8,
+                "length": 3860,
+                "debut": 1962,
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "OH"
+            },
+            "unique_stage_id": "sr:stage_unique:487",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:14+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1336069",
+                    "description": "Grand Prix of Lexington",
+                    "scheduled": "2026-07-03T20:30:00+00:00",
+                    "scheduled_end": "2026-07-05T17:30:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:19651",
+                        "name": "Mid-Ohio Sports Car Course",
+                        "city": "Lexington, OH",
+                        "country": "USA",
+                        "coordinates": "40.688992,-82.635663",
+                        "country_code": "USA",
+                        "url_official": "http://www.midohio.com/",
+                        "curves_left": 5,
+                        "curves_right": 8,
+                        "length": 3860,
+                        "debut": 1962,
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "OH"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1336071",
+                            "description": "Practice 1",
+                            "scheduled": "2026-07-03T20:30:00+00:00",
+                            "scheduled_end": "2026-07-03T21:45:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1336073",
+                            "description": "Practice 2",
+                            "scheduled": "2026-07-04T14:30:00+00:00",
+                            "scheduled_end": "2026-07-04T15:35:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1336089",
+                            "description": "Qualification",
+                            "scheduled": "2026-07-04T18:30:00+00:00",
+                            "scheduled_end": "2026-07-04T20:00:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1336091",
+                            "description": "Race",
+                            "scheduled": "2026-07-05T16:30:00+00:00",
+                            "scheduled_end": "2026-07-05T17:30:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:487"
+                }
+            }
+        },
+        {
+            "id": "12",
+            "stage_id": "sr:stage:1336701",
+            "description": "Grand Prix of Nashville",
+            "scheduled": "2026-07-18T14:30:00+00:00",
+            "scheduled_end": "2026-07-19T21:15:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1635",
+                "name": "Nashville Superspeedway",
+                "city": "Lebanon, TN",
+                "country": "USA",
+                "coordinates": "36.044419,-86.412619",
+                "country_code": "USA",
+                "length": 2140,
+                "timezone": "America/Chicago",
+                "state": "TN"
+            },
+            "unique_stage_id": "sr:stage_unique:923",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:16+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1336701",
+                    "description": "Grand Prix of Nashville",
+                    "scheduled": "2026-07-18T14:30:00+00:00",
+                    "scheduled_end": "2026-07-19T21:15:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:1635",
+                        "name": "Nashville Superspeedway",
+                        "city": "Lebanon, TN",
+                        "country": "USA",
+                        "coordinates": "36.044419,-86.412619",
+                        "country_code": "USA",
+                        "length": 2140,
+                        "timezone": "America/Chicago",
+                        "state": "TN"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1336703",
+                            "description": "Practice 1",
+                            "scheduled": "2026-07-18T14:30:00+00:00",
+                            "scheduled_end": "2026-07-18T15:30:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1336721",
+                            "description": "Qualification",
+                            "scheduled": "2026-07-18T18:00:00+00:00",
+                            "scheduled_end": "2026-07-18T19:30:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1336705",
+                            "description": "Practice 2",
+                            "scheduled": "2026-07-18T20:30:00+00:00",
+                            "scheduled_end": "2026-07-18T22:30:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1336723",
+                            "description": "Race",
+                            "scheduled": "2026-07-19T18:00:00+00:00",
+                            "scheduled_end": "2026-07-19T21:15:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:923"
+                }
+            }
+        },
+        {
+            "id": "13",
+            "stage_id": "sr:stage:1337333",
+            "description": "Grand Prix of Portland",
+            "scheduled": "2026-08-07T21:30:00+00:00",
+            "scheduled_end": "2026-08-09T21:00:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:26445",
+                "name": "Portland International Raceway",
+                "city": "Portland, OR",
+                "country": "USA",
+                "coordinates": "45.596876,-122.696251",
+                "country_code": "USA",
+                "url_official": "http://portlandgp.com/",
+                "curves_left": 3,
+                "curves_right": 9,
+                "length": 3166,
+                "debut": 1960,
+                "timezone": "America/Los_Angeles",
+                "state": "OR"
+            },
+            "unique_stage_id": "sr:stage_unique:511",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:17+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1337333",
+                    "description": "Grand Prix of Portland",
+                    "scheduled": "2026-08-07T21:30:00+00:00",
+                    "scheduled_end": "2026-08-09T21:00:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:26445",
+                        "name": "Portland International Raceway",
+                        "city": "Portland, OR",
+                        "country": "USA",
+                        "coordinates": "45.596876,-122.696251",
+                        "country_code": "USA",
+                        "url_official": "http://portlandgp.com/",
+                        "curves_left": 3,
+                        "curves_right": 9,
+                        "length": 3166,
+                        "debut": 1960,
+                        "timezone": "America/Los_Angeles",
+                        "state": "OR"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1337335",
+                            "description": "Practice 1",
+                            "scheduled": "2026-08-07T21:30:00+00:00",
+                            "scheduled_end": "2026-08-07T22:45:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1337337",
+                            "description": "Practice 2",
+                            "scheduled": "2026-08-08T16:00:00+00:00",
+                            "scheduled_end": "2026-08-08T17:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1337353",
+                            "description": "Qualification",
+                            "scheduled": "2026-08-08T18:30:00+00:00",
+                            "scheduled_end": "2026-08-08T20:00:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1337339",
+                            "description": "Practice 3",
+                            "scheduled": "2026-08-08T23:30:00+00:00",
+                            "scheduled_end": "2026-08-09T00:30:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1337355",
+                            "description": "Race",
+                            "scheduled": "2026-08-09T20:00:00+00:00",
+                            "scheduled_end": "2026-08-09T21:00:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:511"
+                }
+            }
+        },
+        {
+            "id": "14",
+            "stage_id": "sr:stage:1337965",
+            "description": "Grand Prix of Markham",
+            "scheduled": "2026-08-14T19:00:00+00:00",
+            "scheduled_end": "2026-08-16T17:00:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:84151",
+                "name": "Streets of Markham",
+                "city": "Markham",
+                "country": "Canada",
+                "country_code": "CAN",
+                "timezone": "Canada/Eastern"
+            },
+            "unique_stage_id": null,
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:19+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1337965",
+                    "description": "Grand Prix of Markham",
+                    "scheduled": "2026-08-14T19:00:00+00:00",
+                    "scheduled_end": "2026-08-16T17:00:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:84151",
+                        "name": "Streets of Markham",
+                        "city": "Markham",
+                        "country": "Canada",
+                        "country_code": "CAN",
+                        "timezone": "Canada/Eastern"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1337967",
+                            "description": "Practice 1",
+                            "scheduled": "2026-08-14T19:00:00+00:00",
+                            "scheduled_end": "2026-08-14T20:25:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1337969",
+                            "description": "Practice 2",
+                            "scheduled": "2026-08-15T13:00:00+00:00",
+                            "scheduled_end": "2026-08-15T14:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1337985",
+                            "description": "Qualification",
+                            "scheduled": "2026-08-15T16:00:00+00:00",
+                            "scheduled_end": "2026-08-15T17:50:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1337987",
+                            "description": "Race",
+                            "scheduled": "2026-08-16T16:00:00+00:00",
+                            "scheduled_end": "2026-08-16T17:00:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "15",
+            "stage_id": "sr:stage:1362178",
+            "description": "Freedom 250 Grand Prix of Washington",
+            "scheduled": "2026-08-21T18:00:00+00:00",
+            "scheduled_end": "2026-08-23T19:00:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:86806",
+                "name": "Streets of Washington",
+                "city": "Washington, D.C.",
+                "country": "USA",
+                "country_code": "USA",
+                "timezone": "America/New_York",
+                "state": "DC"
+            },
+            "unique_stage_id": "sr:stage_unique:948",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:21+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1362178",
+                    "description": "Freedom 250 Grand Prix of Washington",
+                    "scheduled": "2026-08-21T18:00:00+00:00",
+                    "scheduled_end": "2026-08-23T19:00:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:86806",
+                        "name": "Streets of Washington",
+                        "city": "Washington, D.C.",
+                        "country": "USA",
+                        "country_code": "USA",
+                        "timezone": "America/New_York",
+                        "state": "DC"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1362180",
+                            "description": "Practice 1",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1362182",
+                            "description": "Practice 2",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1362188",
+                            "description": "Qualification",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1362190",
+                            "description": "Race",
+                            "scheduled": "2026-08-23T18:00:00+00:00",
+                            "scheduled_end": "2026-08-23T19:00:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:948"
+                }
+            }
+        },
+        {
+            "id": "16",
+            "stage_id": "sr:stage:1338597",
+            "description": "Milwaukee Mile 1",
+            "scheduled": "2026-08-28T19:35:00+00:00",
+            "scheduled_end": "2026-08-29T19:30:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:74310",
+                "name": "Wisconsin State Fair Park",
+                "city": "Milwaukee, WI",
+                "country": "USA",
+                "coordinates": "43.021944,-88.012778",
+                "country_code": "USA",
+                "length": 1609,
+                "timezone": "America/Chicago",
+                "state": "WI"
+            },
+            "unique_stage_id": "sr:stage_unique:925",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:23+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1338597",
+                    "description": "Milwaukee Mile 1",
+                    "scheduled": "2026-08-28T19:35:00+00:00",
+                    "scheduled_end": "2026-08-29T19:30:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:74310",
+                        "name": "Wisconsin State Fair Park",
+                        "city": "Milwaukee, WI",
+                        "country": "USA",
+                        "coordinates": "43.021944,-88.012778",
+                        "country_code": "USA",
+                        "length": 1609,
+                        "timezone": "America/Chicago",
+                        "state": "WI"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1338599",
+                            "description": "Practice 1",
+                            "scheduled": "2026-08-28T19:35:00+00:00",
+                            "scheduled_end": "2026-08-28T20:15:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1338617",
+                            "description": "Qualification",
+                            "scheduled": "2026-08-29T18:15:00+00:00",
+                            "scheduled_end": "2026-08-29T19:15:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1338619",
+                            "description": "Race",
+                            "scheduled": "2026-08-29T18:30:00+00:00",
+                            "scheduled_end": "2026-08-29T19:30:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:925"
+                }
+            }
+        },
+        {
+            "id": "17",
+            "stage_id": "sr:stage:1339229",
+            "description": "Milwaukee Mile 2",
+            "scheduled": "2026-08-30T15:15:00+00:00",
+            "scheduled_end": "2026-08-30T18:00:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:74310",
+                "name": "Wisconsin State Fair Park",
+                "city": "Milwaukee, WI",
+                "country": "USA",
+                "coordinates": "43.021944,-88.012778",
+                "country_code": "USA",
+                "length": 1609,
+                "timezone": "America/Chicago",
+                "state": "WI"
+            },
+            "unique_stage_id": "sr:stage_unique:927",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:25+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1339229",
+                    "description": "Milwaukee Mile 2",
+                    "scheduled": "2026-08-30T15:15:00+00:00",
+                    "scheduled_end": "2026-08-30T18:00:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:74310",
+                        "name": "Wisconsin State Fair Park",
+                        "city": "Milwaukee, WI",
+                        "country": "USA",
+                        "coordinates": "43.021944,-88.012778",
+                        "country_code": "USA",
+                        "length": 1609,
+                        "timezone": "America/Chicago",
+                        "state": "WI"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1339249",
+                            "description": "Qualification",
+                            "scheduled": "2026-08-30T15:15:00+00:00",
+                            "scheduled_end": "2026-08-30T16:15:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1339251",
+                            "description": "Race",
+                            "scheduled": "2026-08-30T17:00:00+00:00",
+                            "scheduled_end": "2026-08-30T18:00:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:927"
+                }
+            }
+        },
+        {
+            "id": "18",
+            "stage_id": "sr:stage:1339861",
+            "description": "Grand Prix of Monterey",
+            "scheduled": "2026-09-04T21:00:00+00:00",
+            "scheduled_end": "2026-09-06T19:30:00+00:00",
+            "status": null,
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1055",
+                "name": "WeatherTech Raceway Laguna Seca",
+                "city": "Monterey, CA",
+                "country": "USA",
+                "coordinates": "36.584003,-121.752473",
+                "country_code": "USA",
+                "length": 3601,
+                "url_official": "http://www.laguna-seca.com/",
+                "debut": 1957,
+                "curves_left": 7,
+                "curves_right": 4,
+                "timezone": "America/Los_Angeles",
+                "state": "CA"
+            },
+            "unique_stage_id": "sr:stage_unique:553",
+            "stages": [],
+            "sport_event_context": {},
+            "competitors": [],
+            "sport_event_status": {},
+            "race_result": {},
+            "statistics": {},
+            "complete_details": {
+                "generated_at": "2026-02-22T23:34:27+00:00",
+                "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
+                "stage": {
+                    "id": "sr:stage:1339861",
+                    "description": "Grand Prix of Monterey",
+                    "scheduled": "2026-09-04T21:00:00+00:00",
+                    "scheduled_end": "2026-09-06T19:30:00+00:00",
+                    "type": "event",
+                    "single_event": false,
+                    "venue": {
+                        "id": "sr:venue:1055",
+                        "name": "WeatherTech Raceway Laguna Seca",
+                        "city": "Monterey, CA",
+                        "country": "USA",
+                        "coordinates": "36.584003,-121.752473",
+                        "country_code": "USA",
+                        "length": 3601,
+                        "url_official": "http://www.laguna-seca.com/",
+                        "debut": 1957,
+                        "curves_left": 7,
+                        "curves_right": 4,
+                        "timezone": "America/Los_Angeles",
+                        "state": "CA"
+                    },
+                    "parents": [
+                        {
+                            "id": "sr:stage:1329747",
+                            "description": "Indycar 2026",
+                            "scheduled": "2026-02-27T20:00:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "season",
+                            "category": {
+                                "id": "sr:category:453",
+                                "name": "Indycar"
+                            },
+                            "sport": {
+                                "id": "sr:sport:129",
+                                "name": "Indy Racing"
+                            },
+                            "single_event": false,
+                            "parents": [
+                                {
+                                    "id": "sr:stage:295065",
+                                    "description": "Indycar",
+                                    "type": "sport",
+                                    "single_event": false
+                                }
+                            ]
+                        }
+                    ],
+                    "stages": [
+                        {
+                            "id": "sr:stage:1339863",
+                            "description": "Practice 1",
+                            "scheduled": "2026-09-04T21:00:00+00:00",
+                            "scheduled_end": "2026-09-04T22:00:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1339865",
+                            "description": "Practice 2",
+                            "scheduled": "2026-09-05T15:30:00+00:00",
+                            "scheduled_end": "2026-09-05T16:30:00+00:00",
+                            "type": "practice",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1339881",
+                            "description": "Qualification",
+                            "scheduled": "2026-09-05T18:30:00+00:00",
+                            "scheduled_end": "2026-09-05T19:30:00+00:00",
+                            "type": "qualifying",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1339883",
+                            "description": "Race",
+                            "scheduled": "2026-09-06T18:30:00+00:00",
+                            "scheduled_end": "2026-09-06T19:30:00+00:00",
+                            "type": "race",
+                            "status": "Not started",
+                            "single_event": false
+                        }
+                    ],
+                    "unique_stage_id": "sr:stage_unique:553"
+                }
+            }
+        }
+    ]
+}

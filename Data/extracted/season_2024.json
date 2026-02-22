@@ -3,7 +3,7 @@
     "season_id": "sr:stage:1122936",
     "description": "Indycar 2024",
     "total_races": 17,
-    "generated_at": "2025-05-21T08:39:58+00:00",
+    "generated_at": "2026-02-22T23:38:00+00:00",
     "season_info": {
         "id": "sr:stage:1122936",
         "description": "Indycar 2024",
@@ -41,7 +41,8 @@
                 "debut": 1985,
                 "url_official": "http://gpstpete.com/",
                 "length": 2897,
-                "timezone": "America/New_York"
+                "timezone": "America/New_York",
+                "state": "FL"
             },
             "unique_stage_id": "sr:stage_unique:467",
             "stages": [],
@@ -51,7 +52,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:39:59+00:00",
+                "generated_at": "2026-02-22T23:38:01+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1122938",
@@ -73,7 +74,8 @@
                         "debut": 1985,
                         "url_official": "http://gpstpete.com/",
                         "length": 2897,
-                        "timezone": "America/New_York"
+                        "timezone": "America/New_York",
+                        "state": "FL"
                     },
                     "parents": [
                         {
@@ -495,7 +497,8 @@
                 "curves_right": 5,
                 "url_official": "https://gplb.com/",
                 "length": 3167,
-                "timezone": "America/Los_Angeles"
+                "timezone": "America/Los_Angeles",
+                "state": "CA"
             },
             "unique_stage_id": "sr:stage_unique:469",
             "stages": [],
@@ -505,7 +508,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:01+00:00",
+                "generated_at": "2026-02-22T23:38:03+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1124202",
@@ -527,7 +530,8 @@
                         "curves_right": 5,
                         "url_official": "https://gplb.com/",
                         "length": 3167,
-                        "timezone": "America/Los_Angeles"
+                        "timezone": "America/Los_Angeles",
+                        "state": "CA"
                     },
                     "parents": [
                         {
@@ -948,7 +952,8 @@
                 "debut": 2003,
                 "length": 3808,
                 "url_official": "https://barberracingevents.com/",
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "AL"
             },
             "unique_stage_id": "sr:stage_unique:471",
             "stages": [],
@@ -958,7 +963,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:03+00:00",
+                "generated_at": "2026-02-22T23:38:05+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1124834",
@@ -978,7 +983,8 @@
                         "debut": 2003,
                         "length": 3808,
                         "url_official": "https://barberracingevents.com/",
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "AL"
                     },
                     "parents": [
                         {
@@ -1400,7 +1406,8 @@
                 "debut": 1909,
                 "length": 4023,
                 "url_official": "https://www.indianapolismotorspeedway.com/",
-                "timezone": "America/Indiana/Indianapolis"
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "IN"
             },
             "unique_stage_id": "sr:stage_unique:497",
             "stages": [],
@@ -1410,7 +1417,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:05+00:00",
+                "generated_at": "2026-02-22T23:38:07+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1125466",
@@ -1431,7 +1438,8 @@
                         "debut": 1909,
                         "length": 4023,
                         "url_official": "https://www.indianapolismotorspeedway.com/",
-                        "timezone": "America/Indiana/Indianapolis"
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "IN"
                     },
                     "parents": [
                         {
@@ -1854,7 +1862,8 @@
                 "url_official": "http://www.indianapolismotorspeedway.com/",
                 "debut": 1911,
                 "length": 4023,
-                "timezone": "America/Indiana/Indianapolis"
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "IN"
             },
             "unique_stage_id": "sr:stage_unique:475",
             "stages": [],
@@ -1864,7 +1873,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:07+00:00",
+                "generated_at": "2026-02-22T23:38:09+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1126098",
@@ -1886,7 +1895,8 @@
                         "url_official": "http://www.indianapolismotorspeedway.com/",
                         "debut": 1911,
                         "length": 4023,
-                        "timezone": "America/Indiana/Indianapolis"
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "IN"
                     },
                     "parents": [
                         {
@@ -2359,7 +2369,7 @@
                             }
                         },
                         {
-                            "id": "sr:competitor:1013767",
+                            "id": "sr:competitor:22251",
                             "name": "Legge, Katherine",
                             "gender": "female",
                             "nationality": "Great Britain",
@@ -2450,7 +2460,8 @@
                 "coordinates": "42.30808,-83.095932",
                 "country_code": "USA",
                 "length": 2647,
-                "timezone": "America/Detroit"
+                "timezone": "America/Detroit",
+                "state": "MI"
             },
             "unique_stage_id": "sr:stage_unique:477",
             "stages": [],
@@ -2460,7 +2471,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:09+00:00",
+                "generated_at": "2026-02-22T23:38:11+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1126730",
@@ -2478,7 +2489,8 @@
                         "coordinates": "42.30808,-83.095932",
                         "country_code": "USA",
                         "length": 2647,
-                        "timezone": "America/Detroit"
+                        "timezone": "America/Detroit",
+                        "state": "MI"
                     },
                     "parents": [
                         {
@@ -2901,7 +2913,8 @@
                 "curves_right": 9,
                 "length": 6515,
                 "debut": 1955,
-                "timezone": "America/Indiana/Indianapolis"
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "WI"
             },
             "unique_stage_id": "sr:stage_unique:481",
             "stages": [],
@@ -2911,7 +2924,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:11+00:00",
+                "generated_at": "2026-02-22T23:38:13+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1127362",
@@ -2933,7 +2946,8 @@
                         "curves_right": 9,
                         "length": 6515,
                         "debut": 1955,
-                        "timezone": "America/Indiana/Indianapolis"
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "WI"
                     },
                     "parents": [
                         {
@@ -3356,7 +3370,8 @@
                 "debut": 1957,
                 "curves_left": 7,
                 "curves_right": 4,
-                "timezone": "America/Los_Angeles"
+                "timezone": "America/Los_Angeles",
+                "state": "CA"
             },
             "unique_stage_id": "sr:stage_unique:553",
             "stages": [],
@@ -3366,7 +3381,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:12+00:00",
+                "generated_at": "2026-02-22T23:38:15+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1127994",
@@ -3388,7 +3403,8 @@
                         "debut": 1957,
                         "curves_left": 7,
                         "curves_right": 4,
-                        "timezone": "America/Los_Angeles"
+                        "timezone": "America/Los_Angeles",
+                        "state": "CA"
                     },
                     "parents": [
                         {
@@ -3811,7 +3827,8 @@
                 "curves_right": 8,
                 "length": 3860,
                 "debut": 1962,
-                "timezone": "America/Indiana/Indianapolis"
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "OH"
             },
             "unique_stage_id": "sr:stage_unique:487",
             "stages": [],
@@ -3821,7 +3838,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:14+00:00",
+                "generated_at": "2026-02-22T23:38:17+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1128626",
@@ -3843,7 +3860,8 @@
                         "curves_right": 8,
                         "length": 3860,
                         "debut": 1962,
-                        "timezone": "America/Indiana/Indianapolis"
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "OH"
                     },
                     "parents": [
                         {
@@ -4266,7 +4284,8 @@
                 "curves_left": 4,
                 "curves_right": 0,
                 "debut": 2006,
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "IA"
             },
             "unique_stage_id": "sr:stage_unique:483",
             "stages": [],
@@ -4276,7 +4295,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:16+00:00",
+                "generated_at": "2026-02-22T23:38:19+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1129258",
@@ -4299,7 +4318,8 @@
                         "curves_left": 4,
                         "curves_right": 0,
                         "debut": 2006,
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "IA"
                     },
                     "parents": [
                         {
@@ -4556,7 +4576,7 @@
                             }
                         },
                         {
-                            "id": "sr:competitor:1013767",
+                            "id": "sr:competitor:22251",
                             "name": "Legge, Katherine",
                             "gender": "female",
                             "nationality": "Great Britain",
@@ -4714,7 +4734,8 @@
                 "curves_left": 4,
                 "curves_right": 0,
                 "debut": 2006,
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "IA"
             },
             "unique_stage_id": "sr:stage_unique:483",
             "stages": [],
@@ -4724,7 +4745,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:18+00:00",
+                "generated_at": "2026-02-22T23:38:21+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1129890",
@@ -4747,7 +4768,8 @@
                         "curves_left": 4,
                         "curves_right": 0,
                         "debut": 2006,
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "IA"
                     },
                     "parents": [
                         {
@@ -5079,7 +5101,7 @@
                             }
                         },
                         {
-                            "id": "sr:competitor:1013767",
+                            "id": "sr:competitor:22251",
                             "name": "Legge, Katherine",
                             "gender": "female",
                             "nationality": "Great Britain",
@@ -5162,7 +5184,8 @@
                 "url_official": "http://www.hondaindytoronto.com/",
                 "debut": 1986,
                 "length": 2874,
-                "timezone": "Canada/Eastern"
+                "timezone": "Canada/Eastern",
+                "state": "ON"
             },
             "unique_stage_id": "sr:stage_unique:485",
             "stages": [],
@@ -5172,7 +5195,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:20+00:00",
+                "generated_at": "2026-02-22T23:38:23+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1130522",
@@ -5194,7 +5217,8 @@
                         "url_official": "http://www.hondaindytoronto.com/",
                         "debut": 1986,
                         "length": 2874,
-                        "timezone": "Canada/Eastern"
+                        "timezone": "Canada/Eastern",
+                        "state": "ON"
                     },
                     "parents": [
                         {
@@ -5617,7 +5641,8 @@
                 "curves_right": 0,
                 "url_official": "http://www.gatewaymsp.com/",
                 "debut": 1997,
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "IL"
             },
             "unique_stage_id": "sr:stage_unique:491",
             "stages": [],
@@ -5627,7 +5652,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:22+00:00",
+                "generated_at": "2026-02-22T23:38:25+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1131154",
@@ -5650,7 +5675,8 @@
                         "curves_right": 0,
                         "url_official": "http://www.gatewaymsp.com/",
                         "debut": 1997,
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "IL"
                     },
                     "parents": [
                         {
@@ -6036,7 +6062,7 @@
                             }
                         },
                         {
-                            "id": "sr:competitor:1013767",
+                            "id": "sr:competitor:22251",
                             "name": "Legge, Katherine",
                             "gender": "female",
                             "nationality": "Great Britain",
@@ -6073,7 +6099,8 @@
                 "curves_right": 9,
                 "length": 3166,
                 "debut": 1960,
-                "timezone": "America/Los_Angeles"
+                "timezone": "America/Los_Angeles",
+                "state": "OR"
             },
             "unique_stage_id": "sr:stage_unique:511",
             "stages": [],
@@ -6083,7 +6110,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:24+00:00",
+                "generated_at": "2026-02-22T23:38:27+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1134352",
@@ -6105,7 +6132,8 @@
                         "curves_right": 9,
                         "length": 3166,
                         "debut": 1960,
-                        "timezone": "America/Los_Angeles"
+                        "timezone": "America/Los_Angeles",
+                        "state": "OR"
                     },
                     "parents": [
                         {
@@ -6545,7 +6573,8 @@
                 "coordinates": "43.021944,-88.012778",
                 "country_code": "USA",
                 "length": 1609,
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "WI"
             },
             "unique_stage_id": "sr:stage_unique:925",
             "stages": [],
@@ -6555,7 +6584,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:26+00:00",
+                "generated_at": "2026-02-22T23:38:29+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1131786",
@@ -6573,7 +6602,8 @@
                         "coordinates": "43.021944,-88.012778",
                         "country_code": "USA",
                         "length": 1609,
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "WI"
                     },
                     "parents": [
                         {
@@ -6854,7 +6884,7 @@
                             }
                         },
                         {
-                            "id": "sr:competitor:1013767",
+                            "id": "sr:competitor:22251",
                             "name": "Legge, Katherine",
                             "gender": "female",
                             "nationality": "Great Britain",
@@ -6983,7 +7013,8 @@
                 "coordinates": "43.021944,-88.012778",
                 "country_code": "USA",
                 "length": 1609,
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "WI"
             },
             "unique_stage_id": "sr:stage_unique:927",
             "stages": [],
@@ -6993,7 +7024,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:27+00:00",
+                "generated_at": "2026-02-22T23:38:31+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1132418",
@@ -7011,7 +7042,8 @@
                         "coordinates": "43.021944,-88.012778",
                         "country_code": "USA",
                         "length": 1609,
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "WI"
                     },
                     "parents": [
                         {
@@ -7234,7 +7266,7 @@
                             }
                         },
                         {
-                            "id": "sr:competitor:1013767",
+                            "id": "sr:competitor:22251",
                             "name": "Legge, Katherine",
                             "gender": "female",
                             "nationality": "Great Britain",
@@ -7411,7 +7443,8 @@
                 "coordinates": "36.044419,-86.412619",
                 "country_code": "USA",
                 "length": 2140,
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "TN"
             },
             "unique_stage_id": "sr:stage_unique:923",
             "stages": [],
@@ -7421,7 +7454,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:40:29+00:00",
+                "generated_at": "2026-02-22T23:38:33+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:1133050",
@@ -7439,7 +7472,8 @@
                         "coordinates": "36.044419,-86.412619",
                         "country_code": "USA",
                         "length": 2140,
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "TN"
                     },
                     "parents": [
                         {
@@ -7813,7 +7847,7 @@
                             }
                         },
                         {
-                            "id": "sr:competitor:1013767",
+                            "id": "sr:competitor:22251",
                             "name": "Legge, Katherine",
                             "gender": "female",
                             "nationality": "Great Britain",

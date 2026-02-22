@@ -3,6 +3,16 @@ import { connessioneDb } from '../db.js';
 
 const router = express.Router();
 
+const getDbOrRespond = async (res) => {
+    try {
+        return await connessioneDb();
+    } catch (error) {
+        console.error('Errore connessione DB (calendar):', error);
+        res.status(503).json({ error: 'Database non disponibile' });
+        return null;
+    }
+};
+
 // Funzione per determinare lo stato della gara
 const determineRaceStatus = (race) => {
     const now = new Date();
@@ -75,7 +85,9 @@ const sortRaces = (races) => {
 // Endpoint per ottenere il calendario delle gare
 router.get('/', async (req, res) => {
     try {
-        const db = await connessioneDb();
+        const db = await getDbOrRespond(res);
+        if (!db) return;
+
         const collection = db.collection('races');
 
         console.log('\nRecupero gare dal database...');

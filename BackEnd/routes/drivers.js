@@ -3,10 +3,22 @@ import { connessioneDb } from '../db.js';
 
 const router = express.Router();
 
+const getDbOrRespond = async (res) => {
+    try {
+        return await connessioneDb();
+    } catch (error) {
+        console.error('Errore connessione DB (drivers):', error);
+        res.status(503).json({ error: 'Database non disponibile' });
+        return null;
+    }
+};
+
 // Endpoint per ottenere tutti i piloti con i loro punti totali
 router.get('/', async (req, res) => {
     try {
-        const db = await connessioneDb();
+        const db = await getDbOrRespond(res);
+        if (!db) return;
+
         const collection = db.collection('races');
         const season = req.query.season;
 
@@ -66,7 +78,9 @@ router.get('/', async (req, res) => {
 // Endpoint per ottenere i dettagli di un pilota specifico
 router.get('/:driverId', async (req, res) => {
     try {
-        const db = await connessioneDb();
+        const db = await getDbOrRespond(res);
+        if (!db) return;
+
         const collection = db.collection('races');
         const driverId = req.params.driverId;
 
@@ -161,7 +175,9 @@ router.get('/:driverId', async (req, res) => {
 // Endpoint per ottenere i dati della homepage (stagione 2025)
 router.get('/homepage/2025', async (req, res) => {
     try {
-        const db = await connessioneDb();
+        const db = await getDbOrRespond(res);
+        if (!db) return;
+
         const collection = db.collection('races');
 
         // Ottieni il leader della classifica 2025

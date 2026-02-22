@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 
 # Carica le variabili d'ambiente dal file .env nella root
 root_dir = Path(__file__).parent.parent.parent
+data_dir = Path(__file__).resolve().parent.parent
+extracted_dir = data_dir / "extracted"
 load_dotenv(root_dir / "BackEnd/.env")
 
 # Configurazione API
@@ -15,7 +17,7 @@ BASE_URL = os.getenv("SPORTRADAR_BASE_URL", "https://api.sportradar.com/indycar/
 API_KEY = os.getenv("SPORTRADAR_API_KEY")
 
 # Crea la directory per i dati estratti
-Path("Data/extracted").mkdir(parents=True, exist_ok=True)
+extracted_dir.mkdir(parents=True, exist_ok=True)
 
 HEADERS = {
     "accept": "application/json",
@@ -103,7 +105,7 @@ def save_seasons_list(seasons):
         })
     
     try:
-        with open("Data/extracted/seasons.json", "w", encoding="utf-8") as f:
+        with open(extracted_dir / "seasons.json", "w", encoding="utf-8") as f:
             json.dump(seasons_data, f, indent=4, ensure_ascii=False)
         print("✓ Lista stagioni salvata in Data/extracted/seasons.json")
     except IOError as e:
@@ -120,16 +122,16 @@ def main():
         return
     
     # Filtra le stagioni per il range 2017-2025
-    filtered_seasons = [s for s in seasons if 2017 <= int(s["year"]) <= 2025]
+    filtered_seasons = [s for s in seasons if 2017 <= int(s["year"]) <= 2026]
     if not filtered_seasons:
-        print("Nessuna stagione trovata nel range 2017-2025. Uscita.")
+        print("Nessuna stagione trovata nel range 2017-2026. Uscita.")
         return
     
     # Salva la lista delle stagioni
     save_seasons_list(filtered_seasons)
     
     print("\n=== Estrazione stagioni completata ===")
-    print(f"Trovate {len(filtered_seasons)} stagioni nel range 2017-2025")
+    print(f"Trovate {len(filtered_seasons)} stagioni nel range 2017-2026")
 
 if __name__ == "__main__":
     main() 

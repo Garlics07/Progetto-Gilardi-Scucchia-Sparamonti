@@ -3,12 +3,15 @@ from pathlib import Path
 from datetime import datetime
 from bson import ObjectId
 from pymongo import MongoClient
-from pymongo.errors import ConnectionFailure, BulkWriteError
+from pymongo.errors import ConnectionFailure, BulkWriteError, ConfigurationError, InvalidURI
 import os
 from dotenv import load_dotenv
 
 # Carica le variabili d'ambiente dal file .env nella root
-root_dir = Path(__file__).parent.parent
+root_dir = Path(__file__).resolve().parent.parent
+data_dir = Path(__file__).resolve().parent
+extracted_dir = data_dir / "extracted"
+load_dotenv(root_dir / ".env")
 load_dotenv(root_dir / "BackEnd/.env")
 
 
@@ -17,7 +20,12 @@ def connect_to_mongodb(connection_string=None):
     Stabilisce la connessione con MongoDB
     """
     if connection_string is None:
-        connection_string = os.getenv("MONGODB_CONNECTION_STRING")
+        connection_string = os.getenv("MONGODB_CONNECTION_STRING") or os.getenv("MONGODB_URI")
+
+    if not connection_string:
+        print("✗ Stringa di connessione MongoDB non trovata nelle variabili d'ambiente.")
+        print("  Usa MONGODB_CONNECTION_STRING oppure MONGODB_URI in .env o BackEnd/.env")
+        return None
     
     try:
         client = MongoClient(connection_string)
@@ -25,6 +33,9 @@ def connect_to_mongodb(connection_string=None):
         client.admin.command('ping')
         print("✓ Connessione a MongoDB stabilita con successo")
         return client
+    except (InvalidURI, ConfigurationError) as e:
+        print(f"✗ URI MongoDB non valido: {e}")
+        return None
     except ConnectionFailure as e:
         print(f"✗ Errore di connessione a MongoDB: {e}")
         return None
@@ -177,7 +188,7 @@ def create_mongodb_collections():
     
     # Carica i dati delle stagioni
     print("\n1. Caricamento dati stagioni...")
-    season_files = sorted(Path("Data/extracted").glob("season_*.json"))
+    season_files = sorted(extracted_dir.glob("season_*.json"))
     for file in season_files:
         season = load_json_file(file)
         if season:
@@ -188,7 +199,7 @@ def create_mongodb_collections():
     
     # Carica i dati dei piloti
     print("2. Caricamento dati piloti...")
-    drivers_file = Path("Data/extracted/drivers.json")
+    drivers_file = extracted_dir / "drivers.json"
     if drivers_file.exists():
         drivers = load_json_file(drivers_file)
         if drivers:

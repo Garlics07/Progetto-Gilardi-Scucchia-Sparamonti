@@ -3,7 +3,7 @@
     "season_id": "sr:stage:948353",
     "description": "Indycar 2022",
     "total_races": 17,
-    "generated_at": "2025-05-21T08:41:08+00:00",
+    "generated_at": "2026-02-22T23:39:14+00:00",
     "season_info": {
         "id": "sr:stage:948353",
         "description": "Indycar 2022",
@@ -41,7 +41,8 @@
                 "debut": 1985,
                 "url_official": "http://gpstpete.com/",
                 "length": 2897,
-                "timezone": "America/New_York"
+                "timezone": "America/New_York",
+                "state": "FL"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -51,7 +52,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:09+00:00",
+                "generated_at": "2026-02-22T23:39:15+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:959327",
@@ -73,7 +74,8 @@
                         "debut": 1985,
                         "url_official": "http://gpstpete.com/",
                         "length": 2897,
-                        "timezone": "America/New_York"
+                        "timezone": "America/New_York",
+                        "state": "FL"
                     },
                     "parents": [
                         {
@@ -483,7 +485,8 @@
                 "length": 2320,
                 "url_official": "https://www.texasmotorspeedway.com/",
                 "debut": 1996,
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "TX"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -493,7 +496,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:11+00:00",
+                "generated_at": "2026-02-22T23:39:17+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:959959",
@@ -515,7 +518,8 @@
                         "length": 2320,
                         "url_official": "https://www.texasmotorspeedway.com/",
                         "debut": 1996,
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "TX"
                     },
                     "parents": [
                         {
@@ -947,7 +951,8 @@
                 "curves_right": 5,
                 "url_official": "https://gplb.com/",
                 "length": 3167,
-                "timezone": "America/Los_Angeles"
+                "timezone": "America/Los_Angeles",
+                "state": "CA"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -957,7 +962,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:12+00:00",
+                "generated_at": "2026-02-22T23:39:19+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:960591",
@@ -979,7 +984,8 @@
                         "curves_right": 5,
                         "url_official": "https://gplb.com/",
                         "length": 3167,
-                        "timezone": "America/Los_Angeles"
+                        "timezone": "America/Los_Angeles",
+                        "state": "CA"
                     },
                     "parents": [
                         {
@@ -1387,7 +1393,8 @@
                 "debut": 2003,
                 "length": 3808,
                 "url_official": "https://barberracingevents.com/",
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "AL"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -1397,7 +1404,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:14+00:00",
+                "generated_at": "2026-02-22T23:39:21+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:961223",
@@ -1417,7 +1424,8 @@
                         "debut": 2003,
                         "length": 3808,
                         "url_official": "https://barberracingevents.com/",
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "AL"
                     },
                     "parents": [
                         {
@@ -1835,7 +1843,8 @@
                 "debut": 1909,
                 "length": 4023,
                 "url_official": "https://www.indianapolismotorspeedway.com/",
-                "timezone": "America/Indiana/Indianapolis"
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "IN"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -1845,7 +1854,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:16+00:00",
+                "generated_at": "2026-02-22T23:39:23+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:961855",
@@ -1866,7 +1875,8 @@
                         "debut": 1909,
                         "length": 4023,
                         "url_official": "https://www.indianapolismotorspeedway.com/",
-                        "timezone": "America/Indiana/Indianapolis"
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "IN"
                     },
                     "parents": [
                         {
@@ -2319,7 +2329,8 @@
                 "url_official": "http://www.indianapolismotorspeedway.com/",
                 "debut": 1911,
                 "length": 4023,
-                "timezone": "America/Indiana/Indianapolis"
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "IN"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -2329,7 +2340,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:18+00:00",
+                "generated_at": "2026-02-22T23:39:25+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:962487",
@@ -2351,7 +2362,8 @@
                         "url_official": "http://www.indianapolismotorspeedway.com/",
                         "debut": 1911,
                         "length": 4023,
-                        "timezone": "America/Indiana/Indianapolis"
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "IN"
                     },
                     "parents": [
                         {
@@ -2939,7 +2951,8 @@
                 "url_official": "https://detroitgp.com/",
                 "debut": 1992,
                 "length": 3782,
-                "timezone": "America/Detroit"
+                "timezone": "America/Detroit",
+                "state": "MI"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -2949,7 +2962,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:20+00:00",
+                "generated_at": "2026-02-22T23:39:27+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:963119",
@@ -2971,7 +2984,8 @@
                         "url_official": "https://detroitgp.com/",
                         "debut": 1992,
                         "length": 3782,
-                        "timezone": "America/Detroit"
+                        "timezone": "America/Detroit",
+                        "state": "MI"
                     },
                     "parents": [
                         {
@@ -3381,7 +3395,8 @@
                 "curves_right": 9,
                 "length": 6515,
                 "debut": 1955,
-                "timezone": "America/Indiana/Indianapolis"
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "WI"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -3391,7 +3406,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:22+00:00",
+                "generated_at": "2026-02-22T23:39:29+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:963751",
@@ -3413,7 +3428,8 @@
                         "curves_right": 9,
                         "length": 6515,
                         "debut": 1955,
-                        "timezone": "America/Indiana/Indianapolis"
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "WI"
                     },
                     "parents": [
                         {
@@ -3844,7 +3860,8 @@
                 "curves_right": 8,
                 "length": 3860,
                 "debut": 1962,
-                "timezone": "America/Indiana/Indianapolis"
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "OH"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -3854,7 +3871,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:24+00:00",
+                "generated_at": "2026-02-22T23:39:31+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:964383",
@@ -3876,7 +3893,8 @@
                         "curves_right": 8,
                         "length": 3860,
                         "debut": 1962,
-                        "timezone": "America/Indiana/Indianapolis"
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "OH"
                     },
                     "parents": [
                         {
@@ -4298,7 +4316,8 @@
                 "url_official": "http://www.hondaindytoronto.com/",
                 "debut": 1986,
                 "length": 2874,
-                "timezone": "Canada/Eastern"
+                "timezone": "Canada/Eastern",
+                "state": "ON"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -4308,7 +4327,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:26+00:00",
+                "generated_at": "2026-02-22T23:39:33+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:965015",
@@ -4330,7 +4349,8 @@
                         "url_official": "http://www.hondaindytoronto.com/",
                         "debut": 1986,
                         "length": 2874,
-                        "timezone": "Canada/Eastern"
+                        "timezone": "Canada/Eastern",
+                        "state": "ON"
                     },
                     "parents": [
                         {
@@ -4729,7 +4749,8 @@
                 "curves_left": 4,
                 "curves_right": 0,
                 "debut": 2006,
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "IA"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -4739,7 +4760,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:28+00:00",
+                "generated_at": "2026-02-22T23:39:35+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:965647",
@@ -4762,7 +4783,8 @@
                         "curves_left": 4,
                         "curves_right": 0,
                         "debut": 2006,
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "IA"
                     },
                     "parents": [
                         {
@@ -5164,7 +5186,8 @@
                 "curves_left": 4,
                 "curves_right": 0,
                 "debut": 2006,
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "IA"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -5174,7 +5197,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:30+00:00",
+                "generated_at": "2026-02-22T23:39:37+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:966279",
@@ -5197,7 +5220,8 @@
                         "curves_left": 4,
                         "curves_right": 0,
                         "debut": 2006,
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "IA"
                     },
                     "parents": [
                         {
@@ -5588,7 +5612,8 @@
                 "debut": 1909,
                 "length": 4023,
                 "url_official": "https://www.indianapolismotorspeedway.com/",
-                "timezone": "America/Indiana/Indianapolis"
+                "timezone": "America/Indiana/Indianapolis",
+                "state": "IN"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -5598,7 +5623,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:31+00:00",
+                "generated_at": "2026-02-22T23:39:39+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:966911",
@@ -5619,7 +5644,8 @@
                         "debut": 1909,
                         "length": 4023,
                         "url_official": "https://www.indianapolismotorspeedway.com/",
-                        "timezone": "America/Indiana/Indianapolis"
+                        "timezone": "America/Indiana/Indianapolis",
+                        "state": "IN"
                     },
                     "parents": [
                         {
@@ -6004,7 +6030,8 @@
                 "coordinates": "36.16469,-86.771343",
                 "country_code": "USA",
                 "length": 2140,
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "TN"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -6014,7 +6041,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:33+00:00",
+                "generated_at": "2026-02-22T23:39:41+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:967543",
@@ -6032,7 +6059,8 @@
                         "coordinates": "36.16469,-86.771343",
                         "country_code": "USA",
                         "length": 2140,
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "TN"
                     },
                     "parents": [
                         {
@@ -6443,7 +6471,8 @@
                 "curves_right": 0,
                 "url_official": "http://www.gatewaymsp.com/",
                 "debut": 1997,
-                "timezone": "America/Chicago"
+                "timezone": "America/Chicago",
+                "state": "IL"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -6453,7 +6482,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:35+00:00",
+                "generated_at": "2026-02-22T23:39:43+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:968175",
@@ -6476,7 +6505,8 @@
                         "curves_right": 0,
                         "url_official": "http://www.gatewaymsp.com/",
                         "debut": 1997,
-                        "timezone": "America/Chicago"
+                        "timezone": "America/Chicago",
+                        "state": "IL"
                     },
                     "parents": [
                         {
@@ -6895,7 +6925,8 @@
                 "curves_right": 9,
                 "length": 3166,
                 "debut": 1960,
-                "timezone": "America/Los_Angeles"
+                "timezone": "America/Los_Angeles",
+                "state": "OR"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -6905,7 +6936,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:37+00:00",
+                "generated_at": "2026-02-22T23:39:45+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:968807",
@@ -6927,7 +6958,8 @@
                         "curves_right": 9,
                         "length": 3166,
                         "debut": 1960,
-                        "timezone": "America/Los_Angeles"
+                        "timezone": "America/Los_Angeles",
+                        "state": "OR"
                     },
                     "parents": [
                         {
@@ -7334,7 +7366,8 @@
                 "debut": 1957,
                 "curves_left": 7,
                 "curves_right": 4,
-                "timezone": "America/Los_Angeles"
+                "timezone": "America/Los_Angeles",
+                "state": "CA"
             },
             "unique_stage_id": null,
             "stages": [],
@@ -7344,7 +7377,7 @@
             "race_result": {},
             "statistics": {},
             "complete_details": {
-                "generated_at": "2025-05-21T08:41:39+00:00",
+                "generated_at": "2026-02-22T23:39:47+00:00",
                 "schema": "https://schemas.sportradar.com/sportsapi/indycar/v2/schemas/summary.json",
                 "stage": {
                     "id": "sr:stage:969439",
@@ -7366,7 +7399,8 @@
                         "debut": 1957,
                         "curves_left": 7,
                         "curves_right": 4,
-                        "timezone": "America/Los_Angeles"
+                        "timezone": "America/Los_Angeles",
+                        "state": "CA"
                     },
                     "parents": [
                         {
